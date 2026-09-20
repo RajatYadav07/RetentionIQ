@@ -1,0 +1,1015 @@
+/* ============================================================
+   RetentionIQ — Premium Dark SaaS Design System
+   Vercel / Linear / Stripe-inspired enterprise analytics
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+/* ============================================================
+   1. DESIGN TOKENS
+   ============================================================ */
+:root {
+  --bg-base:       #08090D;
+  --bg-sidebar:    #0B0D13;
+  --bg-card:       #101219;
+  --bg-card-hover: #161922;
+  --bg-input:      #12151D;
+  --bg-muted:      #12151D;
+
+  --border:        #20232C;
+  --border-light:  #2a2f3b;
+  --border-focus:  #8B7CF6;
+
+  --accent:        #8B7CF6;
+  --accent-hover:  #9B8CFF;
+  --accent-dim:    rgba(139,124,246,0.12);
+  --accent-border: rgba(139,124,246,0.24);
+
+  --success:       #22C55E;
+  --success-dim:   rgba(34,197,94,0.12);
+  --warning:       #F59E0B;
+  --warning-dim:   rgba(245,158,11,0.12);
+  --danger:        #EF4444;
+  --danger-dim:    rgba(239,68,68,0.12);
+
+  --text-primary:  #F2F3F5;
+  --text-secondary:#A7ACB8;
+  --text-muted:    #697080;
+  --text-link:     #9B8CFF;
+
+  --radius-sm:     5px;
+  --radius:        8px;
+  --radius-lg:     12px;
+
+  --shadow-card:   0 1px 2px rgba(0,0,0,0.35);
+  --shadow-elevated: 0 4px 16px rgba(0,0,0,0.5);
+
+  --sidebar-width: 248px;
+  --topbar-height: 64px;
+  --transition:    0.15s ease;
+}
+
+/* ============================================================
+   2. GLOBAL RESET & BASE
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body, [data-testid="stAppViewContainer"] {
+  background-color: var(--bg-base) !important;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+  color: var(--text-primary) !important;
+}
+
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Remove Streamlit default decoration */
+#MainMenu, footer, header { display: none !important; }
+[data-testid="stDecoration"] { display: none !important; }
+[data-testid="stHeader"] { display: none !important; }
+[data-testid="stToolbar"] { display: none !important; }
+
+/* ============================================================
+   3. MAIN CONTENT AREA
+   ============================================================ */
+.block-container {
+  padding: 2rem 2rem 2rem 2rem !important;
+  max-width: 100% !important;
+}
+
+/* Remove top spacing Streamlit adds */
+[data-testid="stAppViewBlockContainer"] {
+  padding-top: 1rem !important;
+}
+
+/* ============================================================
+   4. SIDEBAR
+   ============================================================ */
+section[data-testid="stSidebar"] {
+  width: var(--sidebar-width) !important;
+  min-width: var(--sidebar-width) !important;
+  max-width: var(--sidebar-width) !important;
+  background-color: var(--bg-sidebar) !important;
+  border-right: 1px solid var(--border) !important;
+}
+
+section[data-testid="stSidebar"] > div:first-child {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100vh !important;
+  overflow-y: hidden !important;
+}
+
+/* Sidebar User Content as a vertical flex column */
+[data-testid="stSidebarUserContent"] {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  flex: 1 1 auto !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+/* Ensure child vertical block also takes full flex height without arbitrary gaps */
+[data-testid="stSidebarUserContent"] > [data-testid="stVerticalBlock"] {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  gap: 0 !important;
+  min-height: 100% !important;
+}
+
+/* Sidebar collapse button area */
+[data-testid="stSidebarHeader"] {
+  padding: 14px 16px 0 !important;
+  min-height: 28px !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+[data-testid="stSidebarHeader"] button {
+  transform: scale(0.85);
+  margin-right: 0 !important;
+}
+
+/* ---- Sidebar Brand ---- */
+.iq-sidebar-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px 20px 14px 20px;
+  min-height: 96px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 14px;
+}
+.iq-brand-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.iq-brand-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.iq-brand-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+.iq-brand-name {
+  font-size: 16.5px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+.iq-brand-sub {
+  font-size: 11.5px;
+  line-height: 1.35;
+  color: var(--text-secondary);
+  font-weight: 400;
+  margin-top: 3px;
+  word-break: normal;
+}
+
+/* ---- Navigation Section Label ---- */
+.iq-nav-section {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  padding: 0 20px 6px 20px;
+  margin-top: 12px;
+}
+.iq-nav-section:first-of-type {
+  margin-top: 0;
+}
+
+/* ---- Page Links in Sidebar ---- */
+div[data-testid="stPageLink-NavLink"] {
+  height: 36px !important;
+  min-height: 36px !important;
+  margin: 1.5px 12px !important;
+  border-radius: 6px !important;
+  transition: background var(--transition), color var(--transition) !important;
+  padding: 0 11px !important;
+  width: calc(100% - 24px) !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+div[data-testid="stPageLink-NavLink"] p {
+  font-size: 13px !important;
+  font-weight: 450 !important;
+  color: var(--text-secondary) !important;
+  letter-spacing: -0.01em !important;
+  margin-left: 10px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+div[data-testid="stPageLink-NavLink"] svg {
+  color: var(--text-muted) !important;
+  width: 18px !important;
+  height: 18px !important;
+  flex-shrink: 0 !important;
+}
+
+div[data-testid="stPageLink-NavLink"]:hover {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+}
+div[data-testid="stPageLink-NavLink"]:hover p {
+  color: var(--text-primary) !important;
+}
+div[data-testid="stPageLink-NavLink"]:hover svg {
+  color: var(--text-secondary) !important;
+}
+
+/* Active page */
+div[data-testid="stPageLink-NavLink"]:has(a[aria-current="page"]) {
+  background-color: var(--accent-dim) !important;
+  border-radius: 6px !important;
+  margin: 1.5px 12px !important;
+  padding: 0 11px !important;
+  width: calc(100% - 24px) !important;
+  box-shadow: inset 0 0 0 1px var(--accent-border) !important;
+}
+div[data-testid="stPageLink-NavLink"]:has(a[aria-current="page"]) p {
+  color: var(--text-primary) !important;
+  font-weight: 550 !important;
+}
+div[data-testid="stPageLink-NavLink"]:has(a[aria-current="page"]) svg {
+  color: var(--accent) !important;
+}
+
+/* ---- Sidebar Status Footer ---- */
+.iq-sidebar-status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px 16px 20px;
+  border-top: 1px solid var(--border);
+  margin-top: auto !important;
+  background-color: var(--bg-sidebar);
+}
+.iq-status-dot {
+  width: 7.5px;
+  height: 7.5px;
+  border-radius: 50%;
+  background-color: var(--success);
+  box-shadow: 0 0 7px rgba(34, 197, 94, 0.5);
+  flex-shrink: 0;
+}
+.iq-status-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
+}
+.iq-status-title {
+  font-size: 12px;
+  font-weight: 550;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+.iq-status-sub {
+  font-size: 10.5px;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ============================================================
+   5. TOP APP BAR
+   ============================================================ */
+.iq-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--topbar-height);
+  padding: 0 24px;
+  border-bottom: 1px solid var(--border);
+  background-color: var(--bg-sidebar);
+  margin-bottom: 24px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  gap: 16px;
+}
+.iq-topbar-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.iq-search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0 14px;
+  height: 38px;
+  cursor: text;
+  min-width: 320px;
+  max-width: 400px;
+  transition: border-color var(--transition);
+}
+.iq-search-box:hover { border-color: var(--border-light); }
+.iq-search-text {
+  font-size: 13px;
+  color: var(--text-muted);
+  flex: 1;
+  white-space: nowrap;
+}
+.iq-search-kbd {
+  font-size: 10.5px;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-family: inherit;
+  font-weight: 500;
+}
+.iq-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.iq-topbar-divider {
+  width: 1px;
+  height: 22px;
+  background-color: var(--border);
+  margin: 0 2px;
+}
+.iq-icon-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg-input);
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: background var(--transition), border-color var(--transition);
+}
+.iq-icon-btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-light);
+}
+.iq-user-pill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 12px 4px 5px;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+}
+.iq-user-pill:hover { 
+  background: var(--bg-card-hover);
+  border-color: var(--border-light);
+}
+.iq-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #8B7CF6, #6D28D9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+.iq-user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+.iq-user-name {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.iq-user-role {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ============================================================
+   6. PAGE HEADER
+   ============================================================ */
+.iq-page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  gap: 16px;
+}
+.iq-page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  margin: 0;
+}
+.iq-page-subtitle {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  margin-top: 5px;
+  font-weight: 400;
+}
+.iq-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  padding-top: 4px;
+}
+
+/* ============================================================
+   7. KPI CARDS
+   ============================================================ */
+.iq-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.iq-kpi-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  box-shadow: var(--shadow-card);
+  transition: border-color var(--transition);
+}
+.iq-kpi-card:hover { border-color: var(--border-light); }
+.iq-kpi-label {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+.iq-kpi-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.iq-kpi-trend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 500;
+}
+.iq-trend-up   { color: var(--success); }
+.iq-trend-down { color: var(--danger); }
+.iq-trend-neutral { color: var(--text-muted); }
+.iq-kpi-sub {
+  font-size: 10.5px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ============================================================
+   8. CARD / SECTION CONTAINER
+   ============================================================ */
+.iq-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow-card);
+}
+.iq-card-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.iq-card-sub {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+/* ============================================================
+   9. BADGES / STATUS PILLS
+   ============================================================ */
+.iq-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.iq-badge-danger  { background: var(--danger-dim);  color: #F87171; border: 1px solid rgba(239,68,68,0.25); }
+.iq-badge-warning { background: var(--warning-dim); color: #FBBF24; border: 1px solid rgba(245,158,11,0.25); }
+.iq-badge-success { background: var(--success-dim); color: #4ADE80; border: 1px solid rgba(34,197,94,0.25); }
+.iq-badge-neutral { background: rgba(167,172,184,0.08); color: var(--text-secondary); border: 1px solid var(--border); }
+.iq-badge-blue    { background: var(--accent-dim);  color: var(--text-link); border: 1px solid var(--accent-border); }
+
+/* ============================================================
+   10. BUTTON STYLES
+   ============================================================ */
+.iq-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition);
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+.iq-btn:hover { background: var(--bg-card-hover); color: var(--text-primary); border-color: var(--border-light); }
+.iq-btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #ffffff;
+}
+.iq-btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+
+/* ============================================================
+   11. FILTER ROW
+   ============================================================ */
+.iq-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  padding: 8px 12px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* ============================================================
+   12. STREAMLIT WIDGET OVERRIDES — Dark Theme
+   ============================================================ */
+
+/* Metric cards */
+[data-testid="stMetric"] {
+  background: transparent !important;
+}
+[data-testid="stMetricLabel"] p {
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  color: var(--text-secondary) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+}
+[data-testid="stMetricValue"] {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: var(--text-primary) !important;
+  letter-spacing: -0.025em !important;
+}
+[data-testid="stMetricDelta"] {
+  font-size: 11px !important;
+}
+
+/* Container borders */
+[data-testid="stVerticalBlock"] > [data-testid="element-container"] > [data-testid="stVerticalBlock"]:has([data-testid="stBorderContainer"]) {
+  border-color: var(--border) !important;
+}
+[data-testid="stBorderContainer"] {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  padding: 14px 16px !important;
+}
+
+/* Selectbox / multiselect */
+[data-testid="stSelectbox"] label,
+[data-testid="stMultiSelect"] label,
+[data-testid="stSlider"] label,
+[data-testid="stNumberInput"] label {
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  color: var(--text-secondary) !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.06em !important;
+}
+
+/* Select control */
+[data-baseweb="select"] > div {
+  background-color: var(--bg-input) !important;
+  border-color: var(--border) !important;
+  border-radius: var(--radius-sm) !important;
+}
+[data-baseweb="select"] > div:hover {
+  border-color: var(--border-light) !important;
+}
+
+/* Input */
+input[class*="st-"] {
+  background-color: var(--bg-input) !important;
+  border-color: var(--border) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Dataframe */
+[data-testid="stDataFrame"] {
+  border-radius: var(--radius) !important;
+  border: 1px solid var(--border) !important;
+  background: var(--bg-card) !important;
+  overflow: hidden !important;
+}
+[data-testid="stDataFrameGlideDataEditor"] {
+  background: var(--bg-card) !important;
+}
+
+/* Tabs */
+[data-testid="stTabs"] [data-testid="stTab"] {
+  font-size: 12.5px !important;
+  font-weight: 500 !important;
+  color: var(--text-secondary) !important;
+  padding: 6px 14px !important;
+}
+[data-testid="stTabs"] [data-testid="stTab"][aria-selected="true"] {
+  color: var(--text-primary) !important;
+  border-bottom-color: var(--accent) !important;
+}
+
+/* Buttons */
+[data-testid="stButton"] button {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text-secondary) !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  border-radius: var(--radius-sm) !important;
+  height: 32px !important;
+  padding: 0 12px !important;
+  transition: all var(--transition) !important;
+}
+[data-testid="stButton"] button:hover {
+  background: var(--bg-card-hover) !important;
+  border-color: var(--border-light) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Download button special style */
+[data-testid="stDownloadButton"] button {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text-secondary) !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  border-radius: var(--radius-sm) !important;
+}
+[data-testid="stDownloadButton"] button:hover {
+  background: var(--bg-card-hover) !important;
+  border-color: var(--border-light) !important;
+  color: var(--text-primary) !important;
+}
+
+/* Divider */
+hr {
+  border: none !important;
+  border-top: 1px solid var(--border) !important;
+  margin: 12px 0 !important;
+}
+
+/* Info/Warning/Success/Error alerts */
+[data-testid="stAlert"] {
+  border-radius: var(--radius-sm) !important;
+  font-size: 12.5px !important;
+}
+
+/* Spinner */
+[data-testid="stSpinner"] {
+  color: var(--accent) !important;
+}
+
+/* Caption */
+[data-testid="stCaptionContainer"] p,
+.stCaption p {
+  font-size: 11px !important;
+  color: var(--text-muted) !important;
+}
+
+/* Subheader */
+[data-testid="stHeadingWithActionElements"] h2,
+h2 {
+  font-size: 13.5px !important;
+  font-weight: 600 !important;
+  color: var(--text-primary) !important;
+  letter-spacing: -0.01em !important;
+  margin-bottom: 4px !important;
+}
+
+/* H3 */
+h3 {
+  font-size: 12.5px !important;
+  font-weight: 600 !important;
+  color: var(--text-primary) !important;
+}
+
+/* Page title (st.title) — override to match our design */
+[data-testid="stHeadingWithActionElements"] h1,
+h1 {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em !important;
+  color: var(--text-primary) !important;
+}
+
+/* Slider */
+[data-testid="stSlider"] {
+  padding: 0 !important;
+}
+
+/* Columns gap */
+[data-testid="stHorizontalBlock"] {
+  gap: 12px !important;
+}
+
+/* Expander */
+[data-testid="stExpander"] {
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  background: var(--bg-card) !important;
+}
+[data-testid="stExpanderDetails"] {
+  border-top: 1px solid var(--border) !important;
+}
+
+/* Number input */
+[data-testid="stNumberInput"] input {
+  background: var(--bg-input) !important;
+  border-color: var(--border) !important;
+  color: var(--text-primary) !important;
+  font-size: 13px !important;
+}
+
+/* Progress / progress column in dataframe */
+[data-testid="stDataFrameGlideDataEditor"] canvas {
+  background: transparent !important;
+}
+
+/* ============================================================
+   13. CHART CONTAINER OVERRIDE
+   ============================================================ */
+.js-plotly-plot .plotly, .plotly {
+  border-radius: var(--radius) !important;
+}
+.plot-container.plotly {
+  background: transparent !important;
+}
+
+/* ============================================================
+   14. SCROLLBAR STYLING
+   ============================================================ */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #334155; }
+
+/* ============================================================
+   15. UTILITY CLASSES
+   ============================================================ */
+.iq-text-muted  { color: var(--text-muted) !important; font-size: 11px; }
+.iq-text-small  { font-size: 11.5px; color: var(--text-secondary); }
+.iq-spacer-sm   { height: 8px; }
+.iq-spacer-md   { height: 16px; }
+.iq-spacer-lg   { height: 24px; }
+
+.iq-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.iq-row-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+/* Segment pill labels */
+.iq-seg-pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 10.5px;
+  font-weight: 600;
+}
+
+/* ============================================================
+   SECTION HEADERS
+   ============================================================ */
+.iq-table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.iq-table-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+.iq-table-count {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-muted);
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+/* ============================================================
+   16. PROFILE / C360 HEADER CARD
+   ============================================================ */
+.iq-profile-header {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+.iq-profile-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #8B7CF6, #6D28D9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+}
+.iq-profile-info { flex: 1; }
+.iq-profile-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+}
+.iq-profile-meta {
+  font-size: 11.5px;
+  color: var(--text-secondary);
+  margin-top: 3px;
+}
+.iq-profile-stats {
+  display: flex;
+  gap: 24px;
+}
+.iq-profile-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.iq-profile-stat-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+.iq-profile-stat-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+/* ============================================================
+   17. RISK INDICATOR BARS
+   ============================================================ */
+.iq-risk-bar {
+  width: 100%;
+  height: 4px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+.iq-risk-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+/* ============================================================
+   18. TABLE ENHANCEMENTS
+   ============================================================ */
+.iq-table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.iq-table-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.iq-table-count {
+  font-size: 11px;
+  color: var(--text-muted);
+  background: var(--bg-muted);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 2px 7px;
+}
+
+/* ============================================================
+   19. KEY INSIGHTS LIST
+   ============================================================ */
+.iq-insight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 6px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  margin-bottom: 10px;
+  transition: border-color var(--transition), background var(--transition);
+}
+.iq-insight-item:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-light);
+}
+.iq-insight-icon-box {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+.iq-insight-icon-danger  { background: var(--danger-dim); color: var(--danger); border: 1px solid rgba(239,68,68,0.25); }
+.iq-insight-icon-warning { background: var(--warning-dim); color: var(--warning); border: 1px solid rgba(245,158,11,0.25); }
+.iq-insight-icon-accent  { background: var(--accent-dim); color: var(--accent); border: 1px solid var(--accent-border); }
+.iq-insight-icon-success { background: var(--success-dim); color: var(--success); border: 1px solid rgba(34,197,94,0.25); }
+
+.iq-insight-content {
+  flex: 1;
+  min-width: 0;
+}
+.iq-insight-headline {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 3px;
+  line-height: 1.3;
+}
+.iq-insight-desc {
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}

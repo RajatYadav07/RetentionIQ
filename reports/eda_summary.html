@@ -1,0 +1,93 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RetentionIQ EDA Report</title>
+        <style>
+            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f8f9fa; }
+            h1, h2, h3 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+            .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 30px; }
+            .metric-row { display: flex; justify-content: space-between; margin-bottom: 20px; }
+            .metric-box { flex: 1; background: #3498db; color: white; padding: 20px; border-radius: 8px; text-align: center; margin: 0 10px; }
+            .metric-box h3 { margin: 0; font-size: 2em; border: none; color: white; padding: 0; }
+            .metric-box p { margin: 0; text-transform: uppercase; font-size: 0.8em; letter-spacing: 1px; }
+            img { max-width: 100%; height: auto; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 15px 0; }
+            table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+            th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+            th { background-color: #f2f2f2; }
+        </style>
+    </head>
+    <body>
+        <h1>RetentionIQ: Exploratory Data Analysis Report</h1>
+        
+        <div class="metric-row">
+            <div class="metric-box">
+                <h3>5,000</h3>
+                <p>Total Customers</p>
+            </div>
+            <div class="metric-box" style="background: #e74c3c;">
+                <h3>47.1%</h3>
+                <p>Overall Churn Rate</p>
+            </div>
+            <div class="metric-box" style="background: #2ecc71;">
+                <h3>$30,480,799</h3>
+                <p>Total ARR</p>
+            </div>
+            <div class="metric-box" style="background: #e67e22;">
+                <h3>$14,411,689</h3>
+                <p>Lost ARR</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Dataset Overview & Data Quality</h2>
+            <p><strong>Columns:</strong> 35</p>
+            <p><strong>Missing Values:</strong></p>
+            <ul>
+                <li>dominant_support_topic: 572 missing (11.4%)</li><li>churn_date: 2643 missing (52.9%)</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Business Insights & Churn Drivers</h2>
+            
+            <h3>1. Contract Dynamics</h3>
+            <p>Customers on Month-to-Month contracts exhibit significantly higher churn rates compared to Annual or 2-Year commitments.</p>
+            <img src="figures/churn_by_contract.png" alt="Churn by Contract">
+            
+            <h3>2. Product Usage Velocity</h3>
+            <p>A leading indicator of churn is the 30-day usage velocity. Customers who churn demonstrate a stark negative shift in usage leading up to cancellation.</p>
+            <img src="figures/usage_change_kde.png" alt="Usage Change Distribution">
+            
+            <h3>3. The Support Burden</h3>
+            <p>Support ticket volume strongly correlates with churn. High ticket volume over a 30-day period precedes churn events.</p>
+            <img src="figures/support_tickets_kde.png" alt="Support Ticket Volume">
+            
+            <h3>4. Churn by Plan Type</h3>
+            <img src="figures/churn_by_plan.png" alt="Churn by Plan">
+            
+            <h3>5. Revenue Impact (Lost ARR) by Segment</h3>
+            <p>This illustrates which segments account for the highest actual revenue loss due to churn.</p>
+            <img src="figures/revenue_lost_by_segment.png" alt="Revenue Lost by Segment">
+        </div>
+
+        <div class="card">
+            <h2>Correlation Analysis</h2>
+            <p>The correlation heatmap highlights how our engineered features (like `usage_change_30d` and `customer_support_health_score`) interact with the target variable `churned`.</p>
+            <img src="figures/correlation_heatmap.png" alt="Correlation Heatmap">
+        </div>
+        
+        <div class="card">
+            <h2>Key Business Findings</h2>
+            <ul>
+                <li><strong>Usage Drops Predict Churn:</strong> Dramatic drops in the 30-day usage velocity are the strongest predictor of impending churn.</li>
+                <li><strong>Contract Type is a Major Shield:</strong> Month-to-month contracts are highly volatile. Shifting customers to annual plans mitigates structural risk.</li>
+                <li><strong>Support Experience Matters:</strong> Customers with high ticket volumes and subsequent negative NLP sentiment are extremely flight-risk.</li>
+                <li><strong>Financial Risk Concentration:</strong> While Enterprise accounts may churn less frequently, their departure destroys massive amounts of ARR. Risk interventions should be prioritized by ARR.</li>
+            </ul>
+        </div>
+    </body>
+    </html>
+    
