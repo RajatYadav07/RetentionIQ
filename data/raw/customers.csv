@@ -1,0 +1,5001 @@
+customer_id,country,industry,company_size,acquisition_channel
+C00001,USA,Finance,51-200,Event
+C00002,India,Finance,201-500,Direct
+C00003,Germany,Education,1-10,Paid Ads
+C00004,Canada,Retail,1000+,Direct
+C00005,USA,Finance,1-10,Organic Search
+C00006,USA,Manufacturing,1000+,Event
+C00007,USA,Finance,501-1000,Referral
+C00008,Australia,Manufacturing,1000+,Direct
+C00009,Canada,Finance,501-1000,Referral
+C00010,Germany,Manufacturing,51-200,Referral
+C00011,USA,Finance,501-1000,Event
+C00012,India,Finance,201-500,Direct
+C00013,France,Healthcare,501-1000,Referral
+C00014,USA,Manufacturing,201-500,Organic Search
+C00015,USA,Manufacturing,1000+,Paid Ads
+C00016,USA,Manufacturing,1000+,Paid Ads
+C00017,USA,Technology,1000+,Event
+C00018,UK,Finance,501-1000,Direct
+C00019,UK,Manufacturing,1000+,Direct
+C00020,USA,Education,501-1000,Paid Ads
+C00021,Canada,Technology,501-1000,Organic Search
+C00022,USA,Healthcare,11-50,Paid Ads
+C00023,USA,Manufacturing,11-50,Paid Ads
+C00024,USA,Manufacturing,501-1000,Direct
+C00025,UK,Technology,201-500,Referral
+C00026,France,Finance,51-200,Organic Search
+C00027,USA,Education,1-10,Direct
+C00028,UK,Healthcare,11-50,Paid Ads
+C00029,Canada,Manufacturing,501-1000,Referral
+C00030,USA,Finance,1-10,Organic Search
+C00031,Canada,Education,11-50,Event
+C00032,USA,Education,51-200,Organic Search
+C00033,USA,Healthcare,201-500,Organic Search
+C00034,India,Retail,501-1000,Paid Ads
+C00035,India,Education,51-200,Paid Ads
+C00036,France,Retail,11-50,Event
+C00037,USA,Education,501-1000,Event
+C00038,USA,Healthcare,1-10,Event
+C00039,Germany,Technology,1000+,Direct
+C00040,UK,Healthcare,201-500,Direct
+C00041,USA,Healthcare,11-50,Paid Ads
+C00042,UK,Technology,201-500,Paid Ads
+C00043,USA,Technology,501-1000,Event
+C00044,India,Finance,1000+,Direct
+C00045,USA,Education,51-200,Referral
+C00046,Germany,Finance,201-500,Direct
+C00047,USA,Technology,1-10,Paid Ads
+C00048,UK,Retail,11-50,Direct
+C00049,UK,Retail,1-10,Paid Ads
+C00050,USA,Healthcare,201-500,Event
+C00051,India,Manufacturing,1000+,Event
+C00052,France,Healthcare,51-200,Event
+C00053,India,Healthcare,51-200,Referral
+C00054,Australia,Manufacturing,1-10,Referral
+C00055,Canada,Education,501-1000,Paid Ads
+C00056,India,Technology,501-1000,Organic Search
+C00057,USA,Retail,1000+,Referral
+C00058,USA,Healthcare,51-200,Paid Ads
+C00059,USA,Manufacturing,1-10,Direct
+C00060,USA,Finance,1-10,Event
+C00061,USA,Healthcare,1-10,Event
+C00062,USA,Retail,201-500,Event
+C00063,France,Technology,1000+,Paid Ads
+C00064,USA,,501-1000,Event
+C00065,USA,,501-1000,Referral
+C00066,UK,Education,201-500,Direct
+C00067,USA,Manufacturing,11-50,Event
+C00068,France,Finance,201-500,Paid Ads
+C00069,USA,Finance,1000+,Direct
+C00070,India,Technology,1-10,Event
+C00071,France,Retail,201-500,Organic Search
+C00072,USA,Technology,1-10,Event
+C00073,USA,Healthcare,1000+,Referral
+C00074,France,Healthcare,1000+,Direct
+C00075,Germany,Finance,51-200,Referral
+C00076,Germany,Retail,1-10,Organic Search
+C00077,France,Manufacturing,501-1000,Organic Search
+C00078,USA,Retail,201-500,Referral
+C00079,USA,Healthcare,1000+,Direct
+C00080,USA,Manufacturing,1-10,Organic Search
+C00081,Australia,Retail,11-50,Organic Search
+C00082,Canada,,51-200,Event
+C00083,USA,Manufacturing,11-50,Paid Ads
+C00084,USA,Healthcare,1000+,Organic Search
+C00085,USA,Retail,11-50,Direct
+C00086,USA,Manufacturing,11-50,Direct
+C00087,Germany,Education,51-200,Event
+C00088,Canada,Education,51-200,Direct
+C00089,Australia,Healthcare,51-200,Event
+C00090,UK,Manufacturing,51-200,Organic Search
+C00091,USA,Education,11-50,Organic Search
+C00092,Germany,Manufacturing,501-1000,Organic Search
+C00093,France,Retail,501-1000,Organic Search
+C00094,Canada,Healthcare,51-200,Paid Ads
+C00095,France,Education,201-500,Paid Ads
+C00096,UK,Retail,1-10,Organic Search
+C00097,UK,Technology,1000+,Direct
+C00098,UK,Technology,201-500,Event
+C00099,USA,Healthcare,1000+,Referral
+C00100,USA,,201-500,Event
+C00101,USA,Education,201-500,Referral
+C00102,Canada,Education,501-1000,Referral
+C00103,USA,Manufacturing,1-10,Organic Search
+C00104,UK,Retail,201-500,Referral
+C00105,India,Education,51-200,Organic Search
+C00106,USA,Retail,1000+,Paid Ads
+C00107,UK,Healthcare,501-1000,Direct
+C00108,France,Education,1000+,Referral
+C00109,USA,Healthcare,51-200,Direct
+C00110,USA,Education,51-200,Organic Search
+C00111,USA,Technology,201-500,Referral
+C00112,USA,Finance,51-200,Event
+C00113,India,Healthcare,1-10,Paid Ads
+C00114,France,,51-200,Paid Ads
+C00115,Canada,Finance,201-500,Referral
+C00116,Australia,Healthcare,1000+,Paid Ads
+C00117,France,Manufacturing,51-200,Event
+C00118,USA,Education,501-1000,Direct
+C00119,Australia,Manufacturing,501-1000,Event
+C00120,UK,Technology,501-1000,Paid Ads
+C00121,France,Education,1000+,Direct
+C00122,Australia,Technology,11-50,Event
+C00123,USA,Finance,501-1000,Organic Search
+C00124,USA,Healthcare,501-1000,Organic Search
+C00125,USA,Retail,11-50,Direct
+C00126,UK,Technology,1000+,Direct
+C00127,France,,501-1000,Direct
+C00128,Australia,Retail,201-500,Organic Search
+C00129,USA,Healthcare,1000+,Event
+C00130,UK,Finance,501-1000,Direct
+C00131,UK,Healthcare,501-1000,Organic Search
+C00132,USA,Education,11-50,Direct
+C00133,USA,Technology,201-500,Direct
+C00134,USA,Retail,1000+,Direct
+C00135,India,Healthcare,51-200,Organic Search
+C00136,USA,Healthcare,1-10,Event
+C00137,UK,Healthcare,201-500,Organic Search
+C00138,Germany,Technology,51-200,Organic Search
+C00139,USA,,201-500,Direct
+C00140,India,Healthcare,51-200,Referral
+C00141,India,Technology,51-200,Referral
+C00142,USA,Retail,201-500,Referral
+C00143,UK,Education,11-50,Organic Search
+C00144,USA,Manufacturing,201-500,Direct
+C00145,USA,Technology,201-500,Referral
+C00146,USA,Manufacturing,51-200,Paid Ads
+C00147,Canada,Healthcare,1-10,Paid Ads
+C00148,UK,Healthcare,51-200,Paid Ads
+C00149,USA,Technology,501-1000,Event
+C00150,USA,Manufacturing,201-500,Direct
+C00151,India,Healthcare,1000+,Organic Search
+C00152,USA,Retail,201-500,Organic Search
+C00153,USA,Finance,11-50,Direct
+C00154,UK,Finance,1000+,Event
+C00155,India,Healthcare,51-200,Direct
+C00156,USA,Manufacturing,11-50,Event
+C00157,Germany,Education,201-500,Referral
+C00158,France,Healthcare,51-200,Referral
+C00159,USA,Education,51-200,Event
+C00160,Germany,Education,501-1000,Direct
+C00161,USA,Manufacturing,501-1000,Referral
+C00162,Canada,Education,1-10,Direct
+C00163,Canada,Retail,501-1000,Referral
+C00164,UK,Manufacturing,1000+,Direct
+C00165,USA,Healthcare,51-200,Direct
+C00166,France,Retail,501-1000,Paid Ads
+C00167,USA,Technology,1-10,Event
+C00168,USA,Finance,201-500,Organic Search
+C00169,USA,Healthcare,1000+,Event
+C00170,Canada,Healthcare,501-1000,Direct
+C00171,Germany,Healthcare,51-200,Direct
+C00172,USA,Retail,201-500,Event
+C00173,UK,Technology,51-200,Direct
+C00174,USA,Manufacturing,201-500,Referral
+C00175,Canada,Technology,1000+,Direct
+C00176,USA,Retail,51-200,Event
+C00177,Germany,Healthcare,501-1000,Event
+C00178,USA,Finance,501-1000,Event
+C00179,India,Healthcare,1-10,Paid Ads
+C00180,USA,Manufacturing,201-500,Paid Ads
+C00181,USA,Education,1-10,Paid Ads
+C00182,USA,Finance,11-50,Paid Ads
+C00183,India,Healthcare,501-1000,Paid Ads
+C00184,Australia,Finance,201-500,Paid Ads
+C00185,USA,Education,1000+,Paid Ads
+C00186,Germany,Technology,1-10,Event
+C00187,France,Retail,1000+,Organic Search
+C00188,Canada,Healthcare,1000+,Paid Ads
+C00189,UK,Manufacturing,1000+,Event
+C00190,USA,Technology,1-10,Organic Search
+C00191,USA,Healthcare,11-50,Paid Ads
+C00192,Australia,Technology,1-10,Organic Search
+C00193,India,Manufacturing,51-200,Organic Search
+C00194,Canada,Healthcare,501-1000,Referral
+C00195,USA,Education,1-10,Direct
+C00196,USA,Education,1-10,Referral
+C00197,Germany,,11-50,Organic Search
+C00198,Australia,Finance,51-200,Event
+C00199,Australia,Manufacturing,1-10,Paid Ads
+C00200,France,Finance,501-1000,Direct
+C00201,Canada,Healthcare,501-1000,Paid Ads
+C00202,USA,Finance,1-10,Event
+C00203,USA,Healthcare,1000+,Direct
+C00204,Australia,Healthcare,1000+,Referral
+C00205,Canada,Retail,51-200,Organic Search
+C00206,USA,Healthcare,501-1000,Event
+C00207,USA,Finance,1000+,Organic Search
+C00208,Germany,Retail,501-1000,Organic Search
+C00209,USA,Retail,51-200,Paid Ads
+C00210,USA,Healthcare,51-200,Event
+C00211,UK,Manufacturing,1000+,Organic Search
+C00212,Germany,Manufacturing,1-10,Referral
+C00213,Germany,Education,201-500,Direct
+C00214,USA,Retail,11-50,Event
+C00215,Germany,Healthcare,201-500,Paid Ads
+C00216,USA,Manufacturing,201-500,Event
+C00217,USA,Healthcare,501-1000,Paid Ads
+C00218,Germany,Healthcare,51-200,Direct
+C00219,Canada,Retail,501-1000,Referral
+C00220,France,Education,1000+,Organic Search
+C00221,Germany,Retail,11-50,Event
+C00222,Canada,Technology,1000+,Paid Ads
+C00223,USA,Manufacturing,1-10,Direct
+C00224,USA,,11-50,Organic Search
+C00225,USA,Manufacturing,501-1000,Direct
+C00226,USA,Finance,501-1000,Referral
+C00227,India,Healthcare,1000+,Organic Search
+C00228,USA,Retail,501-1000,Organic Search
+C00229,Australia,Manufacturing,501-1000,Organic Search
+C00230,Canada,Technology,201-500,Paid Ads
+C00231,France,Manufacturing,1-10,Organic Search
+C00232,UK,Education,201-500,Direct
+C00233,Canada,Healthcare,501-1000,Paid Ads
+C00234,UK,Healthcare,51-200,Organic Search
+C00235,USA,Retail,201-500,Direct
+C00236,Germany,Finance,501-1000,Direct
+C00237,USA,Retail,501-1000,Event
+C00238,USA,Manufacturing,1-10,Direct
+C00239,Canada,Education,1000+,Referral
+C00240,USA,Technology,11-50,Organic Search
+C00241,India,Retail,201-500,Organic Search
+C00242,India,Finance,201-500,Organic Search
+C00243,India,Retail,201-500,Direct
+C00244,USA,Healthcare,501-1000,Direct
+C00245,USA,Manufacturing,1-10,Organic Search
+C00246,India,Manufacturing,501-1000,Paid Ads
+C00247,UK,Manufacturing,501-1000,Paid Ads
+C00248,India,Manufacturing,1000+,Referral
+C00249,India,,51-200,Event
+C00250,Australia,Manufacturing,1-10,Referral
+C00251,USA,,201-500,Organic Search
+C00252,USA,Finance,11-50,Organic Search
+C00253,Australia,Manufacturing,201-500,Organic Search
+C00254,USA,Finance,501-1000,Event
+C00255,USA,Education,1-10,Direct
+C00256,Canada,Manufacturing,1-10,Event
+C00257,India,Retail,1-10,Referral
+C00258,Germany,Manufacturing,51-200,Direct
+C00259,Canada,Healthcare,201-500,Direct
+C00260,USA,Technology,51-200,Referral
+C00261,Canada,Retail,1000+,Direct
+C00262,India,Retail,11-50,Paid Ads
+C00263,USA,Healthcare,1000+,Referral
+C00264,UK,Manufacturing,501-1000,Referral
+C00265,Australia,Technology,51-200,Paid Ads
+C00266,Germany,Retail,51-200,Event
+C00267,Germany,Technology,1000+,Event
+C00268,Germany,,501-1000,Event
+C00269,USA,Manufacturing,1-10,Direct
+C00270,USA,Education,501-1000,Paid Ads
+C00271,France,Retail,201-500,Referral
+C00272,France,Education,1000+,Referral
+C00273,Australia,,501-1000,Referral
+C00274,India,Finance,1-10,Direct
+C00275,UK,Manufacturing,501-1000,Direct
+C00276,UK,Healthcare,51-200,Event
+C00277,France,Education,11-50,Direct
+C00278,Canada,Healthcare,51-200,Event
+C00279,Germany,Manufacturing,11-50,Event
+C00280,France,Healthcare,501-1000,Referral
+C00281,Australia,Manufacturing,201-500,Direct
+C00282,USA,Healthcare,501-1000,Event
+C00283,USA,,1-10,Paid Ads
+C00284,USA,Finance,501-1000,Paid Ads
+C00285,Canada,Healthcare,11-50,Direct
+C00286,USA,Education,51-200,Referral
+C00287,UK,Retail,201-500,Referral
+C00288,UK,Manufacturing,501-1000,Event
+C00289,USA,Technology,501-1000,Direct
+C00290,Canada,Technology,51-200,Paid Ads
+C00291,USA,Manufacturing,201-500,Event
+C00292,USA,Finance,1000+,Event
+C00293,France,Healthcare,501-1000,Organic Search
+C00294,USA,Finance,501-1000,Direct
+C00295,USA,Technology,1000+,Event
+C00296,UK,Education,11-50,Paid Ads
+C00297,France,Manufacturing,11-50,Organic Search
+C00298,USA,Manufacturing,1-10,Paid Ads
+C00299,Canada,Finance,51-200,Referral
+C00300,USA,Education,201-500,Organic Search
+C00301,USA,Finance,501-1000,Organic Search
+C00302,UK,Healthcare,501-1000,Event
+C00303,UK,Retail,1-10,Referral
+C00304,Canada,Education,501-1000,Event
+C00305,Germany,Retail,51-200,Direct
+C00306,India,Healthcare,1-10,Paid Ads
+C00307,UK,,51-200,Paid Ads
+C00308,USA,Technology,1-10,Event
+C00309,France,Retail,501-1000,Paid Ads
+C00310,USA,Healthcare,1-10,Paid Ads
+C00311,UK,Retail,11-50,Direct
+C00312,USA,Manufacturing,201-500,Referral
+C00313,USA,Finance,501-1000,Organic Search
+C00314,India,Technology,1000+,Event
+C00315,France,Manufacturing,201-500,Event
+C00316,Germany,Manufacturing,501-1000,Direct
+C00317,UK,Healthcare,201-500,Direct
+C00318,USA,Finance,11-50,Organic Search
+C00319,USA,Finance,201-500,Referral
+C00320,USA,Education,1-10,Event
+C00321,UK,Technology,201-500,Direct
+C00322,Germany,Healthcare,501-1000,Event
+C00323,Germany,Technology,1000+,Paid Ads
+C00324,USA,,1000+,Event
+C00325,India,,51-200,Referral
+C00326,Germany,,201-500,Referral
+C00327,Canada,Technology,1000+,Event
+C00328,Canada,Manufacturing,201-500,Paid Ads
+C00329,UK,Healthcare,1000+,Referral
+C00330,USA,Retail,201-500,Direct
+C00331,USA,Healthcare,501-1000,Event
+C00332,France,Retail,201-500,Paid Ads
+C00333,USA,Retail,501-1000,Direct
+C00334,USA,Manufacturing,501-1000,Event
+C00335,USA,Healthcare,51-200,Paid Ads
+C00336,USA,Healthcare,1000+,Direct
+C00337,Australia,Technology,1-10,Referral
+C00338,Germany,Healthcare,501-1000,Event
+C00339,UK,Technology,1000+,Event
+C00340,USA,Finance,11-50,Referral
+C00341,UK,Finance,201-500,Organic Search
+C00342,UK,Finance,11-50,Direct
+C00343,USA,Education,201-500,Referral
+C00344,UK,Healthcare,51-200,Event
+C00345,USA,Education,501-1000,Direct
+C00346,Canada,Healthcare,1-10,Direct
+C00347,Canada,Technology,501-1000,Organic Search
+C00348,USA,Education,201-500,Event
+C00349,USA,Education,1-10,Paid Ads
+C00350,Canada,Education,501-1000,Organic Search
+C00351,UK,Retail,1-10,Organic Search
+C00352,Australia,Technology,201-500,Paid Ads
+C00353,Germany,Finance,51-200,Paid Ads
+C00354,USA,Technology,51-200,Organic Search
+C00355,USA,Retail,501-1000,Direct
+C00356,Canada,Healthcare,11-50,Referral
+C00357,USA,Technology,201-500,Referral
+C00358,Canada,Education,501-1000,Organic Search
+C00359,India,Finance,501-1000,Direct
+C00360,Canada,Finance,51-200,Paid Ads
+C00361,USA,Healthcare,1-10,Organic Search
+C00362,Canada,Technology,201-500,Event
+C00363,UK,Retail,1-10,Direct
+C00364,UK,Healthcare,1000+,Event
+C00365,India,Technology,1000+,Event
+C00366,USA,Manufacturing,201-500,Organic Search
+C00367,India,Finance,11-50,Direct
+C00368,India,Retail,1000+,Event
+C00369,USA,Education,51-200,Direct
+C00370,USA,Retail,11-50,Referral
+C00371,USA,Education,501-1000,Event
+C00372,USA,Retail,1000+,Event
+C00373,USA,Finance,51-200,Direct
+C00374,Germany,Education,501-1000,Referral
+C00375,USA,Technology,11-50,Event
+C00376,USA,Education,201-500,Organic Search
+C00377,France,Healthcare,501-1000,Direct
+C00378,USA,Technology,1-10,Direct
+C00379,France,Healthcare,201-500,Event
+C00380,USA,Retail,201-500,Referral
+C00381,USA,Technology,11-50,Event
+C00382,Germany,Retail,11-50,Paid Ads
+C00383,Canada,Manufacturing,51-200,Event
+C00384,Australia,Retail,51-200,Paid Ads
+C00385,Germany,Retail,1-10,Organic Search
+C00386,France,Healthcare,201-500,Direct
+C00387,USA,Education,1-10,Direct
+C00388,USA,Manufacturing,1-10,Referral
+C00389,France,Retail,11-50,Event
+C00390,France,Retail,1-10,Organic Search
+C00391,India,Manufacturing,1-10,Paid Ads
+C00392,UK,Manufacturing,501-1000,Referral
+C00393,USA,Technology,51-200,Organic Search
+C00394,France,Healthcare,51-200,Organic Search
+C00395,USA,Manufacturing,201-500,Paid Ads
+C00396,India,Manufacturing,51-200,Paid Ads
+C00397,Australia,Finance,1000+,Direct
+C00398,UK,Education,201-500,Event
+C00399,France,Manufacturing,501-1000,Referral
+C00400,France,,51-200,Event
+C00401,USA,Education,501-1000,Referral
+C00402,India,Education,51-200,Organic Search
+C00403,UK,Retail,51-200,Paid Ads
+C00404,France,Retail,501-1000,Paid Ads
+C00405,USA,Retail,1-10,Organic Search
+C00406,Australia,Retail,1-10,Organic Search
+C00407,USA,Finance,1-10,Referral
+C00408,USA,Manufacturing,1000+,Organic Search
+C00409,India,Retail,1-10,Referral
+C00410,USA,Technology,51-200,Event
+C00411,USA,Retail,11-50,Paid Ads
+C00412,India,Manufacturing,501-1000,Paid Ads
+C00413,India,Retail,11-50,Paid Ads
+C00414,Canada,Finance,1000+,Event
+C00415,Canada,Healthcare,11-50,Event
+C00416,UK,Healthcare,201-500,Direct
+C00417,USA,Manufacturing,1-10,Referral
+C00418,USA,Healthcare,1000+,Referral
+C00419,Germany,Healthcare,51-200,Direct
+C00420,France,Technology,1-10,Paid Ads
+C00421,France,Manufacturing,1-10,Referral
+C00422,France,Manufacturing,11-50,Referral
+C00423,USA,Healthcare,201-500,Paid Ads
+C00424,UK,Healthcare,1-10,Organic Search
+C00425,USA,Healthcare,501-1000,Organic Search
+C00426,UK,Education,501-1000,Direct
+C00427,UK,Finance,1-10,Event
+C00428,Australia,Retail,11-50,Referral
+C00429,USA,Finance,11-50,Referral
+C00430,USA,Manufacturing,51-200,Direct
+C00431,USA,Technology,1000+,Direct
+C00432,France,Retail,1000+,Referral
+C00433,Canada,Technology,1000+,Paid Ads
+C00434,USA,Education,201-500,Paid Ads
+C00435,USA,Manufacturing,11-50,Event
+C00436,Germany,Education,51-200,Referral
+C00437,USA,Manufacturing,501-1000,Referral
+C00438,France,Technology,1000+,Referral
+C00439,Germany,Technology,501-1000,Referral
+C00440,USA,,501-1000,Direct
+C00441,USA,Manufacturing,1-10,Organic Search
+C00442,India,,201-500,Referral
+C00443,USA,Technology,51-200,Organic Search
+C00444,USA,Education,201-500,Paid Ads
+C00445,France,Retail,1-10,Event
+C00446,India,Manufacturing,51-200,Paid Ads
+C00447,India,Education,51-200,Referral
+C00448,France,Finance,11-50,Paid Ads
+C00449,USA,Finance,201-500,Direct
+C00450,USA,Retail,201-500,Organic Search
+C00451,France,Healthcare,11-50,Referral
+C00452,Canada,Technology,501-1000,Direct
+C00453,UK,Manufacturing,1-10,Organic Search
+C00454,India,Education,201-500,Direct
+C00455,USA,Technology,11-50,Paid Ads
+C00456,UK,Education,51-200,Referral
+C00457,USA,Manufacturing,1000+,Paid Ads
+C00458,UK,Finance,11-50,Event
+C00459,USA,Technology,1000+,Referral
+C00460,USA,Retail,501-1000,Paid Ads
+C00461,USA,Healthcare,1-10,Referral
+C00462,Canada,Retail,1000+,Organic Search
+C00463,Germany,Healthcare,501-1000,Referral
+C00464,Canada,Education,1000+,Referral
+C00465,India,Technology,51-200,Organic Search
+C00466,USA,Technology,51-200,Paid Ads
+C00467,USA,Healthcare,51-200,Referral
+C00468,Australia,Finance,51-200,Direct
+C00469,USA,Manufacturing,11-50,Referral
+C00470,India,Retail,51-200,Paid Ads
+C00471,USA,Education,51-200,Organic Search
+C00472,India,Retail,11-50,Paid Ads
+C00473,USA,Retail,51-200,Event
+C00474,Australia,Education,501-1000,Referral
+C00475,UK,Education,501-1000,Referral
+C00476,India,Technology,201-500,Organic Search
+C00477,USA,Retail,501-1000,Referral
+C00478,Canada,,1-10,Direct
+C00479,India,Manufacturing,1-10,Direct
+C00480,UK,Healthcare,1-10,Paid Ads
+C00481,Canada,Education,11-50,Organic Search
+C00482,Germany,Technology,501-1000,Event
+C00483,UK,Manufacturing,1-10,Paid Ads
+C00484,Canada,Finance,201-500,Organic Search
+C00485,Canada,Technology,11-50,Organic Search
+C00486,India,Technology,201-500,Paid Ads
+C00487,USA,Manufacturing,501-1000,Paid Ads
+C00488,USA,Finance,51-200,Referral
+C00489,India,Healthcare,201-500,Event
+C00490,Australia,Manufacturing,51-200,Direct
+C00491,UK,Finance,11-50,Referral
+C00492,Canada,Technology,201-500,Organic Search
+C00493,USA,Finance,201-500,Event
+C00494,USA,Technology,1000+,Event
+C00495,UK,Manufacturing,11-50,Paid Ads
+C00496,USA,Education,11-50,Event
+C00497,Canada,Manufacturing,1-10,Event
+C00498,USA,Retail,501-1000,Organic Search
+C00499,India,Retail,201-500,Referral
+C00500,India,Retail,201-500,Event
+C00501,Germany,Manufacturing,11-50,Paid Ads
+C00502,UK,Healthcare,11-50,Referral
+C00503,USA,Manufacturing,501-1000,Paid Ads
+C00504,France,Education,11-50,Event
+C00505,Germany,Finance,51-200,Referral
+C00506,USA,Manufacturing,51-200,Event
+C00507,India,Manufacturing,1000+,Organic Search
+C00508,France,Technology,51-200,Referral
+C00509,India,Technology,51-200,Paid Ads
+C00510,Germany,Technology,501-1000,Organic Search
+C00511,Canada,Manufacturing,201-500,Direct
+C00512,UK,Healthcare,51-200,Paid Ads
+C00513,India,Finance,1000+,Event
+C00514,Australia,Finance,11-50,Paid Ads
+C00515,USA,Education,51-200,Direct
+C00516,USA,Healthcare,1000+,Paid Ads
+C00517,USA,Healthcare,501-1000,Organic Search
+C00518,France,Finance,11-50,Paid Ads
+C00519,India,Retail,1000+,Referral
+C00520,USA,Technology,51-200,Direct
+C00521,Canada,Technology,201-500,Paid Ads
+C00522,USA,Finance,11-50,Direct
+C00523,India,Healthcare,11-50,Organic Search
+C00524,France,Education,201-500,Referral
+C00525,France,Retail,11-50,Event
+C00526,UK,Finance,51-200,Paid Ads
+C00527,UK,Technology,11-50,Organic Search
+C00528,USA,Manufacturing,51-200,Direct
+C00529,USA,Healthcare,201-500,Direct
+C00530,Australia,Manufacturing,1-10,Organic Search
+C00531,France,Education,201-500,Paid Ads
+C00532,India,Finance,51-200,Event
+C00533,India,Technology,501-1000,Paid Ads
+C00534,Canada,Retail,201-500,Referral
+C00535,France,Manufacturing,501-1000,Paid Ads
+C00536,India,Retail,501-1000,Referral
+C00537,France,Education,51-200,Direct
+C00538,USA,Technology,51-200,Referral
+C00539,UK,Manufacturing,1-10,Event
+C00540,USA,Education,1000+,Organic Search
+C00541,India,Retail,11-50,Referral
+C00542,Canada,Retail,201-500,Paid Ads
+C00543,USA,Manufacturing,51-200,Referral
+C00544,Germany,,201-500,Direct
+C00545,Canada,Retail,1000+,Referral
+C00546,USA,,1000+,Event
+C00547,USA,Education,501-1000,Referral
+C00548,Germany,Manufacturing,11-50,Event
+C00549,UK,Healthcare,1-10,Paid Ads
+C00550,France,Healthcare,201-500,Direct
+C00551,UK,Technology,11-50,Organic Search
+C00552,Australia,Finance,1-10,Paid Ads
+C00553,Canada,Retail,201-500,Paid Ads
+C00554,Canada,Healthcare,11-50,Organic Search
+C00555,Australia,Technology,51-200,Referral
+C00556,UK,Education,201-500,Referral
+C00557,USA,Finance,11-50,Referral
+C00558,USA,Finance,1000+,Direct
+C00559,France,Technology,1-10,Paid Ads
+C00560,Canada,Technology,11-50,Event
+C00561,Germany,Retail,51-200,Organic Search
+C00562,USA,Technology,201-500,Paid Ads
+C00563,USA,Retail,201-500,Referral
+C00564,USA,Retail,201-500,Organic Search
+C00565,USA,Manufacturing,51-200,Event
+C00566,Canada,Finance,1-10,Paid Ads
+C00567,USA,,201-500,Paid Ads
+C00568,UK,Finance,1-10,Direct
+C00569,India,Finance,11-50,Paid Ads
+C00570,USA,Manufacturing,1000+,Paid Ads
+C00571,UK,Retail,1000+,Event
+C00572,France,Retail,1-10,Event
+C00573,USA,Technology,1-10,Organic Search
+C00574,Canada,Manufacturing,1000+,Referral
+C00575,Australia,Technology,201-500,Event
+C00576,India,Manufacturing,501-1000,Organic Search
+C00577,USA,Technology,501-1000,Paid Ads
+C00578,India,Healthcare,51-200,Organic Search
+C00579,UK,Finance,1000+,Organic Search
+C00580,USA,Finance,1000+,Organic Search
+C00581,UK,Education,51-200,Organic Search
+C00582,India,Retail,501-1000,Event
+C00583,UK,Education,11-50,Referral
+C00584,USA,Healthcare,201-500,Organic Search
+C00585,Canada,Education,201-500,Direct
+C00586,USA,Finance,11-50,Paid Ads
+C00587,USA,Retail,11-50,Paid Ads
+C00588,USA,Healthcare,501-1000,Paid Ads
+C00589,USA,Finance,51-200,Paid Ads
+C00590,USA,Technology,11-50,Paid Ads
+C00591,USA,Manufacturing,51-200,Organic Search
+C00592,Canada,Healthcare,1-10,Referral
+C00593,USA,Retail,201-500,Direct
+C00594,USA,Education,501-1000,Event
+C00595,Australia,Education,201-500,Direct
+C00596,UK,Healthcare,501-1000,Event
+C00597,Germany,Retail,1-10,Event
+C00598,USA,Healthcare,201-500,Direct
+C00599,USA,Retail,1-10,Organic Search
+C00600,USA,Education,501-1000,Paid Ads
+C00601,USA,Finance,11-50,Organic Search
+C00602,USA,Technology,201-500,Paid Ads
+C00603,USA,Finance,1-10,Referral
+C00604,USA,Technology,1000+,Event
+C00605,USA,Education,201-500,Direct
+C00606,UK,Finance,201-500,Referral
+C00607,USA,Finance,201-500,Paid Ads
+C00608,USA,Healthcare,51-200,Organic Search
+C00609,UK,Manufacturing,1-10,Direct
+C00610,Germany,Education,1-10,Event
+C00611,USA,Retail,201-500,Referral
+C00612,France,Education,11-50,Event
+C00613,Canada,Retail,201-500,Paid Ads
+C00614,USA,Retail,51-200,Event
+C00615,Australia,Technology,501-1000,Organic Search
+C00616,India,Retail,51-200,Referral
+C00617,USA,Retail,11-50,Referral
+C00618,USA,Healthcare,201-500,Organic Search
+C00619,France,Finance,1-10,Event
+C00620,Germany,Education,1000+,Organic Search
+C00621,USA,Education,201-500,Direct
+C00622,USA,Retail,11-50,Organic Search
+C00623,USA,Manufacturing,1-10,Event
+C00624,UK,Education,51-200,Organic Search
+C00625,Canada,Retail,501-1000,Paid Ads
+C00626,USA,Technology,501-1000,Organic Search
+C00627,UK,,201-500,Organic Search
+C00628,Germany,Technology,51-200,Event
+C00629,USA,Retail,1000+,Direct
+C00630,USA,Healthcare,1000+,Direct
+C00631,Germany,Manufacturing,11-50,Event
+C00632,Australia,Retail,501-1000,Event
+C00633,UK,Healthcare,51-200,Event
+C00634,UK,Healthcare,201-500,Paid Ads
+C00635,USA,Education,1-10,Referral
+C00636,UK,Retail,201-500,Organic Search
+C00637,UK,Retail,201-500,Event
+C00638,USA,Healthcare,51-200,Event
+C00639,USA,Healthcare,501-1000,Event
+C00640,USA,Healthcare,51-200,Direct
+C00641,USA,Education,1-10,Event
+C00642,USA,Retail,51-200,Organic Search
+C00643,USA,Healthcare,11-50,Event
+C00644,USA,Technology,201-500,Organic Search
+C00645,USA,Retail,501-1000,Paid Ads
+C00646,Australia,Education,1000+,Referral
+C00647,Canada,Technology,1-10,Direct
+C00648,Germany,Finance,1000+,Organic Search
+C00649,France,Retail,201-500,Paid Ads
+C00650,UK,Finance,51-200,Referral
+C00651,USA,Healthcare,1000+,Referral
+C00652,UK,Education,11-50,Referral
+C00653,Canada,Healthcare,51-200,Organic Search
+C00654,Germany,Education,201-500,Paid Ads
+C00655,UK,Manufacturing,1000+,Event
+C00656,USA,Healthcare,1-10,Paid Ads
+C00657,USA,Finance,1000+,Paid Ads
+C00658,USA,Education,1000+,Paid Ads
+C00659,Canada,Healthcare,501-1000,Organic Search
+C00660,Canada,Retail,1000+,Organic Search
+C00661,USA,Education,201-500,Organic Search
+C00662,India,Education,1-10,Paid Ads
+C00663,Canada,Healthcare,201-500,Organic Search
+C00664,USA,,11-50,Referral
+C00665,USA,Healthcare,51-200,Organic Search
+C00666,USA,Finance,1000+,Direct
+C00667,USA,,501-1000,Organic Search
+C00668,USA,Education,1-10,Organic Search
+C00669,USA,Education,501-1000,Organic Search
+C00670,USA,Healthcare,501-1000,Organic Search
+C00671,USA,Finance,501-1000,Direct
+C00672,Australia,Finance,1000+,Event
+C00673,USA,,1-10,Organic Search
+C00674,UK,Retail,1-10,Referral
+C00675,UK,Manufacturing,501-1000,Direct
+C00676,India,Technology,51-200,Event
+C00677,USA,Manufacturing,1000+,Organic Search
+C00678,USA,Healthcare,1000+,Event
+C00679,India,Retail,201-500,Referral
+C00680,Australia,Healthcare,1000+,Direct
+C00681,France,Technology,501-1000,Direct
+C00682,USA,Retail,11-50,Event
+C00683,USA,Education,501-1000,Organic Search
+C00684,Germany,Finance,1-10,Paid Ads
+C00685,India,Manufacturing,1000+,Direct
+C00686,Canada,Healthcare,1000+,Paid Ads
+C00687,Canada,Technology,201-500,Direct
+C00688,USA,,11-50,Organic Search
+C00689,France,Manufacturing,1000+,Organic Search
+C00690,USA,Finance,201-500,Direct
+C00691,USA,Manufacturing,201-500,Event
+C00692,UK,Education,11-50,Organic Search
+C00693,UK,Retail,501-1000,Organic Search
+C00694,USA,Finance,501-1000,Referral
+C00695,USA,Finance,501-1000,Organic Search
+C00696,Canada,Finance,51-200,Referral
+C00697,USA,Retail,501-1000,Organic Search
+C00698,Canada,Technology,11-50,Organic Search
+C00699,USA,Manufacturing,51-200,Event
+C00700,UK,Education,501-1000,Event
+C00701,UK,Finance,51-200,Organic Search
+C00702,USA,Retail,11-50,Direct
+C00703,USA,,501-1000,Direct
+C00704,USA,Manufacturing,1-10,Organic Search
+C00705,USA,Retail,1000+,Direct
+C00706,India,Education,11-50,Organic Search
+C00707,USA,Education,201-500,Event
+C00708,France,Manufacturing,201-500,Paid Ads
+C00709,USA,Finance,11-50,Referral
+C00710,Germany,Education,201-500,Direct
+C00711,France,Technology,11-50,Direct
+C00712,Canada,Retail,1-10,Event
+C00713,UK,Technology,11-50,Direct
+C00714,UK,Finance,501-1000,Organic Search
+C00715,USA,Technology,501-1000,Organic Search
+C00716,India,Technology,51-200,Paid Ads
+C00717,France,Healthcare,201-500,Paid Ads
+C00718,India,Technology,1000+,Paid Ads
+C00719,USA,Manufacturing,201-500,Organic Search
+C00720,Germany,Retail,11-50,Paid Ads
+C00721,India,Healthcare,1000+,Paid Ads
+C00722,USA,Retail,1000+,Organic Search
+C00723,USA,Retail,201-500,Event
+C00724,Germany,Finance,1000+,Direct
+C00725,Canada,Finance,1000+,Referral
+C00726,France,Healthcare,501-1000,Organic Search
+C00727,USA,,1-10,Organic Search
+C00728,France,Finance,11-50,Referral
+C00729,USA,Finance,201-500,Referral
+C00730,USA,Finance,501-1000,Paid Ads
+C00731,USA,Retail,51-200,Referral
+C00732,France,Healthcare,1000+,Direct
+C00733,Germany,Retail,1000+,Direct
+C00734,UK,Manufacturing,201-500,Direct
+C00735,USA,Retail,1-10,Direct
+C00736,Australia,Manufacturing,1-10,Direct
+C00737,USA,Technology,201-500,Paid Ads
+C00738,France,Technology,201-500,Organic Search
+C00739,UK,Manufacturing,501-1000,Referral
+C00740,USA,Manufacturing,201-500,Organic Search
+C00741,UK,Retail,51-200,Referral
+C00742,USA,Manufacturing,501-1000,Paid Ads
+C00743,Germany,Healthcare,1000+,Paid Ads
+C00744,UK,Technology,1000+,Event
+C00745,USA,Technology,1000+,Event
+C00746,Australia,Education,1000+,Paid Ads
+C00747,USA,Manufacturing,11-50,Paid Ads
+C00748,UK,Finance,51-200,Referral
+C00749,India,Finance,501-1000,Paid Ads
+C00750,Canada,Manufacturing,501-1000,Organic Search
+C00751,USA,Healthcare,1000+,Referral
+C00752,India,Finance,1-10,Paid Ads
+C00753,Canada,Education,501-1000,Referral
+C00754,USA,Manufacturing,51-200,Referral
+C00755,USA,Healthcare,201-500,Direct
+C00756,France,Healthcare,51-200,Event
+C00757,Canada,Retail,1000+,Referral
+C00758,UK,Healthcare,1000+,Referral
+C00759,Australia,Finance,11-50,Direct
+C00760,France,Finance,501-1000,Paid Ads
+C00761,USA,Manufacturing,501-1000,Referral
+C00762,USA,Manufacturing,501-1000,Direct
+C00763,USA,Healthcare,1000+,Organic Search
+C00764,Germany,Education,501-1000,Direct
+C00765,USA,Technology,1-10,Event
+C00766,Canada,Retail,1-10,Event
+C00767,France,Technology,201-500,Paid Ads
+C00768,Australia,Healthcare,501-1000,Paid Ads
+C00769,USA,Healthcare,11-50,Event
+C00770,France,Technology,201-500,Event
+C00771,USA,Retail,1000+,Referral
+C00772,France,Technology,501-1000,Event
+C00773,USA,Manufacturing,1-10,Paid Ads
+C00774,USA,Finance,11-50,Event
+C00775,France,Education,201-500,Paid Ads
+C00776,USA,,11-50,Organic Search
+C00777,USA,Finance,501-1000,Event
+C00778,Germany,Education,51-200,Paid Ads
+C00779,Germany,Education,11-50,Direct
+C00780,Canada,Education,11-50,Referral
+C00781,Germany,Healthcare,1000+,Paid Ads
+C00782,UK,,1-10,Event
+C00783,USA,Retail,501-1000,Event
+C00784,USA,Technology,11-50,Organic Search
+C00785,USA,Retail,501-1000,Direct
+C00786,India,Technology,1-10,Paid Ads
+C00787,Canada,,1000+,Direct
+C00788,UK,Manufacturing,501-1000,Organic Search
+C00789,UK,Technology,1-10,Referral
+C00790,India,Retail,1-10,Direct
+C00791,USA,Technology,201-500,Organic Search
+C00792,Canada,Education,1000+,Paid Ads
+C00793,UK,Healthcare,1000+,Referral
+C00794,Canada,Manufacturing,501-1000,Event
+C00795,USA,Healthcare,51-200,Organic Search
+C00796,Australia,Education,201-500,Event
+C00797,India,Education,1000+,Referral
+C00798,Canada,Manufacturing,1-10,Organic Search
+C00799,Germany,Manufacturing,1000+,Organic Search
+C00800,India,Education,51-200,Referral
+C00801,Germany,Finance,11-50,Paid Ads
+C00802,USA,Healthcare,11-50,Organic Search
+C00803,Canada,Healthcare,1000+,Referral
+C00804,Canada,Finance,1000+,Direct
+C00805,UK,Retail,201-500,Event
+C00806,Germany,Healthcare,1000+,Organic Search
+C00807,India,Technology,51-200,Direct
+C00808,India,Education,1000+,Organic Search
+C00809,UK,Education,501-1000,Paid Ads
+C00810,USA,Finance,51-200,Referral
+C00811,India,Healthcare,201-500,Organic Search
+C00812,France,Retail,501-1000,Referral
+C00813,USA,Healthcare,501-1000,Organic Search
+C00814,India,Education,11-50,Paid Ads
+C00815,Australia,Manufacturing,51-200,Paid Ads
+C00816,UK,Technology,501-1000,Direct
+C00817,Canada,Finance,201-500,Paid Ads
+C00818,USA,Manufacturing,11-50,Referral
+C00819,USA,Retail,501-1000,Paid Ads
+C00820,USA,Manufacturing,51-200,Organic Search
+C00821,France,Manufacturing,11-50,Paid Ads
+C00822,USA,Retail,51-200,Referral
+C00823,USA,Manufacturing,51-200,Organic Search
+C00824,USA,Finance,51-200,Direct
+C00825,UK,Education,11-50,Direct
+C00826,India,Healthcare,501-1000,Direct
+C00827,USA,Manufacturing,1000+,Organic Search
+C00828,USA,Finance,1-10,Direct
+C00829,Germany,Healthcare,501-1000,Paid Ads
+C00830,UK,Healthcare,11-50,Organic Search
+C00831,USA,Manufacturing,1-10,Organic Search
+C00832,UK,Finance,1-10,Organic Search
+C00833,USA,Education,1-10,Event
+C00834,USA,Manufacturing,1000+,Referral
+C00835,UK,Retail,201-500,Event
+C00836,UK,Healthcare,11-50,Event
+C00837,India,Manufacturing,1000+,Event
+C00838,USA,Healthcare,1000+,Referral
+C00839,Canada,Finance,201-500,Event
+C00840,Canada,Technology,1-10,Direct
+C00841,USA,Manufacturing,201-500,Organic Search
+C00842,Germany,Education,201-500,Organic Search
+C00843,USA,Manufacturing,1000+,Paid Ads
+C00844,India,Healthcare,11-50,Direct
+C00845,USA,Finance,51-200,Referral
+C00846,UK,Retail,201-500,Organic Search
+C00847,USA,,201-500,Event
+C00848,India,Finance,1-10,Paid Ads
+C00849,UK,Manufacturing,1-10,Paid Ads
+C00850,Canada,Retail,1000+,Organic Search
+C00851,USA,Finance,1-10,Direct
+C00852,Germany,Technology,501-1000,Paid Ads
+C00853,USA,,201-500,Organic Search
+C00854,Australia,Healthcare,1-10,Direct
+C00855,USA,Finance,11-50,Organic Search
+C00856,USA,Finance,501-1000,Organic Search
+C00857,USA,Technology,1000+,Direct
+C00858,UK,Manufacturing,51-200,Direct
+C00859,Canada,Education,201-500,Direct
+C00860,USA,Education,201-500,Organic Search
+C00861,France,Healthcare,11-50,Paid Ads
+C00862,UK,Finance,51-200,Referral
+C00863,UK,Retail,51-200,Referral
+C00864,UK,Finance,1000+,Organic Search
+C00865,UK,,1000+,Organic Search
+C00866,Canada,Finance,501-1000,Paid Ads
+C00867,USA,,201-500,Direct
+C00868,USA,Finance,1-10,Organic Search
+C00869,Australia,Finance,1000+,Event
+C00870,India,Retail,11-50,Direct
+C00871,USA,Technology,11-50,Organic Search
+C00872,USA,Technology,11-50,Event
+C00873,Canada,Finance,1000+,Paid Ads
+C00874,UK,Education,1000+,Event
+C00875,USA,Retail,11-50,Organic Search
+C00876,USA,Finance,1000+,Referral
+C00877,Germany,Finance,1-10,Organic Search
+C00878,Germany,Healthcare,1-10,Referral
+C00879,USA,Healthcare,501-1000,Paid Ads
+C00880,USA,,201-500,Paid Ads
+C00881,USA,Retail,1-10,Direct
+C00882,Germany,Manufacturing,501-1000,Direct
+C00883,USA,Healthcare,51-200,Referral
+C00884,USA,Manufacturing,201-500,Referral
+C00885,France,Technology,1-10,Paid Ads
+C00886,USA,Healthcare,51-200,Event
+C00887,Germany,Healthcare,501-1000,Referral
+C00888,USA,Retail,1-10,Referral
+C00889,USA,Education,1-10,Event
+C00890,USA,,1000+,Direct
+C00891,Germany,Healthcare,51-200,Direct
+C00892,Australia,Healthcare,1-10,Referral
+C00893,France,Retail,11-50,Direct
+C00894,USA,Retail,1000+,Direct
+C00895,Germany,Education,1000+,Direct
+C00896,USA,Manufacturing,1-10,Paid Ads
+C00897,USA,Technology,1000+,Organic Search
+C00898,Australia,Education,201-500,Referral
+C00899,USA,Technology,51-200,Referral
+C00900,USA,Finance,201-500,Paid Ads
+C00901,USA,Healthcare,501-1000,Organic Search
+C00902,USA,Manufacturing,201-500,Organic Search
+C00903,USA,Education,11-50,Paid Ads
+C00904,Canada,Healthcare,1000+,Event
+C00905,UK,Manufacturing,1000+,Event
+C00906,Australia,,11-50,Organic Search
+C00907,France,Manufacturing,1000+,Event
+C00908,USA,Healthcare,201-500,Event
+C00909,USA,Education,501-1000,Event
+C00910,USA,Retail,1-10,Organic Search
+C00911,Canada,Healthcare,11-50,Event
+C00912,USA,Manufacturing,201-500,Referral
+C00913,Canada,Education,201-500,Organic Search
+C00914,UK,Finance,201-500,Paid Ads
+C00915,Canada,Technology,1-10,Event
+C00916,UK,Manufacturing,51-200,Direct
+C00917,USA,,1000+,Organic Search
+C00918,India,Retail,1000+,Paid Ads
+C00919,France,Manufacturing,501-1000,Referral
+C00920,USA,Finance,51-200,Paid Ads
+C00921,Australia,Manufacturing,1000+,Event
+C00922,UK,Healthcare,501-1000,Direct
+C00923,Australia,,501-1000,Event
+C00924,France,Finance,201-500,Paid Ads
+C00925,UK,Education,11-50,Organic Search
+C00926,USA,Healthcare,201-500,Direct
+C00927,USA,Healthcare,1-10,Direct
+C00928,UK,Education,1000+,Paid Ads
+C00929,Canada,Finance,501-1000,Event
+C00930,USA,Education,11-50,Paid Ads
+C00931,USA,Education,1000+,Direct
+C00932,France,Technology,501-1000,Paid Ads
+C00933,India,Finance,501-1000,Direct
+C00934,UK,Technology,201-500,Event
+C00935,USA,Manufacturing,11-50,Organic Search
+C00936,USA,Education,11-50,Organic Search
+C00937,USA,Manufacturing,1000+,Paid Ads
+C00938,India,Finance,501-1000,Direct
+C00939,USA,Education,11-50,Organic Search
+C00940,Canada,Manufacturing,11-50,Direct
+C00941,USA,Retail,1000+,Event
+C00942,Canada,Healthcare,201-500,Paid Ads
+C00943,Germany,Education,51-200,Direct
+C00944,France,Healthcare,1-10,Paid Ads
+C00945,USA,Technology,51-200,Direct
+C00946,USA,Manufacturing,11-50,Direct
+C00947,USA,Technology,501-1000,Event
+C00948,India,Education,1-10,Paid Ads
+C00949,Australia,Healthcare,1-10,Referral
+C00950,Canada,Healthcare,501-1000,Direct
+C00951,Canada,Manufacturing,1-10,Direct
+C00952,Germany,Education,501-1000,Organic Search
+C00953,USA,Retail,1-10,Paid Ads
+C00954,India,Retail,1000+,Referral
+C00955,UK,Manufacturing,1000+,Event
+C00956,USA,Education,51-200,Referral
+C00957,UK,Manufacturing,1-10,Event
+C00958,USA,Education,201-500,Referral
+C00959,USA,Technology,501-1000,Referral
+C00960,Germany,Manufacturing,1-10,Paid Ads
+C00961,USA,Education,1000+,Organic Search
+C00962,Canada,Retail,1000+,Referral
+C00963,USA,Education,501-1000,Direct
+C00964,USA,Education,201-500,Direct
+C00965,USA,Manufacturing,1-10,Direct
+C00966,USA,Technology,1-10,Organic Search
+C00967,Germany,Technology,201-500,Referral
+C00968,USA,Technology,201-500,Event
+C00969,Canada,Technology,201-500,Event
+C00970,UK,Finance,1000+,Paid Ads
+C00971,Germany,Manufacturing,501-1000,Organic Search
+C00972,India,Healthcare,201-500,Referral
+C00973,Germany,Manufacturing,501-1000,Direct
+C00974,USA,Finance,51-200,Organic Search
+C00975,USA,Technology,1-10,Organic Search
+C00976,USA,Finance,1-10,Referral
+C00977,Canada,Retail,11-50,Paid Ads
+C00978,USA,Retail,51-200,Paid Ads
+C00979,UK,Manufacturing,201-500,Paid Ads
+C00980,Canada,Manufacturing,201-500,Direct
+C00981,USA,Healthcare,1000+,Direct
+C00982,France,Healthcare,51-200,Referral
+C00983,USA,Retail,201-500,Paid Ads
+C00984,USA,Technology,11-50,Referral
+C00985,Germany,Finance,501-1000,Paid Ads
+C00986,UK,Healthcare,1-10,Organic Search
+C00987,Germany,Education,51-200,Event
+C00988,UK,Healthcare,1-10,Event
+C00989,USA,Technology,501-1000,Paid Ads
+C00990,France,Technology,51-200,Referral
+C00991,France,Manufacturing,501-1000,Direct
+C00992,Germany,Finance,201-500,Paid Ads
+C00993,USA,Technology,201-500,Paid Ads
+C00994,Canada,Healthcare,201-500,Direct
+C00995,USA,Healthcare,501-1000,Paid Ads
+C00996,USA,Retail,501-1000,Organic Search
+C00997,India,Technology,501-1000,Direct
+C00998,USA,Education,1-10,Organic Search
+C00999,India,Manufacturing,501-1000,Event
+C01000,UK,Finance,201-500,Direct
+C01001,USA,Education,11-50,Direct
+C01002,UK,Manufacturing,501-1000,Referral
+C01003,Australia,Healthcare,11-50,Referral
+C01004,Germany,Education,201-500,Direct
+C01005,France,Manufacturing,501-1000,Event
+C01006,Germany,Healthcare,1-10,Paid Ads
+C01007,Germany,Healthcare,1-10,Referral
+C01008,France,Healthcare,11-50,Event
+C01009,USA,Healthcare,1000+,Event
+C01010,UK,Healthcare,1-10,Referral
+C01011,USA,Retail,1-10,Paid Ads
+C01012,India,Education,1-10,Referral
+C01013,India,Manufacturing,201-500,Event
+C01014,USA,Retail,1-10,Organic Search
+C01015,Germany,Retail,51-200,Referral
+C01016,India,Technology,501-1000,Event
+C01017,USA,Technology,1-10,Referral
+C01018,Canada,Technology,1000+,Event
+C01019,India,Finance,1000+,Paid Ads
+C01020,USA,Technology,1-10,Event
+C01021,Germany,Manufacturing,1-10,Direct
+C01022,USA,Retail,51-200,Organic Search
+C01023,India,Manufacturing,1-10,Event
+C01024,India,Education,1-10,Referral
+C01025,India,Technology,501-1000,Referral
+C01026,UK,Finance,1000+,Event
+C01027,Australia,Education,51-200,Direct
+C01028,France,Finance,1000+,Event
+C01029,USA,Education,51-200,Paid Ads
+C01030,France,Retail,1000+,Direct
+C01031,USA,Manufacturing,1-10,Event
+C01032,Canada,Healthcare,1000+,Organic Search
+C01033,USA,Manufacturing,1000+,Direct
+C01034,USA,Technology,51-200,Event
+C01035,USA,Healthcare,11-50,Organic Search
+C01036,Germany,Finance,51-200,Event
+C01037,USA,Retail,51-200,Paid Ads
+C01038,Germany,Retail,51-200,Referral
+C01039,USA,Finance,201-500,Event
+C01040,USA,Technology,201-500,Direct
+C01041,UK,Finance,201-500,Event
+C01042,France,Education,51-200,Event
+C01043,USA,Technology,11-50,Event
+C01044,Canada,Healthcare,51-200,Event
+C01045,Australia,Finance,1-10,Direct
+C01046,Canada,Technology,11-50,Direct
+C01047,USA,Healthcare,201-500,Event
+C01048,USA,Finance,1000+,Referral
+C01049,Australia,Retail,1000+,Event
+C01050,USA,Finance,501-1000,Direct
+C01051,Australia,Manufacturing,11-50,Paid Ads
+C01052,UK,Finance,201-500,Event
+C01053,India,Manufacturing,11-50,Event
+C01054,France,Healthcare,11-50,Event
+C01055,India,Finance,1000+,Event
+C01056,USA,Healthcare,51-200,Organic Search
+C01057,France,Healthcare,1-10,Event
+C01058,UK,Technology,501-1000,Direct
+C01059,UK,Healthcare,201-500,Direct
+C01060,Canada,Healthcare,11-50,Organic Search
+C01061,Australia,Finance,501-1000,Event
+C01062,India,,11-50,Referral
+C01063,France,Retail,1000+,Event
+C01064,UK,Technology,1-10,Direct
+C01065,UK,,1000+,Paid Ads
+C01066,Germany,Technology,501-1000,Paid Ads
+C01067,USA,Manufacturing,201-500,Referral
+C01068,USA,Healthcare,11-50,Event
+C01069,USA,Technology,1-10,Organic Search
+C01070,USA,Retail,1000+,Event
+C01071,USA,Retail,501-1000,Referral
+C01072,USA,Healthcare,1000+,Referral
+C01073,USA,Manufacturing,11-50,Referral
+C01074,USA,Retail,11-50,Paid Ads
+C01075,India,Retail,201-500,Event
+C01076,UK,Manufacturing,1-10,Event
+C01077,USA,Technology,51-200,Organic Search
+C01078,Germany,Retail,1000+,Referral
+C01079,USA,Finance,11-50,Referral
+C01080,India,Education,501-1000,Direct
+C01081,France,Education,1000+,Direct
+C01082,USA,,201-500,Paid Ads
+C01083,UK,Technology,201-500,Event
+C01084,Australia,Technology,11-50,Organic Search
+C01085,India,Healthcare,11-50,Organic Search
+C01086,UK,Finance,11-50,Referral
+C01087,Canada,Technology,51-200,Organic Search
+C01088,USA,Manufacturing,11-50,Referral
+C01089,India,Finance,1000+,Event
+C01090,USA,Education,1000+,Organic Search
+C01091,India,Finance,1-10,Referral
+C01092,Canada,Manufacturing,501-1000,Event
+C01093,Canada,Retail,11-50,Event
+C01094,UK,Manufacturing,1000+,Referral
+C01095,USA,Manufacturing,1000+,Referral
+C01096,USA,,1000+,Paid Ads
+C01097,USA,Retail,51-200,Event
+C01098,USA,Retail,501-1000,Referral
+C01099,France,Retail,201-500,Event
+C01100,USA,Retail,1000+,Organic Search
+C01101,USA,Manufacturing,11-50,Direct
+C01102,India,Healthcare,1000+,Direct
+C01103,Australia,Healthcare,501-1000,Referral
+C01104,India,,201-500,Referral
+C01105,India,Healthcare,51-200,Event
+C01106,USA,Education,1-10,Referral
+C01107,USA,Healthcare,11-50,Event
+C01108,France,Manufacturing,1-10,Referral
+C01109,Germany,Retail,51-200,Event
+C01110,USA,Retail,501-1000,Referral
+C01111,France,Manufacturing,501-1000,Paid Ads
+C01112,USA,Education,51-200,Event
+C01113,USA,Healthcare,1000+,Paid Ads
+C01114,UK,Manufacturing,51-200,Paid Ads
+C01115,Canada,Technology,11-50,Paid Ads
+C01116,Canada,Retail,201-500,Paid Ads
+C01117,USA,Finance,1-10,Organic Search
+C01118,Australia,Technology,1-10,Direct
+C01119,USA,Education,501-1000,Organic Search
+C01120,USA,Technology,1000+,Referral
+C01121,Australia,Manufacturing,501-1000,Referral
+C01122,India,Healthcare,11-50,Direct
+C01123,Australia,Retail,51-200,Direct
+C01124,France,Education,1-10,Direct
+C01125,Germany,Education,11-50,Paid Ads
+C01126,Canada,Finance,501-1000,Organic Search
+C01127,USA,Technology,501-1000,Referral
+C01128,UK,Finance,1-10,Organic Search
+C01129,USA,Healthcare,501-1000,Organic Search
+C01130,USA,Healthcare,1000+,Organic Search
+C01131,Germany,Finance,501-1000,Direct
+C01132,UK,Retail,201-500,Direct
+C01133,USA,Healthcare,51-200,Referral
+C01134,USA,Finance,501-1000,Referral
+C01135,Germany,Technology,201-500,Referral
+C01136,USA,Finance,11-50,Organic Search
+C01137,Australia,Finance,501-1000,Direct
+C01138,UK,Manufacturing,1000+,Paid Ads
+C01139,UK,Healthcare,11-50,Organic Search
+C01140,Canada,Retail,501-1000,Event
+C01141,France,Retail,1-10,Organic Search
+C01142,USA,Manufacturing,201-500,Direct
+C01143,Germany,Education,201-500,Event
+C01144,Canada,Retail,1-10,Organic Search
+C01145,USA,Finance,51-200,Direct
+C01146,Australia,Manufacturing,1000+,Direct
+C01147,France,Technology,201-500,Paid Ads
+C01148,Germany,Healthcare,11-50,Organic Search
+C01149,Australia,Healthcare,1000+,Direct
+C01150,Australia,Healthcare,201-500,Referral
+C01151,Germany,Finance,51-200,Direct
+C01152,France,Technology,11-50,Paid Ads
+C01153,Germany,Manufacturing,1000+,Direct
+C01154,Germany,Manufacturing,11-50,Organic Search
+C01155,Canada,Healthcare,1-10,Organic Search
+C01156,France,Technology,501-1000,Event
+C01157,USA,Technology,1-10,Organic Search
+C01158,Australia,Technology,1000+,Event
+C01159,Australia,Retail,501-1000,Referral
+C01160,USA,Retail,1-10,Paid Ads
+C01161,France,Healthcare,501-1000,Referral
+C01162,USA,Technology,201-500,Event
+C01163,USA,Education,11-50,Direct
+C01164,Germany,Technology,501-1000,Direct
+C01165,USA,Manufacturing,201-500,Referral
+C01166,France,Manufacturing,51-200,Direct
+C01167,France,Healthcare,1-10,Event
+C01168,UK,Education,51-200,Paid Ads
+C01169,USA,Technology,1000+,Organic Search
+C01170,USA,Education,201-500,Event
+C01171,Canada,Healthcare,51-200,Event
+C01172,India,Manufacturing,51-200,Organic Search
+C01173,Canada,Manufacturing,201-500,Organic Search
+C01174,USA,Retail,11-50,Paid Ads
+C01175,Canada,Healthcare,501-1000,Paid Ads
+C01176,UK,Healthcare,1000+,Paid Ads
+C01177,France,Technology,1000+,Direct
+C01178,USA,Technology,1-10,Event
+C01179,France,Retail,501-1000,Organic Search
+C01180,UK,Finance,1-10,Event
+C01181,India,Education,1000+,Event
+C01182,USA,Finance,501-1000,Paid Ads
+C01183,Canada,Finance,51-200,Paid Ads
+C01184,India,Healthcare,11-50,Event
+C01185,USA,Education,51-200,Paid Ads
+C01186,India,Healthcare,11-50,Direct
+C01187,Germany,Education,201-500,Organic Search
+C01188,USA,Manufacturing,1-10,Event
+C01189,USA,Healthcare,1-10,Organic Search
+C01190,Germany,Healthcare,201-500,Direct
+C01191,USA,Healthcare,501-1000,Paid Ads
+C01192,Canada,,201-500,Referral
+C01193,USA,Healthcare,1000+,Direct
+C01194,Canada,Technology,201-500,Referral
+C01195,USA,Technology,11-50,Organic Search
+C01196,Australia,Education,1000+,Event
+C01197,India,Manufacturing,201-500,Paid Ads
+C01198,India,Retail,1-10,Direct
+C01199,Germany,Education,51-200,Paid Ads
+C01200,USA,Technology,11-50,Referral
+C01201,France,Retail,11-50,Referral
+C01202,USA,Retail,501-1000,Event
+C01203,USA,Manufacturing,51-200,Referral
+C01204,USA,Retail,11-50,Event
+C01205,UK,Healthcare,201-500,Direct
+C01206,France,Retail,11-50,Event
+C01207,Germany,Manufacturing,11-50,Referral
+C01208,UK,Education,11-50,Organic Search
+C01209,USA,Manufacturing,501-1000,Event
+C01210,India,Manufacturing,11-50,Paid Ads
+C01211,UK,Technology,11-50,Organic Search
+C01212,UK,Healthcare,501-1000,Event
+C01213,USA,Technology,1000+,Paid Ads
+C01214,France,Education,51-200,Organic Search
+C01215,Germany,Finance,1000+,Event
+C01216,USA,Education,1-10,Direct
+C01217,USA,Healthcare,501-1000,Paid Ads
+C01218,Germany,Retail,501-1000,Direct
+C01219,Germany,Manufacturing,11-50,Referral
+C01220,USA,Finance,11-50,Event
+C01221,India,Healthcare,1-10,Event
+C01222,USA,Technology,11-50,Paid Ads
+C01223,UK,Manufacturing,201-500,Event
+C01224,India,Education,11-50,Referral
+C01225,UK,Technology,11-50,Event
+C01226,Canada,Healthcare,201-500,Organic Search
+C01227,USA,Healthcare,1-10,Direct
+C01228,USA,Education,201-500,Referral
+C01229,India,Finance,501-1000,Referral
+C01230,UK,Education,201-500,Direct
+C01231,Australia,Retail,51-200,Direct
+C01232,USA,Technology,501-1000,Referral
+C01233,USA,Finance,11-50,Direct
+C01234,USA,Manufacturing,501-1000,Paid Ads
+C01235,Germany,Retail,1-10,Direct
+C01236,USA,Finance,1-10,Organic Search
+C01237,Australia,Technology,201-500,Organic Search
+C01238,UK,Healthcare,501-1000,Paid Ads
+C01239,India,Manufacturing,11-50,Direct
+C01240,USA,Education,1-10,Organic Search
+C01241,Australia,,1000+,Event
+C01242,France,Retail,11-50,Direct
+C01243,France,Retail,1000+,Paid Ads
+C01244,France,Healthcare,51-200,Direct
+C01245,France,Healthcare,1000+,Referral
+C01246,Canada,Manufacturing,1-10,Referral
+C01247,USA,Education,201-500,Organic Search
+C01248,USA,Manufacturing,51-200,Referral
+C01249,India,Healthcare,501-1000,Paid Ads
+C01250,Canada,Healthcare,11-50,Organic Search
+C01251,France,Retail,1-10,Paid Ads
+C01252,UK,Healthcare,51-200,Paid Ads
+C01253,USA,Finance,51-200,Referral
+C01254,USA,Technology,1-10,Referral
+C01255,Germany,,501-1000,Paid Ads
+C01256,UK,Manufacturing,501-1000,Referral
+C01257,USA,Education,201-500,Referral
+C01258,UK,Education,1000+,Referral
+C01259,USA,Education,501-1000,Direct
+C01260,Canada,Finance,201-500,Paid Ads
+C01261,USA,Manufacturing,1000+,Event
+C01262,France,Finance,51-200,Paid Ads
+C01263,USA,Healthcare,1-10,Organic Search
+C01264,UK,Technology,501-1000,Referral
+C01265,USA,Education,201-500,Referral
+C01266,USA,Manufacturing,51-200,Event
+C01267,USA,Education,501-1000,Organic Search
+C01268,UK,Finance,11-50,Direct
+C01269,Canada,Retail,51-200,Paid Ads
+C01270,USA,Healthcare,501-1000,Direct
+C01271,Germany,Technology,51-200,Organic Search
+C01272,Australia,Healthcare,1-10,Event
+C01273,France,Retail,1-10,Organic Search
+C01274,USA,Technology,1-10,Event
+C01275,UK,Retail,1000+,Direct
+C01276,USA,Healthcare,11-50,Direct
+C01277,USA,Finance,1-10,Organic Search
+C01278,India,Healthcare,11-50,Organic Search
+C01279,USA,Healthcare,1-10,Referral
+C01280,UK,Healthcare,1000+,Event
+C01281,Canada,Manufacturing,51-200,Referral
+C01282,Germany,Retail,501-1000,Paid Ads
+C01283,Canada,Retail,501-1000,Paid Ads
+C01284,USA,Education,1-10,Organic Search
+C01285,USA,Retail,501-1000,Direct
+C01286,UK,Education,1-10,Paid Ads
+C01287,USA,Manufacturing,1-10,Paid Ads
+C01288,USA,Finance,201-500,Referral
+C01289,USA,Education,201-500,Referral
+C01290,USA,Healthcare,201-500,Paid Ads
+C01291,USA,Finance,11-50,Organic Search
+C01292,USA,Manufacturing,201-500,Referral
+C01293,Canada,Retail,1-10,Paid Ads
+C01294,Germany,Education,1000+,Direct
+C01295,France,Healthcare,1000+,Referral
+C01296,USA,Technology,51-200,Paid Ads
+C01297,USA,Technology,201-500,Event
+C01298,USA,Finance,1000+,Referral
+C01299,Canada,Retail,201-500,Event
+C01300,Germany,Technology,51-200,Referral
+C01301,USA,Finance,1000+,Referral
+C01302,India,Manufacturing,1-10,Event
+C01303,USA,Finance,11-50,Organic Search
+C01304,UK,Finance,201-500,Paid Ads
+C01305,Germany,Finance,1000+,Organic Search
+C01306,Australia,Healthcare,1000+,Organic Search
+C01307,Germany,Finance,51-200,Paid Ads
+C01308,France,Education,1-10,Direct
+C01309,USA,Finance,501-1000,Organic Search
+C01310,France,Healthcare,1000+,Organic Search
+C01311,USA,Healthcare,11-50,Organic Search
+C01312,Australia,Manufacturing,51-200,Direct
+C01313,UK,Retail,1000+,Referral
+C01314,France,Technology,1000+,Event
+C01315,UK,Technology,51-200,Event
+C01316,Canada,Finance,51-200,Direct
+C01317,UK,Manufacturing,201-500,Organic Search
+C01318,Germany,Finance,1000+,Event
+C01319,USA,Technology,501-1000,Direct
+C01320,USA,Healthcare,11-50,Paid Ads
+C01321,USA,Retail,1-10,Event
+C01322,USA,Manufacturing,1-10,Paid Ads
+C01323,Australia,Healthcare,501-1000,Organic Search
+C01324,USA,Retail,51-200,Event
+C01325,India,Manufacturing,51-200,Direct
+C01326,USA,Manufacturing,51-200,Referral
+C01327,USA,Technology,1000+,Event
+C01328,France,Healthcare,51-200,Event
+C01329,Germany,Manufacturing,51-200,Event
+C01330,UK,Education,1000+,Event
+C01331,Canada,Manufacturing,1000+,Direct
+C01332,Germany,Retail,501-1000,Direct
+C01333,USA,Technology,201-500,Referral
+C01334,India,Finance,1000+,Direct
+C01335,India,Technology,11-50,Direct
+C01336,Germany,Finance,51-200,Organic Search
+C01337,USA,Healthcare,201-500,Organic Search
+C01338,Germany,,1-10,Paid Ads
+C01339,USA,Manufacturing,501-1000,Referral
+C01340,USA,Education,201-500,Organic Search
+C01341,USA,Healthcare,1000+,Referral
+C01342,UK,Manufacturing,51-200,Referral
+C01343,Australia,Technology,51-200,Event
+C01344,Germany,Healthcare,51-200,Referral
+C01345,Germany,Technology,201-500,Event
+C01346,UK,Technology,51-200,Paid Ads
+C01347,USA,Education,1000+,Paid Ads
+C01348,USA,Healthcare,201-500,Paid Ads
+C01349,India,Technology,51-200,Event
+C01350,USA,Education,1-10,Event
+C01351,Australia,Education,1-10,Paid Ads
+C01352,Canada,Healthcare,11-50,Event
+C01353,UK,Education,51-200,Direct
+C01354,Germany,Healthcare,51-200,Direct
+C01355,UK,Healthcare,201-500,Event
+C01356,Australia,Finance,201-500,Event
+C01357,India,Technology,51-200,Organic Search
+C01358,UK,,11-50,Organic Search
+C01359,USA,Healthcare,51-200,Referral
+C01360,Canada,Technology,1000+,Referral
+C01361,India,Education,201-500,Referral
+C01362,USA,Manufacturing,51-200,Paid Ads
+C01363,Canada,Healthcare,201-500,Direct
+C01364,Canada,Education,51-200,Paid Ads
+C01365,Germany,Education,501-1000,Event
+C01366,USA,Education,201-500,Organic Search
+C01367,Germany,Education,11-50,Event
+C01368,India,Education,501-1000,Event
+C01369,USA,Healthcare,1000+,Organic Search
+C01370,USA,Retail,51-200,Event
+C01371,India,Finance,1000+,Referral
+C01372,USA,Education,201-500,Organic Search
+C01373,Australia,Education,501-1000,Event
+C01374,UK,Finance,1000+,Referral
+C01375,USA,Healthcare,11-50,Referral
+C01376,Australia,Technology,201-500,Direct
+C01377,UK,Manufacturing,501-1000,Referral
+C01378,UK,Manufacturing,1000+,Paid Ads
+C01379,USA,Technology,501-1000,Organic Search
+C01380,Canada,Healthcare,501-1000,Organic Search
+C01381,USA,Manufacturing,1000+,Organic Search
+C01382,USA,Finance,1-10,Event
+C01383,India,Technology,51-200,Event
+C01384,USA,Retail,201-500,Paid Ads
+C01385,Germany,Healthcare,201-500,Referral
+C01386,USA,Technology,201-500,Event
+C01387,France,Manufacturing,501-1000,Referral
+C01388,USA,Healthcare,1000+,Referral
+C01389,India,Finance,51-200,Event
+C01390,UK,Healthcare,11-50,Event
+C01391,USA,Healthcare,201-500,Paid Ads
+C01392,USA,Finance,1000+,Direct
+C01393,USA,Education,51-200,Organic Search
+C01394,UK,Finance,51-200,Event
+C01395,USA,Healthcare,1-10,Event
+C01396,France,Finance,1000+,Referral
+C01397,UK,Education,201-500,Direct
+C01398,USA,Technology,501-1000,Event
+C01399,Canada,Finance,51-200,Direct
+C01400,Germany,Finance,51-200,Organic Search
+C01401,USA,Healthcare,11-50,Referral
+C01402,USA,Technology,1-10,Paid Ads
+C01403,USA,Retail,51-200,Organic Search
+C01404,Germany,Retail,51-200,Direct
+C01405,Germany,Manufacturing,501-1000,Direct
+C01406,UK,Finance,501-1000,Organic Search
+C01407,France,Finance,11-50,Direct
+C01408,France,Technology,1000+,Paid Ads
+C01409,Canada,Education,11-50,Paid Ads
+C01410,Australia,Retail,11-50,Direct
+C01411,USA,Manufacturing,501-1000,Direct
+C01412,USA,Technology,1000+,Paid Ads
+C01413,USA,Finance,501-1000,Direct
+C01414,USA,Retail,1-10,Event
+C01415,UK,Manufacturing,201-500,Referral
+C01416,India,Healthcare,201-500,Event
+C01417,USA,Retail,1-10,Direct
+C01418,USA,Manufacturing,201-500,Direct
+C01419,UK,Technology,1000+,Referral
+C01420,India,Healthcare,501-1000,Direct
+C01421,USA,Manufacturing,201-500,Referral
+C01422,UK,Manufacturing,1000+,Paid Ads
+C01423,USA,Finance,501-1000,Referral
+C01424,USA,Education,1000+,Referral
+C01425,India,Retail,1-10,Event
+C01426,India,Finance,11-50,Direct
+C01427,USA,Healthcare,1-10,Paid Ads
+C01428,India,Education,201-500,Organic Search
+C01429,Canada,Manufacturing,501-1000,Referral
+C01430,Australia,Finance,1000+,Organic Search
+C01431,UK,Education,201-500,Direct
+C01432,UK,Retail,201-500,Referral
+C01433,UK,Healthcare,11-50,Organic Search
+C01434,Germany,Technology,201-500,Event
+C01435,USA,Finance,11-50,Organic Search
+C01436,USA,Healthcare,501-1000,Event
+C01437,USA,Technology,501-1000,Paid Ads
+C01438,Germany,Finance,1000+,Direct
+C01439,USA,Healthcare,11-50,Organic Search
+C01440,Germany,Healthcare,1-10,Referral
+C01441,India,Education,501-1000,Direct
+C01442,USA,Finance,1000+,Organic Search
+C01443,Germany,Healthcare,1-10,Referral
+C01444,UK,Manufacturing,501-1000,Referral
+C01445,Australia,Finance,501-1000,Referral
+C01446,USA,Healthcare,1000+,Referral
+C01447,Germany,Education,1000+,Organic Search
+C01448,France,Technology,51-200,Paid Ads
+C01449,India,Technology,201-500,Event
+C01450,Germany,Manufacturing,201-500,Event
+C01451,UK,Finance,1-10,Event
+C01452,Canada,Education,201-500,Paid Ads
+C01453,Australia,Healthcare,1-10,Referral
+C01454,Canada,Healthcare,501-1000,Referral
+C01455,USA,Technology,51-200,Direct
+C01456,India,Education,51-200,Event
+C01457,Germany,,501-1000,Event
+C01458,Germany,Technology,1000+,Referral
+C01459,USA,Technology,11-50,Event
+C01460,Germany,Manufacturing,11-50,Referral
+C01461,USA,Finance,201-500,Referral
+C01462,Germany,Healthcare,1000+,Referral
+C01463,USA,Finance,1-10,Organic Search
+C01464,Germany,Education,51-200,Organic Search
+C01465,India,Retail,201-500,Organic Search
+C01466,USA,Retail,501-1000,Organic Search
+C01467,India,Retail,1000+,Paid Ads
+C01468,UK,,51-200,Direct
+C01469,Australia,Technology,1-10,Direct
+C01470,France,Finance,1-10,Referral
+C01471,Canada,Healthcare,11-50,Event
+C01472,Germany,,201-500,Organic Search
+C01473,Australia,,501-1000,Direct
+C01474,UK,Retail,51-200,Direct
+C01475,USA,Retail,1-10,Organic Search
+C01476,Germany,Healthcare,51-200,Paid Ads
+C01477,France,Education,501-1000,Paid Ads
+C01478,France,Education,51-200,Direct
+C01479,France,Education,201-500,Paid Ads
+C01480,UK,Manufacturing,11-50,Organic Search
+C01481,France,Technology,51-200,Direct
+C01482,USA,Manufacturing,1000+,Organic Search
+C01483,UK,Finance,11-50,Paid Ads
+C01484,USA,Manufacturing,501-1000,Organic Search
+C01485,USA,Finance,11-50,Paid Ads
+C01486,USA,Finance,51-200,Paid Ads
+C01487,USA,Technology,51-200,Organic Search
+C01488,Germany,,1000+,Paid Ads
+C01489,USA,Technology,1-10,Referral
+C01490,UK,Education,1000+,Organic Search
+C01491,USA,Education,51-200,Referral
+C01492,USA,Manufacturing,11-50,Organic Search
+C01493,USA,Finance,1000+,Paid Ads
+C01494,USA,Retail,1000+,Paid Ads
+C01495,Canada,Retail,1-10,Direct
+C01496,Germany,Finance,51-200,Direct
+C01497,Canada,Technology,51-200,Referral
+C01498,UK,Healthcare,501-1000,Paid Ads
+C01499,USA,Technology,1-10,Direct
+C01500,Australia,Finance,501-1000,Paid Ads
+C01501,UK,Finance,501-1000,Organic Search
+C01502,UK,Healthcare,501-1000,Direct
+C01503,USA,,201-500,Referral
+C01504,USA,Manufacturing,501-1000,Direct
+C01505,USA,Healthcare,1000+,Paid Ads
+C01506,USA,Manufacturing,11-50,Event
+C01507,Canada,Retail,1000+,Event
+C01508,UK,Manufacturing,1000+,Paid Ads
+C01509,Canada,Manufacturing,51-200,Organic Search
+C01510,France,Manufacturing,201-500,Direct
+C01511,France,Retail,501-1000,Event
+C01512,Germany,,51-200,Organic Search
+C01513,India,Education,1-10,Paid Ads
+C01514,USA,Retail,1-10,Organic Search
+C01515,USA,Healthcare,51-200,Paid Ads
+C01516,USA,Technology,11-50,Direct
+C01517,Canada,Healthcare,51-200,Organic Search
+C01518,Australia,Technology,51-200,Direct
+C01519,USA,Healthcare,201-500,Organic Search
+C01520,India,Education,1-10,Paid Ads
+C01521,USA,Technology,1-10,Paid Ads
+C01522,India,Technology,501-1000,Organic Search
+C01523,USA,Finance,1000+,Paid Ads
+C01524,USA,Technology,51-200,Referral
+C01525,UK,Technology,51-200,Referral
+C01526,USA,Finance,11-50,Direct
+C01527,USA,Manufacturing,1-10,Referral
+C01528,USA,Manufacturing,11-50,Referral
+C01529,France,Finance,201-500,Event
+C01530,UK,Retail,501-1000,Event
+C01531,USA,Technology,11-50,Event
+C01532,Canada,Technology,1-10,Event
+C01533,Germany,Finance,201-500,Paid Ads
+C01534,USA,,51-200,Direct
+C01535,UK,Retail,201-500,Direct
+C01536,USA,Education,1000+,Referral
+C01537,USA,Manufacturing,11-50,Direct
+C01538,Germany,Healthcare,1-10,Referral
+C01539,USA,Education,11-50,Direct
+C01540,UK,Manufacturing,51-200,Organic Search
+C01541,Germany,,51-200,Organic Search
+C01542,USA,Education,1-10,Direct
+C01543,Canada,Finance,1000+,Paid Ads
+C01544,USA,Retail,501-1000,Referral
+C01545,India,,201-500,Direct
+C01546,UK,Retail,201-500,Referral
+C01547,France,Manufacturing,51-200,Event
+C01548,Canada,Education,11-50,Direct
+C01549,USA,Technology,11-50,Paid Ads
+C01550,Canada,Healthcare,1000+,Event
+C01551,India,Retail,501-1000,Direct
+C01552,Canada,Retail,11-50,Organic Search
+C01553,France,Healthcare,201-500,Direct
+C01554,Australia,Retail,11-50,Organic Search
+C01555,USA,Retail,501-1000,Organic Search
+C01556,USA,Manufacturing,201-500,Direct
+C01557,Canada,Manufacturing,11-50,Direct
+C01558,UK,Healthcare,201-500,Organic Search
+C01559,France,Technology,51-200,Referral
+C01560,India,Education,51-200,Event
+C01561,USA,Education,1000+,Paid Ads
+C01562,USA,Retail,51-200,Direct
+C01563,France,Technology,11-50,Event
+C01564,USA,Healthcare,501-1000,Event
+C01565,France,Healthcare,201-500,Referral
+C01566,UK,Manufacturing,1-10,Event
+C01567,Germany,Retail,51-200,Direct
+C01568,USA,Finance,51-200,Event
+C01569,Canada,Healthcare,1-10,Direct
+C01570,UK,Retail,1-10,Direct
+C01571,Canada,Technology,11-50,Organic Search
+C01572,USA,Manufacturing,201-500,Referral
+C01573,Germany,Education,51-200,Paid Ads
+C01574,Australia,Technology,501-1000,Organic Search
+C01575,USA,Healthcare,11-50,Paid Ads
+C01576,USA,,11-50,Direct
+C01577,USA,Technology,501-1000,Organic Search
+C01578,Canada,Healthcare,501-1000,Event
+C01579,Canada,Retail,1000+,Event
+C01580,UK,Healthcare,501-1000,Paid Ads
+C01581,USA,Manufacturing,1-10,Direct
+C01582,USA,Retail,51-200,Paid Ads
+C01583,Canada,Finance,1000+,Referral
+C01584,UK,Healthcare,1-10,Event
+C01585,India,Healthcare,1000+,Organic Search
+C01586,USA,Manufacturing,51-200,Organic Search
+C01587,Germany,Manufacturing,1000+,Organic Search
+C01588,UK,Education,1-10,Event
+C01589,UK,,201-500,Direct
+C01590,Germany,Technology,51-200,Event
+C01591,Germany,Technology,11-50,Event
+C01592,India,Manufacturing,51-200,Organic Search
+C01593,USA,Technology,51-200,Event
+C01594,USA,Technology,51-200,Organic Search
+C01595,Germany,Finance,201-500,Direct
+C01596,Canada,Technology,1-10,Referral
+C01597,USA,Healthcare,11-50,Organic Search
+C01598,USA,Education,1-10,Paid Ads
+C01599,USA,Manufacturing,1000+,Referral
+C01600,Australia,Retail,1000+,Direct
+C01601,USA,Education,1000+,Referral
+C01602,USA,Finance,1-10,Organic Search
+C01603,USA,Manufacturing,501-1000,Direct
+C01604,USA,Manufacturing,201-500,Paid Ads
+C01605,USA,Healthcare,501-1000,Organic Search
+C01606,UK,Education,1000+,Organic Search
+C01607,USA,Education,201-500,Direct
+C01608,France,Technology,1-10,Direct
+C01609,USA,Healthcare,1000+,Referral
+C01610,UK,Technology,1-10,Paid Ads
+C01611,Australia,Technology,201-500,Referral
+C01612,Germany,Manufacturing,1-10,Referral
+C01613,UK,Education,1-10,Organic Search
+C01614,USA,Technology,11-50,Direct
+C01615,USA,Finance,501-1000,Organic Search
+C01616,Germany,Finance,501-1000,Paid Ads
+C01617,India,Education,501-1000,Referral
+C01618,Germany,Finance,51-200,Paid Ads
+C01619,Canada,Manufacturing,11-50,Direct
+C01620,Germany,Healthcare,1000+,Direct
+C01621,UK,Retail,1000+,Event
+C01622,USA,Technology,1000+,Paid Ads
+C01623,Canada,Retail,501-1000,Organic Search
+C01624,India,Healthcare,501-1000,Paid Ads
+C01625,USA,Healthcare,11-50,Referral
+C01626,Germany,Manufacturing,1-10,Direct
+C01627,USA,,501-1000,Direct
+C01628,UK,Finance,1000+,Paid Ads
+C01629,USA,Healthcare,1-10,Paid Ads
+C01630,UK,Manufacturing,501-1000,Paid Ads
+C01631,France,Manufacturing,201-500,Referral
+C01632,USA,Education,51-200,Referral
+C01633,Germany,Technology,501-1000,Organic Search
+C01634,France,Finance,201-500,Paid Ads
+C01635,India,Healthcare,11-50,Organic Search
+C01636,USA,Education,201-500,Event
+C01637,USA,Retail,11-50,Referral
+C01638,USA,,501-1000,Direct
+C01639,India,Technology,11-50,Event
+C01640,India,Manufacturing,201-500,Direct
+C01641,UK,Healthcare,51-200,Event
+C01642,France,Finance,1-10,Organic Search
+C01643,UK,Retail,1-10,Organic Search
+C01644,Canada,Technology,51-200,Referral
+C01645,USA,Technology,1000+,Direct
+C01646,France,Education,1-10,Event
+C01647,USA,Finance,501-1000,Paid Ads
+C01648,France,Retail,1000+,Paid Ads
+C01649,France,Technology,501-1000,Referral
+C01650,Germany,Healthcare,201-500,Direct
+C01651,USA,Technology,201-500,Paid Ads
+C01652,USA,Retail,1000+,Referral
+C01653,USA,,1000+,Referral
+C01654,USA,Manufacturing,1000+,Direct
+C01655,USA,Education,1000+,Paid Ads
+C01656,India,Finance,11-50,Paid Ads
+C01657,Canada,Retail,1000+,Paid Ads
+C01658,USA,Education,1000+,Organic Search
+C01659,USA,Technology,201-500,Paid Ads
+C01660,UK,Technology,501-1000,Event
+C01661,Canada,Manufacturing,201-500,Organic Search
+C01662,UK,Education,1-10,Organic Search
+C01663,India,Manufacturing,11-50,Organic Search
+C01664,UK,Healthcare,11-50,Organic Search
+C01665,India,Manufacturing,501-1000,Referral
+C01666,Australia,Healthcare,1000+,Event
+C01667,USA,Technology,201-500,Direct
+C01668,India,Education,1-10,Paid Ads
+C01669,USA,Healthcare,201-500,Organic Search
+C01670,France,Education,1000+,Direct
+C01671,USA,Education,1000+,Referral
+C01672,Australia,Healthcare,51-200,Direct
+C01673,Australia,Finance,201-500,Organic Search
+C01674,France,Manufacturing,501-1000,Event
+C01675,France,Healthcare,201-500,Direct
+C01676,USA,Technology,11-50,Organic Search
+C01677,USA,Education,1-10,Organic Search
+C01678,UK,Retail,501-1000,Paid Ads
+C01679,USA,Healthcare,51-200,Paid Ads
+C01680,Germany,Manufacturing,1-10,Event
+C01681,USA,Education,1-10,Paid Ads
+C01682,India,Finance,11-50,Event
+C01683,Canada,Technology,11-50,Referral
+C01684,France,Finance,11-50,Referral
+C01685,USA,Retail,501-1000,Paid Ads
+C01686,Australia,Healthcare,201-500,Referral
+C01687,India,Education,1-10,Direct
+C01688,UK,Healthcare,201-500,Direct
+C01689,Canada,Manufacturing,201-500,Direct
+C01690,France,Healthcare,11-50,Referral
+C01691,USA,,201-500,Direct
+C01692,UK,Retail,1-10,Event
+C01693,USA,Finance,1-10,Organic Search
+C01694,USA,Retail,1000+,Paid Ads
+C01695,USA,Education,51-200,Event
+C01696,USA,Healthcare,501-1000,Direct
+C01697,USA,Education,201-500,Organic Search
+C01698,USA,Finance,501-1000,Paid Ads
+C01699,India,Education,501-1000,Event
+C01700,UK,Manufacturing,501-1000,Paid Ads
+C01701,India,Retail,1000+,Referral
+C01702,UK,Finance,501-1000,Direct
+C01703,USA,Finance,1000+,Event
+C01704,UK,Finance,1-10,Event
+C01705,UK,Technology,201-500,Organic Search
+C01706,USA,,1000+,Organic Search
+C01707,Canada,Education,51-200,Organic Search
+C01708,USA,Finance,501-1000,Paid Ads
+C01709,Canada,Retail,51-200,Direct
+C01710,Germany,Finance,1-10,Paid Ads
+C01711,USA,Manufacturing,1-10,Direct
+C01712,USA,Manufacturing,11-50,Event
+C01713,France,Manufacturing,501-1000,Paid Ads
+C01714,UK,Healthcare,11-50,Paid Ads
+C01715,USA,Finance,51-200,Paid Ads
+C01716,India,,201-500,Referral
+C01717,USA,Retail,11-50,Direct
+C01718,Germany,Healthcare,1-10,Direct
+C01719,India,Retail,501-1000,Paid Ads
+C01720,USA,Retail,51-200,Referral
+C01721,USA,Retail,1000+,Paid Ads
+C01722,USA,Education,1-10,Direct
+C01723,USA,Healthcare,1000+,Event
+C01724,USA,Education,201-500,Referral
+C01725,Germany,Finance,501-1000,Referral
+C01726,USA,Healthcare,201-500,Paid Ads
+C01727,UK,Finance,201-500,Event
+C01728,India,Finance,501-1000,Direct
+C01729,France,Retail,501-1000,Organic Search
+C01730,Canada,Healthcare,1000+,Direct
+C01731,USA,Finance,201-500,Direct
+C01732,Canada,Manufacturing,51-200,Event
+C01733,UK,,1000+,Referral
+C01734,UK,Manufacturing,501-1000,Direct
+C01735,USA,Healthcare,1-10,Referral
+C01736,Australia,Education,1000+,Event
+C01737,UK,,11-50,Event
+C01738,USA,Education,51-200,Paid Ads
+C01739,USA,Education,1000+,Organic Search
+C01740,UK,Healthcare,501-1000,Event
+C01741,France,Finance,501-1000,Event
+C01742,Germany,Technology,51-200,Referral
+C01743,France,Finance,11-50,Event
+C01744,USA,Finance,1000+,Direct
+C01745,UK,Retail,1000+,Paid Ads
+C01746,UK,Retail,201-500,Paid Ads
+C01747,USA,Finance,1-10,Direct
+C01748,USA,Manufacturing,501-1000,Event
+C01749,France,Education,1000+,Organic Search
+C01750,USA,Retail,1000+,Event
+C01751,UK,Finance,1000+,Paid Ads
+C01752,USA,Technology,11-50,Organic Search
+C01753,USA,Manufacturing,1-10,Referral
+C01754,USA,Healthcare,1000+,Referral
+C01755,India,Finance,51-200,Event
+C01756,France,Finance,501-1000,Event
+C01757,India,Education,201-500,Organic Search
+C01758,UK,Manufacturing,51-200,Organic Search
+C01759,USA,Retail,501-1000,Event
+C01760,UK,Retail,11-50,Paid Ads
+C01761,UK,Retail,1-10,Referral
+C01762,France,Healthcare,1-10,Organic Search
+C01763,USA,Manufacturing,501-1000,Paid Ads
+C01764,UK,Manufacturing,51-200,Event
+C01765,USA,Retail,201-500,Direct
+C01766,USA,Retail,11-50,Organic Search
+C01767,Germany,Education,501-1000,Direct
+C01768,UK,Technology,11-50,Paid Ads
+C01769,USA,Technology,1-10,Referral
+C01770,USA,Finance,1000+,Paid Ads
+C01771,UK,Finance,1000+,Referral
+C01772,France,Manufacturing,201-500,Paid Ads
+C01773,Australia,Manufacturing,11-50,Organic Search
+C01774,India,Healthcare,501-1000,Organic Search
+C01775,France,Healthcare,201-500,Direct
+C01776,USA,Technology,51-200,Paid Ads
+C01777,Germany,Finance,1000+,Paid Ads
+C01778,UK,Technology,501-1000,Direct
+C01779,USA,Technology,11-50,Event
+C01780,France,Finance,201-500,Paid Ads
+C01781,USA,Healthcare,501-1000,Paid Ads
+C01782,India,Education,201-500,Paid Ads
+C01783,UK,Education,201-500,Event
+C01784,Canada,Education,201-500,Organic Search
+C01785,Germany,Finance,11-50,Direct
+C01786,Australia,Retail,501-1000,Event
+C01787,Canada,Retail,1-10,Referral
+C01788,Canada,Retail,1-10,Referral
+C01789,USA,Manufacturing,11-50,Event
+C01790,UK,Healthcare,11-50,Event
+C01791,USA,Healthcare,1000+,Organic Search
+C01792,Germany,Manufacturing,201-500,Referral
+C01793,UK,Technology,501-1000,Direct
+C01794,Germany,Education,501-1000,Paid Ads
+C01795,USA,,51-200,Paid Ads
+C01796,USA,Education,51-200,Organic Search
+C01797,Germany,Retail,1-10,Organic Search
+C01798,USA,Education,51-200,Referral
+C01799,USA,Technology,51-200,Direct
+C01800,USA,Education,1-10,Direct
+C01801,India,Education,1000+,Event
+C01802,Germany,Finance,1-10,Organic Search
+C01803,USA,Education,51-200,Paid Ads
+C01804,USA,Finance,501-1000,Paid Ads
+C01805,USA,Healthcare,51-200,Referral
+C01806,France,Manufacturing,201-500,Paid Ads
+C01807,Germany,Education,201-500,Direct
+C01808,USA,Healthcare,201-500,Direct
+C01809,USA,Finance,1000+,Organic Search
+C01810,USA,Education,11-50,Referral
+C01811,Germany,Education,201-500,Paid Ads
+C01812,France,Technology,501-1000,Organic Search
+C01813,USA,Healthcare,1000+,Event
+C01814,USA,Retail,11-50,Event
+C01815,USA,Retail,11-50,Paid Ads
+C01816,India,Technology,201-500,Paid Ads
+C01817,USA,Finance,51-200,Paid Ads
+C01818,France,Retail,1-10,Direct
+C01819,Canada,Retail,51-200,Paid Ads
+C01820,USA,Manufacturing,51-200,Event
+C01821,USA,Healthcare,11-50,Paid Ads
+C01822,USA,,11-50,Referral
+C01823,Canada,Education,1000+,Event
+C01824,France,Healthcare,1000+,Referral
+C01825,Canada,Finance,11-50,Event
+C01826,UK,Retail,501-1000,Organic Search
+C01827,USA,Manufacturing,501-1000,Event
+C01828,India,Healthcare,1-10,Event
+C01829,France,Retail,11-50,Referral
+C01830,USA,Finance,201-500,Referral
+C01831,India,Healthcare,1000+,Event
+C01832,Canada,,11-50,Event
+C01833,Canada,Healthcare,501-1000,Direct
+C01834,Germany,Retail,11-50,Organic Search
+C01835,France,Healthcare,501-1000,Organic Search
+C01836,Germany,Education,11-50,Paid Ads
+C01837,USA,Manufacturing,201-500,Event
+C01838,USA,Manufacturing,1-10,Event
+C01839,India,Retail,201-500,Event
+C01840,USA,Finance,501-1000,Event
+C01841,USA,Retail,1000+,Organic Search
+C01842,UK,Manufacturing,1000+,Referral
+C01843,UK,Technology,51-200,Direct
+C01844,Canada,Technology,201-500,Referral
+C01845,India,Healthcare,11-50,Referral
+C01846,USA,Education,1-10,Organic Search
+C01847,USA,Healthcare,11-50,Direct
+C01848,USA,Technology,11-50,Event
+C01849,Australia,Manufacturing,201-500,Organic Search
+C01850,Canada,Healthcare,1-10,Organic Search
+C01851,USA,Retail,51-200,Direct
+C01852,France,Education,11-50,Paid Ads
+C01853,Australia,,1-10,Organic Search
+C01854,France,Education,51-200,Referral
+C01855,India,Manufacturing,11-50,Referral
+C01856,USA,Healthcare,1-10,Event
+C01857,France,Education,201-500,Organic Search
+C01858,UK,Retail,1000+,Event
+C01859,France,Healthcare,1000+,Organic Search
+C01860,Germany,Healthcare,11-50,Direct
+C01861,France,Retail,11-50,Organic Search
+C01862,Germany,Technology,1-10,Paid Ads
+C01863,USA,Education,1000+,Referral
+C01864,UK,Retail,11-50,Direct
+C01865,India,Manufacturing,51-200,Referral
+C01866,India,Finance,11-50,Event
+C01867,USA,Retail,1000+,Direct
+C01868,USA,Healthcare,501-1000,Paid Ads
+C01869,USA,Healthcare,1000+,Referral
+C01870,Germany,Retail,51-200,Organic Search
+C01871,France,Finance,1-10,Organic Search
+C01872,USA,Retail,51-200,Organic Search
+C01873,UK,Finance,501-1000,Direct
+C01874,France,Finance,501-1000,Paid Ads
+C01875,Germany,Manufacturing,11-50,Paid Ads
+C01876,UK,Education,11-50,Paid Ads
+C01877,Canada,Healthcare,1000+,Referral
+C01878,UK,Healthcare,201-500,Direct
+C01879,USA,Finance,51-200,Organic Search
+C01880,Canada,Healthcare,1000+,Referral
+C01881,Germany,Technology,201-500,Paid Ads
+C01882,Australia,Finance,1000+,Organic Search
+C01883,Canada,Healthcare,501-1000,Direct
+C01884,France,Technology,11-50,Event
+C01885,USA,Manufacturing,11-50,Paid Ads
+C01886,UK,Healthcare,1000+,Paid Ads
+C01887,USA,Technology,11-50,Paid Ads
+C01888,USA,Retail,1-10,Paid Ads
+C01889,Germany,Education,1000+,Organic Search
+C01890,India,Retail,501-1000,Direct
+C01891,USA,,1000+,Referral
+C01892,UK,Finance,1000+,Organic Search
+C01893,France,Finance,11-50,Direct
+C01894,USA,Healthcare,501-1000,Referral
+C01895,Canada,Retail,1000+,Paid Ads
+C01896,Germany,Finance,11-50,Direct
+C01897,Canada,Finance,51-200,Paid Ads
+C01898,USA,Retail,501-1000,Direct
+C01899,USA,Manufacturing,201-500,Event
+C01900,France,,1-10,Paid Ads
+C01901,Canada,Education,201-500,Paid Ads
+C01902,USA,Technology,501-1000,Paid Ads
+C01903,France,Healthcare,1000+,Organic Search
+C01904,USA,Finance,11-50,Referral
+C01905,Germany,Education,501-1000,Paid Ads
+C01906,USA,Education,1-10,Paid Ads
+C01907,India,Finance,501-1000,Organic Search
+C01908,USA,Manufacturing,11-50,Organic Search
+C01909,USA,Technology,201-500,Event
+C01910,USA,Healthcare,51-200,Direct
+C01911,USA,Finance,201-500,Paid Ads
+C01912,Australia,Healthcare,11-50,Direct
+C01913,India,Retail,11-50,Organic Search
+C01914,USA,Education,1-10,Organic Search
+C01915,UK,Education,501-1000,Event
+C01916,Germany,Finance,501-1000,Referral
+C01917,Australia,Finance,201-500,Organic Search
+C01918,Canada,Retail,51-200,Paid Ads
+C01919,USA,Manufacturing,51-200,Event
+C01920,UK,,1-10,Referral
+C01921,Germany,Education,11-50,Event
+C01922,USA,Healthcare,1-10,Organic Search
+C01923,Canada,Technology,501-1000,Referral
+C01924,USA,,1000+,Direct
+C01925,France,Manufacturing,1000+,Referral
+C01926,USA,Technology,1000+,Paid Ads
+C01927,Canada,Healthcare,11-50,Direct
+C01928,UK,Healthcare,1-10,Direct
+C01929,Canada,Retail,201-500,Paid Ads
+C01930,USA,Manufacturing,501-1000,Direct
+C01931,Canada,Education,1000+,Organic Search
+C01932,Canada,Retail,51-200,Referral
+C01933,Canada,Technology,1-10,Referral
+C01934,Canada,Education,501-1000,Paid Ads
+C01935,Germany,Retail,501-1000,Organic Search
+C01936,France,Manufacturing,51-200,Direct
+C01937,USA,Finance,51-200,Referral
+C01938,France,Finance,51-200,Referral
+C01939,UK,Technology,1000+,Referral
+C01940,USA,Finance,1000+,Referral
+C01941,USA,Retail,1-10,Event
+C01942,USA,Technology,51-200,Paid Ads
+C01943,France,Education,201-500,Direct
+C01944,Germany,Manufacturing,501-1000,Direct
+C01945,France,Technology,51-200,Paid Ads
+C01946,UK,Education,501-1000,Organic Search
+C01947,UK,Technology,11-50,Paid Ads
+C01948,USA,,11-50,Referral
+C01949,USA,Healthcare,51-200,Referral
+C01950,UK,Technology,501-1000,Paid Ads
+C01951,USA,Finance,11-50,Paid Ads
+C01952,USA,Healthcare,51-200,Direct
+C01953,Canada,Manufacturing,501-1000,Direct
+C01954,Germany,Education,51-200,Event
+C01955,India,Retail,1000+,Event
+C01956,India,Healthcare,501-1000,Referral
+C01957,Canada,,11-50,Event
+C01958,UK,Finance,51-200,Event
+C01959,Canada,Retail,11-50,Organic Search
+C01960,France,Education,51-200,Paid Ads
+C01961,USA,Education,1-10,Direct
+C01962,UK,Healthcare,11-50,Event
+C01963,France,Education,11-50,Direct
+C01964,USA,Education,201-500,Event
+C01965,Canada,Finance,1000+,Event
+C01966,Canada,Finance,11-50,Referral
+C01967,USA,Finance,501-1000,Organic Search
+C01968,USA,Technology,51-200,Paid Ads
+C01969,USA,Education,1-10,Paid Ads
+C01970,USA,,501-1000,Referral
+C01971,USA,Education,501-1000,Referral
+C01972,France,Manufacturing,501-1000,Paid Ads
+C01973,USA,Finance,501-1000,Paid Ads
+C01974,UK,Retail,1-10,Organic Search
+C01975,USA,Healthcare,201-500,Event
+C01976,India,Retail,1000+,Organic Search
+C01977,USA,Technology,11-50,Paid Ads
+C01978,UK,Technology,501-1000,Event
+C01979,Australia,Education,11-50,Paid Ads
+C01980,France,Retail,11-50,Organic Search
+C01981,USA,Education,501-1000,Organic Search
+C01982,France,Manufacturing,201-500,Organic Search
+C01983,UK,Technology,11-50,Event
+C01984,UK,Technology,51-200,Direct
+C01985,USA,Retail,11-50,Direct
+C01986,USA,,1000+,Paid Ads
+C01987,Germany,Manufacturing,501-1000,Event
+C01988,UK,Manufacturing,1-10,Referral
+C01989,UK,Manufacturing,11-50,Direct
+C01990,Germany,Healthcare,201-500,Event
+C01991,France,Manufacturing,51-200,Event
+C01992,USA,Manufacturing,51-200,Direct
+C01993,Canada,Healthcare,1-10,Event
+C01994,USA,Education,1000+,Event
+C01995,France,Finance,1-10,Direct
+C01996,Germany,Technology,1000+,Organic Search
+C01997,India,Manufacturing,11-50,Paid Ads
+C01998,USA,Technology,501-1000,Referral
+C01999,USA,Retail,201-500,Paid Ads
+C02000,USA,Technology,51-200,Organic Search
+C02001,USA,Education,1-10,Organic Search
+C02002,USA,Healthcare,201-500,Event
+C02003,India,Technology,1000+,Paid Ads
+C02004,USA,Technology,501-1000,Organic Search
+C02005,USA,Technology,51-200,Paid Ads
+C02006,France,Finance,51-200,Organic Search
+C02007,UK,Finance,1000+,Referral
+C02008,France,Retail,501-1000,Organic Search
+C02009,USA,Healthcare,51-200,Paid Ads
+C02010,UK,Technology,501-1000,Event
+C02011,USA,Technology,51-200,Paid Ads
+C02012,USA,Technology,11-50,Direct
+C02013,India,Technology,1000+,Paid Ads
+C02014,USA,Finance,501-1000,Referral
+C02015,UK,Education,201-500,Referral
+C02016,UK,Education,11-50,Referral
+C02017,USA,Retail,201-500,Organic Search
+C02018,Australia,Manufacturing,1000+,Referral
+C02019,USA,Healthcare,51-200,Paid Ads
+C02020,Germany,Education,201-500,Event
+C02021,India,Technology,11-50,Referral
+C02022,Canada,Education,501-1000,Paid Ads
+C02023,India,Retail,1-10,Organic Search
+C02024,USA,Manufacturing,201-500,Organic Search
+C02025,UK,Education,1-10,Event
+C02026,USA,Retail,1000+,Event
+C02027,Germany,Finance,201-500,Paid Ads
+C02028,India,Manufacturing,201-500,Event
+C02029,USA,Retail,501-1000,Event
+C02030,Germany,Education,51-200,Organic Search
+C02031,USA,Finance,11-50,Paid Ads
+C02032,Canada,Retail,11-50,Event
+C02033,UK,Retail,11-50,Paid Ads
+C02034,India,Education,1000+,Referral
+C02035,Canada,Manufacturing,51-200,Organic Search
+C02036,USA,Finance,1-10,Organic Search
+C02037,USA,Technology,11-50,Organic Search
+C02038,USA,Healthcare,1-10,Direct
+C02039,USA,Manufacturing,51-200,Paid Ads
+C02040,USA,Finance,1000+,Referral
+C02041,Australia,Retail,51-200,Event
+C02042,Canada,Finance,501-1000,Referral
+C02043,UK,Healthcare,11-50,Paid Ads
+C02044,USA,Education,1000+,Organic Search
+C02045,Australia,Healthcare,501-1000,Direct
+C02046,Germany,,11-50,Paid Ads
+C02047,USA,Technology,51-200,Paid Ads
+C02048,Germany,Healthcare,51-200,Event
+C02049,UK,Manufacturing,201-500,Referral
+C02050,USA,Manufacturing,201-500,Referral
+C02051,UK,Retail,51-200,Event
+C02052,UK,Technology,51-200,Direct
+C02053,USA,Retail,1-10,Organic Search
+C02054,India,Technology,1-10,Organic Search
+C02055,France,Healthcare,501-1000,Direct
+C02056,Germany,Manufacturing,201-500,Event
+C02057,UK,Manufacturing,201-500,Paid Ads
+C02058,UK,Healthcare,51-200,Referral
+C02059,Germany,Retail,51-200,Paid Ads
+C02060,UK,Retail,501-1000,Referral
+C02061,USA,Finance,1000+,Paid Ads
+C02062,UK,Technology,1000+,Event
+C02063,France,Retail,1000+,Event
+C02064,UK,Healthcare,201-500,Direct
+C02065,USA,Retail,1-10,Paid Ads
+C02066,France,Manufacturing,1000+,Paid Ads
+C02067,USA,Technology,11-50,Direct
+C02068,USA,Education,501-1000,Direct
+C02069,USA,Finance,1000+,Event
+C02070,USA,Technology,11-50,Event
+C02071,France,Manufacturing,1000+,Paid Ads
+C02072,UK,Manufacturing,1-10,Event
+C02073,USA,Manufacturing,1-10,Event
+C02074,Australia,Manufacturing,1000+,Paid Ads
+C02075,Australia,Healthcare,11-50,Direct
+C02076,Australia,Finance,501-1000,Paid Ads
+C02077,USA,Education,11-50,Organic Search
+C02078,UK,Manufacturing,501-1000,Paid Ads
+C02079,India,Manufacturing,1000+,Organic Search
+C02080,France,Retail,501-1000,Paid Ads
+C02081,USA,Finance,51-200,Organic Search
+C02082,USA,Technology,201-500,Organic Search
+C02083,UK,Finance,201-500,Paid Ads
+C02084,India,Finance,1-10,Event
+C02085,UK,Education,51-200,Referral
+C02086,UK,Finance,201-500,Event
+C02087,USA,Education,1000+,Organic Search
+C02088,Germany,Manufacturing,501-1000,Paid Ads
+C02089,France,Manufacturing,501-1000,Paid Ads
+C02090,USA,Healthcare,11-50,Paid Ads
+C02091,France,Education,11-50,Paid Ads
+C02092,India,Education,501-1000,Referral
+C02093,USA,Technology,1000+,Direct
+C02094,UK,Retail,501-1000,Organic Search
+C02095,USA,Finance,11-50,Referral
+C02096,France,Technology,201-500,Event
+C02097,Canada,Education,1-10,Direct
+C02098,Canada,Technology,11-50,Direct
+C02099,France,Healthcare,1000+,Paid Ads
+C02100,USA,Retail,201-500,Referral
+C02101,India,Education,201-500,Event
+C02102,UK,Education,201-500,Paid Ads
+C02103,USA,Finance,51-200,Paid Ads
+C02104,Germany,Retail,51-200,Organic Search
+C02105,France,Healthcare,201-500,Direct
+C02106,USA,Manufacturing,1000+,Event
+C02107,Australia,Technology,501-1000,Direct
+C02108,India,Finance,1000+,Referral
+C02109,USA,Education,51-200,Organic Search
+C02110,India,Manufacturing,11-50,Paid Ads
+C02111,USA,Healthcare,51-200,Organic Search
+C02112,USA,Retail,501-1000,Paid Ads
+C02113,USA,Technology,1-10,Organic Search
+C02114,Australia,Finance,51-200,Paid Ads
+C02115,Germany,Education,1000+,Direct
+C02116,USA,Education,1000+,Direct
+C02117,UK,,201-500,Direct
+C02118,Canada,Manufacturing,201-500,Direct
+C02119,USA,,201-500,Organic Search
+C02120,Australia,Retail,1-10,Paid Ads
+C02121,France,Healthcare,501-1000,Direct
+C02122,UK,Retail,11-50,Organic Search
+C02123,India,Retail,1000+,Paid Ads
+C02124,UK,Retail,1000+,Organic Search
+C02125,India,Technology,501-1000,Direct
+C02126,Germany,Technology,1-10,Referral
+C02127,Canada,Healthcare,201-500,Organic Search
+C02128,USA,Retail,501-1000,Direct
+C02129,Australia,Technology,11-50,Event
+C02130,UK,,201-500,Paid Ads
+C02131,USA,Education,11-50,Direct
+C02132,USA,Healthcare,51-200,Event
+C02133,Canada,Retail,11-50,Organic Search
+C02134,UK,Finance,201-500,Organic Search
+C02135,Germany,Retail,51-200,Event
+C02136,Australia,Finance,201-500,Event
+C02137,USA,Healthcare,1000+,Paid Ads
+C02138,Germany,Education,201-500,Organic Search
+C02139,USA,Education,51-200,Event
+C02140,Australia,Technology,11-50,Referral
+C02141,France,Education,1000+,Referral
+C02142,UK,Manufacturing,1-10,Event
+C02143,Germany,Healthcare,1-10,Paid Ads
+C02144,USA,Technology,1-10,Organic Search
+C02145,UK,Education,1-10,Referral
+C02146,France,Healthcare,501-1000,Event
+C02147,UK,Retail,1-10,Event
+C02148,USA,Education,51-200,Direct
+C02149,UK,Finance,1-10,Event
+C02150,France,Healthcare,201-500,Paid Ads
+C02151,USA,Technology,1-10,Referral
+C02152,USA,Retail,11-50,Direct
+C02153,Germany,Manufacturing,51-200,Referral
+C02154,France,Retail,51-200,Referral
+C02155,USA,Education,1000+,Paid Ads
+C02156,USA,Finance,501-1000,Event
+C02157,USA,Retail,201-500,Paid Ads
+C02158,USA,Manufacturing,51-200,Event
+C02159,UK,Technology,11-50,Direct
+C02160,Germany,Healthcare,1-10,Paid Ads
+C02161,Germany,,51-200,Paid Ads
+C02162,Canada,Manufacturing,11-50,Organic Search
+C02163,USA,Education,1-10,Paid Ads
+C02164,France,Education,501-1000,Organic Search
+C02165,UK,Education,51-200,Event
+C02166,India,Finance,51-200,Event
+C02167,Canada,Retail,11-50,Event
+C02168,USA,Finance,1000+,Organic Search
+C02169,Germany,Education,201-500,Event
+C02170,USA,Manufacturing,501-1000,Referral
+C02171,Germany,Healthcare,201-500,Paid Ads
+C02172,USA,Healthcare,51-200,Organic Search
+C02173,USA,Finance,201-500,Event
+C02174,Australia,Education,1-10,Referral
+C02175,USA,Technology,501-1000,Paid Ads
+C02176,France,,201-500,Paid Ads
+C02177,USA,Education,1-10,Event
+C02178,Canada,Retail,11-50,Referral
+C02179,Germany,Healthcare,201-500,Organic Search
+C02180,UK,Healthcare,501-1000,Event
+C02181,USA,Healthcare,1-10,Paid Ads
+C02182,USA,Technology,201-500,Paid Ads
+C02183,USA,Education,11-50,Paid Ads
+C02184,USA,Education,201-500,Event
+C02185,Germany,Education,1-10,Direct
+C02186,India,Education,201-500,Direct
+C02187,Australia,Technology,501-1000,Direct
+C02188,France,Manufacturing,51-200,Referral
+C02189,France,Finance,1-10,Event
+C02190,Germany,Finance,1-10,Paid Ads
+C02191,USA,Education,1-10,Referral
+C02192,India,Retail,1-10,Direct
+C02193,Germany,Healthcare,201-500,Organic Search
+C02194,Canada,Technology,501-1000,Referral
+C02195,USA,Retail,11-50,Referral
+C02196,UK,Retail,501-1000,Event
+C02197,UK,Education,1-10,Referral
+C02198,Australia,Technology,1000+,Event
+C02199,UK,Finance,201-500,Organic Search
+C02200,USA,,1000+,Paid Ads
+C02201,India,Finance,201-500,Paid Ads
+C02202,USA,Retail,1-10,Direct
+C02203,UK,Healthcare,201-500,Direct
+C02204,USA,Manufacturing,1-10,Organic Search
+C02205,Germany,Retail,501-1000,Paid Ads
+C02206,India,Finance,51-200,Direct
+C02207,USA,Finance,201-500,Referral
+C02208,Australia,Education,1-10,Event
+C02209,USA,Finance,1000+,Direct
+C02210,India,Technology,1-10,Organic Search
+C02211,France,Retail,1000+,Paid Ads
+C02212,France,Healthcare,201-500,Organic Search
+C02213,USA,Finance,11-50,Event
+C02214,India,Education,1000+,Event
+C02215,Germany,Education,1-10,Organic Search
+C02216,USA,Finance,201-500,Direct
+C02217,France,Technology,1-10,Direct
+C02218,USA,Education,11-50,Paid Ads
+C02219,Australia,Healthcare,51-200,Paid Ads
+C02220,USA,Retail,11-50,Referral
+C02221,Germany,Manufacturing,501-1000,Referral
+C02222,UK,Technology,201-500,Paid Ads
+C02223,USA,Education,11-50,Referral
+C02224,USA,Retail,51-200,Organic Search
+C02225,USA,Manufacturing,1-10,Direct
+C02226,UK,Finance,201-500,Referral
+C02227,USA,Finance,1000+,Referral
+C02228,Canada,Healthcare,11-50,Organic Search
+C02229,USA,Manufacturing,51-200,Event
+C02230,USA,Finance,11-50,Paid Ads
+C02231,Germany,Finance,501-1000,Organic Search
+C02232,USA,Education,201-500,Event
+C02233,India,Healthcare,1-10,Organic Search
+C02234,Australia,Retail,51-200,Direct
+C02235,Germany,Finance,11-50,Organic Search
+C02236,Canada,Technology,201-500,Organic Search
+C02237,Australia,Technology,11-50,Direct
+C02238,USA,Retail,201-500,Paid Ads
+C02239,USA,Manufacturing,501-1000,Event
+C02240,USA,Healthcare,11-50,Referral
+C02241,France,Education,501-1000,Paid Ads
+C02242,USA,Technology,1000+,Organic Search
+C02243,Canada,Technology,1000+,Referral
+C02244,India,Retail,51-200,Direct
+C02245,Australia,Manufacturing,501-1000,Paid Ads
+C02246,UK,Manufacturing,201-500,Event
+C02247,USA,Retail,51-200,Paid Ads
+C02248,France,Technology,11-50,Paid Ads
+C02249,Canada,Healthcare,11-50,Referral
+C02250,USA,Technology,201-500,Direct
+C02251,USA,Manufacturing,1-10,Direct
+C02252,India,Education,1-10,Paid Ads
+C02253,Germany,Technology,11-50,Direct
+C02254,France,Healthcare,201-500,Referral
+C02255,Australia,Finance,1-10,Referral
+C02256,Canada,Technology,501-1000,Event
+C02257,UK,Retail,11-50,Direct
+C02258,UK,Finance,1000+,Event
+C02259,USA,Retail,501-1000,Organic Search
+C02260,UK,Retail,201-500,Referral
+C02261,France,Retail,1000+,Paid Ads
+C02262,Canada,Technology,501-1000,Referral
+C02263,Australia,Manufacturing,1-10,Organic Search
+C02264,UK,Finance,1-10,Paid Ads
+C02265,Canada,Healthcare,1000+,Direct
+C02266,Canada,Manufacturing,51-200,Direct
+C02267,Canada,Technology,11-50,Referral
+C02268,Germany,Retail,1000+,Paid Ads
+C02269,USA,Healthcare,201-500,Paid Ads
+C02270,UK,Finance,11-50,Event
+C02271,USA,Manufacturing,501-1000,Organic Search
+C02272,USA,Education,201-500,Direct
+C02273,UK,Manufacturing,201-500,Referral
+C02274,Germany,Healthcare,1-10,Paid Ads
+C02275,India,Technology,501-1000,Direct
+C02276,Canada,Finance,1-10,Referral
+C02277,Germany,Healthcare,1-10,Direct
+C02278,UK,Retail,51-200,Referral
+C02279,Canada,Finance,1-10,Direct
+C02280,USA,Manufacturing,11-50,Event
+C02281,USA,,201-500,Organic Search
+C02282,USA,Manufacturing,1-10,Direct
+C02283,UK,Manufacturing,1000+,Organic Search
+C02284,USA,Manufacturing,11-50,Direct
+C02285,USA,Technology,501-1000,Paid Ads
+C02286,USA,Manufacturing,201-500,Event
+C02287,India,Retail,1000+,Event
+C02288,USA,Retail,1000+,Organic Search
+C02289,UK,Finance,501-1000,Paid Ads
+C02290,USA,Education,1000+,Referral
+C02291,Canada,Manufacturing,11-50,Event
+C02292,USA,Manufacturing,501-1000,Paid Ads
+C02293,USA,Healthcare,1000+,Paid Ads
+C02294,UK,Technology,501-1000,Organic Search
+C02295,USA,Education,501-1000,Paid Ads
+C02296,USA,Finance,1-10,Paid Ads
+C02297,USA,Education,1-10,Referral
+C02298,USA,Manufacturing,1-10,Organic Search
+C02299,USA,Healthcare,1000+,Organic Search
+C02300,USA,Technology,201-500,Paid Ads
+C02301,France,Finance,11-50,Referral
+C02302,Canada,Education,1000+,Direct
+C02303,UK,Finance,1-10,Event
+C02304,USA,Manufacturing,501-1000,Organic Search
+C02305,India,Finance,1000+,Referral
+C02306,USA,Healthcare,501-1000,Referral
+C02307,USA,Finance,501-1000,Paid Ads
+C02308,Canada,Retail,501-1000,Event
+C02309,USA,Healthcare,51-200,Organic Search
+C02310,USA,Education,201-500,Direct
+C02311,UK,Technology,11-50,Paid Ads
+C02312,Australia,Technology,11-50,Organic Search
+C02313,UK,Manufacturing,1-10,Organic Search
+C02314,Germany,Manufacturing,51-200,Referral
+C02315,India,,1000+,Event
+C02316,USA,Education,1000+,Direct
+C02317,USA,Technology,11-50,Event
+C02318,USA,Technology,201-500,Referral
+C02319,UK,,501-1000,Direct
+C02320,UK,Technology,1-10,Direct
+C02321,India,Finance,201-500,Paid Ads
+C02322,Germany,Education,11-50,Direct
+C02323,Canada,Healthcare,51-200,Organic Search
+C02324,USA,Healthcare,1-10,Event
+C02325,France,Retail,11-50,Event
+C02326,India,Finance,1000+,Paid Ads
+C02327,France,Technology,1-10,Direct
+C02328,USA,Technology,11-50,Referral
+C02329,Canada,Manufacturing,1000+,Organic Search
+C02330,USA,Manufacturing,1000+,Paid Ads
+C02331,USA,Retail,501-1000,Direct
+C02332,USA,Technology,51-200,Referral
+C02333,Canada,Retail,501-1000,Direct
+C02334,Germany,Finance,11-50,Paid Ads
+C02335,USA,Healthcare,201-500,Referral
+C02336,USA,,501-1000,Referral
+C02337,UK,Education,201-500,Referral
+C02338,USA,Finance,1000+,Referral
+C02339,USA,Technology,11-50,Direct
+C02340,UK,Education,51-200,Referral
+C02341,France,Manufacturing,201-500,Direct
+C02342,USA,Retail,11-50,Referral
+C02343,USA,Manufacturing,201-500,Referral
+C02344,USA,Healthcare,501-1000,Paid Ads
+C02345,India,Manufacturing,11-50,Direct
+C02346,Germany,Technology,501-1000,Direct
+C02347,Germany,Education,1-10,Event
+C02348,USA,Manufacturing,11-50,Paid Ads
+C02349,Canada,Technology,201-500,Direct
+C02350,USA,Healthcare,1-10,Paid Ads
+C02351,Canada,Education,501-1000,Paid Ads
+C02352,India,Manufacturing,501-1000,Paid Ads
+C02353,Canada,Retail,201-500,Organic Search
+C02354,Australia,Retail,1-10,Direct
+C02355,Germany,Education,1000+,Paid Ads
+C02356,USA,Retail,51-200,Organic Search
+C02357,India,Manufacturing,201-500,Organic Search
+C02358,USA,Manufacturing,501-1000,Referral
+C02359,UK,Education,11-50,Referral
+C02360,USA,Manufacturing,1-10,Direct
+C02361,USA,,1000+,Referral
+C02362,UK,Healthcare,51-200,Direct
+C02363,USA,Retail,11-50,Organic Search
+C02364,UK,Technology,1-10,Organic Search
+C02365,Canada,Education,1000+,Direct
+C02366,USA,Retail,201-500,Referral
+C02367,USA,Technology,1000+,Referral
+C02368,Canada,Manufacturing,201-500,Direct
+C02369,USA,Education,1-10,Event
+C02370,Germany,Education,1000+,Referral
+C02371,Germany,Retail,51-200,Paid Ads
+C02372,France,Manufacturing,1000+,Referral
+C02373,Germany,Retail,1-10,Event
+C02374,UK,Finance,11-50,Organic Search
+C02375,Germany,Technology,11-50,Organic Search
+C02376,USA,Finance,1000+,Organic Search
+C02377,USA,Technology,1000+,Referral
+C02378,France,Healthcare,201-500,Organic Search
+C02379,UK,Education,1-10,Event
+C02380,France,Retail,201-500,Event
+C02381,France,Healthcare,51-200,Referral
+C02382,Australia,Healthcare,11-50,Paid Ads
+C02383,India,Education,501-1000,Referral
+C02384,UK,Education,501-1000,Organic Search
+C02385,USA,Technology,1-10,Referral
+C02386,Canada,Finance,1-10,Event
+C02387,USA,Manufacturing,501-1000,Referral
+C02388,Canada,,1-10,Referral
+C02389,Germany,Manufacturing,11-50,Paid Ads
+C02390,Germany,Healthcare,51-200,Event
+C02391,USA,Manufacturing,51-200,Direct
+C02392,USA,Finance,201-500,Direct
+C02393,UK,Technology,11-50,Event
+C02394,USA,Education,1-10,Direct
+C02395,Australia,Finance,1-10,Organic Search
+C02396,USA,Finance,201-500,Direct
+C02397,USA,Technology,201-500,Organic Search
+C02398,USA,Education,1-10,Event
+C02399,Canada,Finance,1-10,Direct
+C02400,Canada,Education,11-50,Direct
+C02401,USA,Retail,201-500,Organic Search
+C02402,USA,Retail,11-50,Organic Search
+C02403,UK,,1000+,Referral
+C02404,USA,Manufacturing,1-10,Paid Ads
+C02405,Germany,Finance,501-1000,Direct
+C02406,Canada,Technology,501-1000,Paid Ads
+C02407,USA,Technology,1000+,Paid Ads
+C02408,USA,Manufacturing,1-10,Direct
+C02409,India,Technology,201-500,Organic Search
+C02410,UK,Retail,501-1000,Referral
+C02411,Germany,Finance,201-500,Event
+C02412,USA,Technology,501-1000,Direct
+C02413,UK,Technology,201-500,Direct
+C02414,USA,Healthcare,501-1000,Event
+C02415,UK,Healthcare,201-500,Paid Ads
+C02416,India,Healthcare,1000+,Referral
+C02417,USA,Finance,11-50,Paid Ads
+C02418,USA,Retail,201-500,Event
+C02419,USA,Education,11-50,Event
+C02420,USA,Retail,11-50,Referral
+C02421,USA,Retail,1-10,Event
+C02422,USA,Finance,1000+,Event
+C02423,France,Finance,11-50,Referral
+C02424,UK,Healthcare,51-200,Direct
+C02425,USA,Technology,11-50,Paid Ads
+C02426,India,Manufacturing,201-500,Direct
+C02427,USA,Manufacturing,11-50,Direct
+C02428,India,Education,201-500,Paid Ads
+C02429,USA,Technology,201-500,Direct
+C02430,Australia,Education,51-200,Referral
+C02431,Canada,Healthcare,11-50,Paid Ads
+C02432,France,Education,11-50,Organic Search
+C02433,India,Technology,501-1000,Direct
+C02434,USA,Technology,501-1000,Event
+C02435,India,Manufacturing,1-10,Paid Ads
+C02436,USA,Healthcare,201-500,Organic Search
+C02437,USA,Finance,51-200,Event
+C02438,USA,,501-1000,Organic Search
+C02439,UK,Manufacturing,11-50,Direct
+C02440,USA,Education,1-10,Event
+C02441,Canada,Education,51-200,Direct
+C02442,UK,Finance,1000+,Event
+C02443,France,Healthcare,11-50,Paid Ads
+C02444,France,Technology,11-50,Referral
+C02445,UK,Retail,1000+,Referral
+C02446,USA,Education,201-500,Organic Search
+C02447,USA,Retail,201-500,Event
+C02448,USA,Healthcare,501-1000,Direct
+C02449,USA,Retail,501-1000,Paid Ads
+C02450,USA,Education,11-50,Paid Ads
+C02451,USA,Finance,11-50,Paid Ads
+C02452,India,Retail,501-1000,Referral
+C02453,Canada,Healthcare,1000+,Direct
+C02454,USA,Healthcare,501-1000,Paid Ads
+C02455,Canada,Finance,11-50,Paid Ads
+C02456,USA,Retail,51-200,Organic Search
+C02457,UK,Retail,11-50,Event
+C02458,Canada,Technology,51-200,Event
+C02459,UK,Manufacturing,51-200,Event
+C02460,UK,Healthcare,11-50,Organic Search
+C02461,India,Technology,1-10,Referral
+C02462,Australia,Healthcare,501-1000,Organic Search
+C02463,Canada,Technology,201-500,Paid Ads
+C02464,Canada,Manufacturing,11-50,Direct
+C02465,Canada,Technology,51-200,Paid Ads
+C02466,USA,Healthcare,11-50,Paid Ads
+C02467,USA,Retail,501-1000,Direct
+C02468,USA,Healthcare,1000+,Event
+C02469,UK,Education,51-200,Organic Search
+C02470,UK,Finance,201-500,Referral
+C02471,USA,Finance,201-500,Paid Ads
+C02472,India,Education,201-500,Paid Ads
+C02473,India,Finance,1000+,Referral
+C02474,Germany,Finance,1-10,Organic Search
+C02475,UK,Manufacturing,51-200,Paid Ads
+C02476,Australia,Retail,1000+,Referral
+C02477,USA,Retail,51-200,Paid Ads
+C02478,France,Healthcare,1000+,Event
+C02479,USA,Education,1000+,Event
+C02480,France,Technology,1-10,Paid Ads
+C02481,USA,Healthcare,51-200,Paid Ads
+C02482,Australia,Healthcare,1000+,Event
+C02483,India,Healthcare,1-10,Paid Ads
+C02484,USA,Healthcare,11-50,Organic Search
+C02485,UK,Retail,501-1000,Organic Search
+C02486,India,Technology,1000+,Direct
+C02487,UK,Healthcare,201-500,Organic Search
+C02488,Australia,Retail,1-10,Paid Ads
+C02489,Canada,Healthcare,1-10,Paid Ads
+C02490,USA,Finance,1000+,Referral
+C02491,USA,Healthcare,1-10,Organic Search
+C02492,USA,Education,11-50,Event
+C02493,France,Education,1-10,Event
+C02494,USA,Healthcare,501-1000,Direct
+C02495,UK,Manufacturing,501-1000,Referral
+C02496,UK,Finance,201-500,Event
+C02497,Canada,Technology,11-50,Direct
+C02498,Australia,Healthcare,501-1000,Organic Search
+C02499,India,Technology,1000+,Referral
+C02500,UK,,51-200,Referral
+C02501,France,Healthcare,51-200,Paid Ads
+C02502,France,Manufacturing,51-200,Organic Search
+C02503,Canada,Retail,1000+,Referral
+C02504,India,Manufacturing,1-10,Direct
+C02505,USA,Manufacturing,1000+,Event
+C02506,USA,Retail,1-10,Organic Search
+C02507,Australia,Retail,51-200,Organic Search
+C02508,UK,Education,201-500,Referral
+C02509,France,Retail,201-500,Referral
+C02510,Australia,Healthcare,1-10,Referral
+C02511,USA,Technology,51-200,Direct
+C02512,Australia,Education,1000+,Paid Ads
+C02513,UK,Education,201-500,Referral
+C02514,UK,Technology,1-10,Paid Ads
+C02515,Canada,Education,1000+,Paid Ads
+C02516,India,,51-200,Organic Search
+C02517,USA,Manufacturing,11-50,Event
+C02518,UK,Finance,51-200,Event
+C02519,Germany,Retail,51-200,Direct
+C02520,Germany,Manufacturing,1000+,Direct
+C02521,Germany,Manufacturing,1000+,Event
+C02522,USA,Education,501-1000,Event
+C02523,USA,Healthcare,501-1000,Organic Search
+C02524,USA,Healthcare,1000+,Organic Search
+C02525,France,Education,1000+,Event
+C02526,USA,Education,11-50,Referral
+C02527,USA,Technology,11-50,Referral
+C02528,India,Technology,51-200,Organic Search
+C02529,USA,Finance,201-500,Paid Ads
+C02530,India,Finance,11-50,Event
+C02531,Germany,Finance,51-200,Direct
+C02532,France,Finance,1-10,Referral
+C02533,USA,Manufacturing,501-1000,Paid Ads
+C02534,USA,Manufacturing,201-500,Referral
+C02535,Germany,Technology,51-200,Paid Ads
+C02536,France,Healthcare,1000+,Event
+C02537,Germany,Education,1-10,Event
+C02538,USA,Healthcare,501-1000,Event
+C02539,France,Retail,1-10,Organic Search
+C02540,France,Manufacturing,51-200,Paid Ads
+C02541,Germany,Finance,11-50,Direct
+C02542,France,Finance,501-1000,Direct
+C02543,France,Retail,1-10,Event
+C02544,Canada,Healthcare,11-50,Direct
+C02545,USA,Finance,201-500,Referral
+C02546,UK,Healthcare,51-200,Paid Ads
+C02547,USA,Education,51-200,Paid Ads
+C02548,UK,Retail,501-1000,Paid Ads
+C02549,UK,Healthcare,1-10,Referral
+C02550,USA,Education,201-500,Organic Search
+C02551,USA,Healthcare,1000+,Referral
+C02552,USA,Healthcare,501-1000,Paid Ads
+C02553,France,Finance,1000+,Paid Ads
+C02554,India,,501-1000,Paid Ads
+C02555,USA,Manufacturing,1-10,Direct
+C02556,India,Healthcare,201-500,Organic Search
+C02557,UK,Healthcare,1-10,Referral
+C02558,USA,Healthcare,51-200,Paid Ads
+C02559,USA,Technology,1000+,Event
+C02560,UK,Education,11-50,Organic Search
+C02561,France,Retail,51-200,Event
+C02562,Germany,Finance,51-200,Organic Search
+C02563,USA,Technology,1000+,Paid Ads
+C02564,USA,Education,501-1000,Organic Search
+C02565,UK,,51-200,Organic Search
+C02566,USA,Education,201-500,Paid Ads
+C02567,USA,Technology,51-200,Event
+C02568,USA,Technology,201-500,Event
+C02569,France,Technology,1-10,Direct
+C02570,India,Retail,501-1000,Event
+C02571,UK,Manufacturing,201-500,Event
+C02572,India,Finance,51-200,Organic Search
+C02573,USA,Retail,501-1000,Direct
+C02574,UK,Retail,501-1000,Paid Ads
+C02575,USA,Manufacturing,201-500,Paid Ads
+C02576,Canada,Retail,201-500,Referral
+C02577,India,Technology,11-50,Direct
+C02578,Canada,Technology,11-50,Organic Search
+C02579,USA,Education,501-1000,Referral
+C02580,Canada,Healthcare,1000+,Referral
+C02581,USA,Retail,1000+,Paid Ads
+C02582,Australia,Healthcare,11-50,Event
+C02583,UK,Finance,51-200,Organic Search
+C02584,UK,Technology,1-10,Direct
+C02585,Canada,Education,501-1000,Referral
+C02586,Canada,Finance,1-10,Organic Search
+C02587,USA,Education,11-50,Paid Ads
+C02588,Germany,Manufacturing,201-500,Referral
+C02589,USA,Technology,501-1000,Referral
+C02590,Germany,Finance,11-50,Paid Ads
+C02591,France,Manufacturing,51-200,Paid Ads
+C02592,France,Finance,501-1000,Paid Ads
+C02593,Canada,Education,501-1000,Organic Search
+C02594,UK,Manufacturing,1000+,Organic Search
+C02595,USA,Manufacturing,201-500,Organic Search
+C02596,France,Technology,501-1000,Event
+C02597,USA,Healthcare,201-500,Referral
+C02598,UK,Education,11-50,Organic Search
+C02599,USA,Education,51-200,Event
+C02600,USA,Manufacturing,51-200,Referral
+C02601,Canada,Manufacturing,501-1000,Organic Search
+C02602,USA,Technology,501-1000,Paid Ads
+C02603,Germany,Healthcare,11-50,Direct
+C02604,USA,Education,1000+,Organic Search
+C02605,USA,Retail,1000+,Direct
+C02606,UK,Retail,1000+,Organic Search
+C02607,USA,Healthcare,201-500,Paid Ads
+C02608,USA,Finance,1000+,Direct
+C02609,Germany,Technology,51-200,Event
+C02610,USA,Healthcare,201-500,Paid Ads
+C02611,France,Retail,11-50,Direct
+C02612,USA,Manufacturing,51-200,Direct
+C02613,USA,Retail,51-200,Paid Ads
+C02614,Germany,Manufacturing,1-10,Paid Ads
+C02615,USA,Technology,11-50,Paid Ads
+C02616,USA,Manufacturing,11-50,Referral
+C02617,USA,Healthcare,1-10,Event
+C02618,USA,Manufacturing,201-500,Organic Search
+C02619,France,Finance,1000+,Direct
+C02620,USA,Healthcare,1000+,Organic Search
+C02621,France,Technology,1000+,Paid Ads
+C02622,Australia,Healthcare,1000+,Event
+C02623,UK,Finance,1000+,Event
+C02624,India,Technology,1-10,Referral
+C02625,USA,,11-50,Paid Ads
+C02626,India,Finance,201-500,Direct
+C02627,USA,Technology,51-200,Referral
+C02628,Germany,Manufacturing,1000+,Paid Ads
+C02629,UK,Healthcare,1-10,Referral
+C02630,USA,Technology,201-500,Organic Search
+C02631,Canada,Healthcare,201-500,Paid Ads
+C02632,Germany,Manufacturing,201-500,Direct
+C02633,USA,Technology,1-10,Direct
+C02634,USA,Retail,51-200,Paid Ads
+C02635,Germany,Finance,1000+,Referral
+C02636,Germany,Technology,201-500,Event
+C02637,India,Manufacturing,1-10,Paid Ads
+C02638,France,Technology,11-50,Direct
+C02639,India,Healthcare,1-10,Organic Search
+C02640,Germany,Education,1-10,Direct
+C02641,USA,Technology,1-10,Event
+C02642,USA,Retail,201-500,Direct
+C02643,France,Technology,1-10,Event
+C02644,Canada,Finance,11-50,Paid Ads
+C02645,USA,Technology,201-500,Direct
+C02646,USA,Education,11-50,Referral
+C02647,India,Healthcare,501-1000,Referral
+C02648,UK,Technology,1-10,Direct
+C02649,UK,Retail,1000+,Direct
+C02650,UK,Manufacturing,1000+,Organic Search
+C02651,USA,,201-500,Direct
+C02652,USA,Technology,1000+,Organic Search
+C02653,USA,Finance,201-500,Organic Search
+C02654,USA,Retail,1-10,Organic Search
+C02655,France,Education,51-200,Organic Search
+C02656,UK,Manufacturing,51-200,Paid Ads
+C02657,France,Healthcare,11-50,Referral
+C02658,Australia,Technology,1-10,Organic Search
+C02659,USA,Education,1000+,Referral
+C02660,Germany,Manufacturing,1-10,Organic Search
+C02661,UK,Healthcare,501-1000,Referral
+C02662,Australia,Education,51-200,Direct
+C02663,USA,Retail,1000+,Direct
+C02664,Germany,,51-200,Referral
+C02665,Canada,Manufacturing,1-10,Organic Search
+C02666,USA,Healthcare,1000+,Paid Ads
+C02667,USA,Retail,11-50,Referral
+C02668,Germany,Manufacturing,1-10,Event
+C02669,Germany,Retail,11-50,Paid Ads
+C02670,USA,Retail,1000+,Event
+C02671,Canada,Education,51-200,Referral
+C02672,USA,Education,501-1000,Organic Search
+C02673,Germany,Retail,201-500,Event
+C02674,USA,Finance,51-200,Referral
+C02675,Australia,Education,11-50,Paid Ads
+C02676,USA,Healthcare,1-10,Organic Search
+C02677,USA,,1000+,Event
+C02678,USA,Manufacturing,51-200,Referral
+C02679,USA,Healthcare,501-1000,Organic Search
+C02680,UK,Healthcare,1000+,Organic Search
+C02681,USA,Healthcare,11-50,Direct
+C02682,France,Healthcare,1000+,Organic Search
+C02683,USA,Technology,1000+,Referral
+C02684,USA,Manufacturing,1-10,Paid Ads
+C02685,USA,Technology,201-500,Direct
+C02686,USA,Retail,11-50,Referral
+C02687,USA,Retail,1-10,Referral
+C02688,UK,Manufacturing,201-500,Referral
+C02689,UK,Retail,1-10,Event
+C02690,UK,Healthcare,201-500,Event
+C02691,UK,Technology,201-500,Paid Ads
+C02692,Canada,Healthcare,201-500,Referral
+C02693,USA,Retail,1-10,Event
+C02694,UK,Education,1000+,Event
+C02695,India,Technology,201-500,Event
+C02696,UK,Healthcare,1000+,Paid Ads
+C02697,Germany,Manufacturing,11-50,Paid Ads
+C02698,USA,Healthcare,501-1000,Referral
+C02699,France,Education,1000+,Direct
+C02700,France,Retail,501-1000,Referral
+C02701,UK,Technology,201-500,Event
+C02702,India,Manufacturing,501-1000,Event
+C02703,USA,Technology,501-1000,Organic Search
+C02704,USA,Manufacturing,201-500,Referral
+C02705,France,Technology,1000+,Event
+C02706,France,Retail,201-500,Event
+C02707,USA,Manufacturing,11-50,Direct
+C02708,USA,Finance,51-200,Organic Search
+C02709,USA,Technology,1-10,Referral
+C02710,USA,Technology,201-500,Paid Ads
+C02711,France,Healthcare,201-500,Referral
+C02712,UK,Manufacturing,501-1000,Referral
+C02713,USA,Education,11-50,Direct
+C02714,USA,Finance,501-1000,Referral
+C02715,USA,Retail,1000+,Direct
+C02716,USA,Healthcare,201-500,Direct
+C02717,Canada,Finance,201-500,Event
+C02718,India,Manufacturing,501-1000,Paid Ads
+C02719,France,Finance,201-500,Direct
+C02720,USA,Technology,1000+,Organic Search
+C02721,Australia,Technology,51-200,Organic Search
+C02722,France,Healthcare,1-10,Paid Ads
+C02723,France,Manufacturing,1-10,Direct
+C02724,UK,Manufacturing,1-10,Paid Ads
+C02725,USA,Finance,51-200,Event
+C02726,USA,Healthcare,201-500,Organic Search
+C02727,USA,Manufacturing,501-1000,Referral
+C02728,USA,Education,11-50,Organic Search
+C02729,USA,Education,201-500,Direct
+C02730,UK,Technology,51-200,Paid Ads
+C02731,Germany,Finance,1000+,Organic Search
+C02732,UK,Retail,51-200,Referral
+C02733,USA,Technology,1-10,Referral
+C02734,India,Healthcare,201-500,Paid Ads
+C02735,India,Manufacturing,1-10,Paid Ads
+C02736,France,Technology,11-50,Organic Search
+C02737,India,Retail,1000+,Direct
+C02738,UK,Retail,1-10,Event
+C02739,India,Education,11-50,Referral
+C02740,USA,Healthcare,51-200,Paid Ads
+C02741,USA,Technology,1-10,Event
+C02742,USA,Finance,1-10,Event
+C02743,USA,Technology,501-1000,Event
+C02744,USA,Education,1000+,Direct
+C02745,Canada,Retail,1000+,Paid Ads
+C02746,France,Healthcare,51-200,Referral
+C02747,Canada,Healthcare,501-1000,Paid Ads
+C02748,USA,Finance,11-50,Organic Search
+C02749,France,Healthcare,11-50,Referral
+C02750,Canada,Education,51-200,Paid Ads
+C02751,USA,Education,1000+,Referral
+C02752,Germany,Education,11-50,Organic Search
+C02753,USA,Healthcare,51-200,Referral
+C02754,USA,Healthcare,11-50,Event
+C02755,India,Education,201-500,Direct
+C02756,USA,Healthcare,1-10,Organic Search
+C02757,UK,Healthcare,1000+,Referral
+C02758,Australia,Retail,201-500,Organic Search
+C02759,Germany,Technology,51-200,Event
+C02760,USA,Manufacturing,51-200,Direct
+C02761,USA,Healthcare,201-500,Organic Search
+C02762,USA,Manufacturing,1-10,Event
+C02763,Canada,,1-10,Event
+C02764,UK,Retail,501-1000,Event
+C02765,USA,Healthcare,11-50,Referral
+C02766,India,Education,501-1000,Paid Ads
+C02767,UK,Manufacturing,1-10,Organic Search
+C02768,USA,Healthcare,201-500,Paid Ads
+C02769,UK,Finance,11-50,Event
+C02770,Germany,Education,201-500,Paid Ads
+C02771,USA,Finance,501-1000,Event
+C02772,USA,Finance,51-200,Event
+C02773,France,Manufacturing,201-500,Direct
+C02774,UK,Finance,501-1000,Direct
+C02775,UK,Retail,501-1000,Paid Ads
+C02776,UK,Retail,501-1000,Organic Search
+C02777,USA,Manufacturing,51-200,Paid Ads
+C02778,USA,Healthcare,51-200,Organic Search
+C02779,UK,,51-200,Paid Ads
+C02780,USA,Healthcare,11-50,Referral
+C02781,USA,Healthcare,51-200,Referral
+C02782,France,Healthcare,51-200,Organic Search
+C02783,India,Healthcare,51-200,Direct
+C02784,France,Education,201-500,Organic Search
+C02785,Australia,Technology,51-200,Paid Ads
+C02786,USA,,11-50,Event
+C02787,India,Finance,501-1000,Referral
+C02788,USA,Healthcare,201-500,Event
+C02789,India,Retail,1-10,Referral
+C02790,India,Manufacturing,51-200,Paid Ads
+C02791,Germany,Manufacturing,501-1000,Referral
+C02792,India,Education,501-1000,Organic Search
+C02793,Canada,Education,201-500,Event
+C02794,USA,Retail,1-10,Event
+C02795,UK,,1000+,Paid Ads
+C02796,Canada,Technology,11-50,Event
+C02797,USA,Finance,1000+,Paid Ads
+C02798,Canada,Manufacturing,501-1000,Direct
+C02799,India,Finance,1000+,Organic Search
+C02800,USA,Technology,501-1000,Referral
+C02801,France,Education,1000+,Referral
+C02802,India,Manufacturing,501-1000,Referral
+C02803,India,Finance,501-1000,Direct
+C02804,India,Education,201-500,Organic Search
+C02805,UK,,1-10,Event
+C02806,India,Finance,501-1000,Event
+C02807,France,Healthcare,11-50,Organic Search
+C02808,USA,Education,11-50,Organic Search
+C02809,UK,Technology,51-200,Referral
+C02810,Germany,Finance,501-1000,Event
+C02811,USA,Healthcare,501-1000,Organic Search
+C02812,Canada,Healthcare,501-1000,Event
+C02813,Germany,Technology,1000+,Organic Search
+C02814,USA,Retail,501-1000,Paid Ads
+C02815,Canada,Manufacturing,501-1000,Referral
+C02816,France,Technology,11-50,Organic Search
+C02817,UK,Healthcare,1-10,Direct
+C02818,USA,Healthcare,1-10,Organic Search
+C02819,USA,Technology,51-200,Paid Ads
+C02820,USA,Retail,11-50,Direct
+C02821,India,Manufacturing,501-1000,Direct
+C02822,USA,Finance,1-10,Organic Search
+C02823,Canada,Technology,201-500,Paid Ads
+C02824,USA,Manufacturing,201-500,Direct
+C02825,USA,Manufacturing,201-500,Referral
+C02826,France,Education,501-1000,Referral
+C02827,Germany,Healthcare,501-1000,Event
+C02828,USA,Finance,51-200,Event
+C02829,UK,Technology,51-200,Paid Ads
+C02830,USA,Healthcare,51-200,Direct
+C02831,UK,Education,1000+,Referral
+C02832,Germany,Education,201-500,Referral
+C02833,USA,Healthcare,501-1000,Paid Ads
+C02834,USA,Retail,201-500,Direct
+C02835,USA,,51-200,Paid Ads
+C02836,India,Technology,501-1000,Organic Search
+C02837,India,Technology,11-50,Referral
+C02838,USA,Technology,1-10,Paid Ads
+C02839,France,Healthcare,1-10,Paid Ads
+C02840,USA,Retail,51-200,Organic Search
+C02841,USA,Finance,201-500,Event
+C02842,France,Education,11-50,Referral
+C02843,India,Healthcare,501-1000,Paid Ads
+C02844,India,Finance,201-500,Referral
+C02845,Canada,Education,51-200,Event
+C02846,USA,Education,201-500,Paid Ads
+C02847,France,Retail,51-200,Organic Search
+C02848,USA,Manufacturing,1000+,Referral
+C02849,Canada,Technology,1-10,Organic Search
+C02850,USA,Finance,1-10,Event
+C02851,Germany,Healthcare,201-500,Event
+C02852,USA,,11-50,Referral
+C02853,USA,Manufacturing,501-1000,Event
+C02854,India,Technology,51-200,Direct
+C02855,USA,Finance,501-1000,Referral
+C02856,UK,Manufacturing,1-10,Direct
+C02857,USA,Healthcare,11-50,Event
+C02858,USA,Retail,11-50,Referral
+C02859,USA,Education,501-1000,Direct
+C02860,USA,Healthcare,1-10,Event
+C02861,Australia,,501-1000,Paid Ads
+C02862,USA,Education,201-500,Paid Ads
+C02863,India,Healthcare,11-50,Organic Search
+C02864,Canada,Healthcare,11-50,Paid Ads
+C02865,UK,Healthcare,201-500,Direct
+C02866,Canada,Healthcare,1-10,Paid Ads
+C02867,UK,Education,11-50,Referral
+C02868,France,Technology,1000+,Referral
+C02869,USA,Manufacturing,1000+,Referral
+C02870,USA,Finance,1000+,Paid Ads
+C02871,Australia,Retail,51-200,Paid Ads
+C02872,India,Finance,51-200,Organic Search
+C02873,Australia,Finance,1-10,Event
+C02874,UK,Retail,201-500,Organic Search
+C02875,France,Education,501-1000,Direct
+C02876,UK,Technology,1-10,Referral
+C02877,UK,Retail,501-1000,Paid Ads
+C02878,USA,Technology,1-10,Event
+C02879,Canada,Education,51-200,Event
+C02880,USA,Finance,1000+,Paid Ads
+C02881,USA,Technology,201-500,Organic Search
+C02882,Australia,Education,51-200,Event
+C02883,USA,Education,201-500,Organic Search
+C02884,USA,Manufacturing,501-1000,Paid Ads
+C02885,USA,Retail,1-10,Organic Search
+C02886,India,Manufacturing,11-50,Referral
+C02887,UK,Finance,11-50,Paid Ads
+C02888,UK,Retail,201-500,Paid Ads
+C02889,France,Finance,1000+,Event
+C02890,France,Manufacturing,1000+,Event
+C02891,USA,Education,201-500,Event
+C02892,Germany,Finance,51-200,Referral
+C02893,France,Retail,11-50,Referral
+C02894,Germany,Retail,51-200,Direct
+C02895,USA,Finance,501-1000,Paid Ads
+C02896,Australia,Retail,11-50,Event
+C02897,UK,Education,501-1000,Paid Ads
+C02898,USA,Education,1-10,Organic Search
+C02899,UK,Retail,51-200,Referral
+C02900,USA,Finance,201-500,Direct
+C02901,USA,Manufacturing,11-50,Organic Search
+C02902,France,Retail,51-200,Paid Ads
+C02903,USA,Retail,201-500,Referral
+C02904,UK,Retail,1-10,Event
+C02905,UK,Retail,11-50,Organic Search
+C02906,USA,Finance,501-1000,Referral
+C02907,India,Manufacturing,1-10,Paid Ads
+C02908,USA,Manufacturing,1000+,Paid Ads
+C02909,USA,Technology,201-500,Organic Search
+C02910,USA,Retail,11-50,Organic Search
+C02911,USA,Retail,11-50,Organic Search
+C02912,USA,Technology,1-10,Direct
+C02913,Germany,Manufacturing,11-50,Event
+C02914,India,Healthcare,201-500,Referral
+C02915,USA,Education,1-10,Paid Ads
+C02916,Germany,Healthcare,501-1000,Paid Ads
+C02917,Germany,Manufacturing,1-10,Event
+C02918,France,Retail,1-10,Organic Search
+C02919,UK,Healthcare,501-1000,Organic Search
+C02920,USA,Finance,1000+,Paid Ads
+C02921,USA,Finance,201-500,Event
+C02922,Germany,Technology,1000+,Paid Ads
+C02923,France,Manufacturing,1000+,Organic Search
+C02924,USA,Manufacturing,1000+,Referral
+C02925,USA,Healthcare,51-200,Organic Search
+C02926,India,Retail,1000+,Referral
+C02927,France,Manufacturing,51-200,Direct
+C02928,India,,501-1000,Event
+C02929,France,Healthcare,201-500,Direct
+C02930,USA,Education,1000+,Organic Search
+C02931,Canada,Education,11-50,Event
+C02932,Germany,Manufacturing,501-1000,Organic Search
+C02933,USA,Healthcare,51-200,Event
+C02934,UK,Technology,201-500,Event
+C02935,Germany,Technology,1-10,Organic Search
+C02936,USA,Education,201-500,Organic Search
+C02937,France,Manufacturing,201-500,Event
+C02938,Canada,Retail,1000+,Event
+C02939,India,Technology,1000+,Organic Search
+C02940,USA,Technology,51-200,Organic Search
+C02941,USA,Education,51-200,Paid Ads
+C02942,Canada,Education,1000+,Paid Ads
+C02943,USA,Manufacturing,1000+,Paid Ads
+C02944,Germany,Education,11-50,Direct
+C02945,France,Finance,11-50,Event
+C02946,USA,Healthcare,501-1000,Referral
+C02947,UK,Technology,1000+,Direct
+C02948,UK,Finance,1-10,Event
+C02949,USA,Retail,11-50,Referral
+C02950,India,Finance,51-200,Paid Ads
+C02951,France,Manufacturing,201-500,Referral
+C02952,Germany,Retail,501-1000,Organic Search
+C02953,Germany,Retail,11-50,Organic Search
+C02954,UK,Education,201-500,Event
+C02955,India,Finance,201-500,Direct
+C02956,Germany,Manufacturing,11-50,Paid Ads
+C02957,Germany,Technology,1-10,Event
+C02958,Australia,Education,1-10,Paid Ads
+C02959,USA,Finance,501-1000,Organic Search
+C02960,France,Technology,1-10,Direct
+C02961,USA,Finance,501-1000,Direct
+C02962,USA,Education,51-200,Organic Search
+C02963,USA,Technology,11-50,Referral
+C02964,India,Education,201-500,Direct
+C02965,Australia,Finance,501-1000,Referral
+C02966,Germany,Retail,1-10,Paid Ads
+C02967,Germany,Healthcare,501-1000,Direct
+C02968,Canada,Retail,1000+,Organic Search
+C02969,India,Education,501-1000,Referral
+C02970,UK,Education,1-10,Paid Ads
+C02971,USA,Education,1000+,Paid Ads
+C02972,USA,Technology,1000+,Direct
+C02973,France,Manufacturing,1-10,Direct
+C02974,Germany,Education,1000+,Event
+C02975,USA,Retail,11-50,Event
+C02976,USA,Healthcare,201-500,Direct
+C02977,France,Education,11-50,Event
+C02978,USA,Education,11-50,Organic Search
+C02979,Germany,Education,1-10,Organic Search
+C02980,India,Technology,1-10,Event
+C02981,UK,Education,201-500,Direct
+C02982,USA,Retail,501-1000,Organic Search
+C02983,Germany,Finance,11-50,Paid Ads
+C02984,France,Manufacturing,1000+,Direct
+C02985,UK,Education,201-500,Referral
+C02986,India,Technology,11-50,Referral
+C02987,USA,Retail,501-1000,Direct
+C02988,UK,Education,1000+,Event
+C02989,Germany,Technology,11-50,Organic Search
+C02990,Australia,Finance,51-200,Organic Search
+C02991,USA,Healthcare,201-500,Direct
+C02992,France,Education,1-10,Paid Ads
+C02993,Canada,Retail,11-50,Event
+C02994,USA,Technology,1000+,Paid Ads
+C02995,USA,Technology,1000+,Direct
+C02996,Australia,Education,201-500,Direct
+C02997,USA,Technology,201-500,Paid Ads
+C02998,USA,Healthcare,1000+,Referral
+C02999,USA,Technology,1000+,Direct
+C03000,Australia,Manufacturing,1000+,Event
+C03001,Germany,Manufacturing,11-50,Paid Ads
+C03002,France,Technology,1000+,Referral
+C03003,USA,Education,1-10,Paid Ads
+C03004,Canada,Manufacturing,1000+,Referral
+C03005,Canada,,1-10,Referral
+C03006,France,Manufacturing,11-50,Event
+C03007,India,Technology,201-500,Direct
+C03008,USA,Education,1-10,Referral
+C03009,Germany,Finance,11-50,Direct
+C03010,USA,Education,1000+,Event
+C03011,UK,Education,11-50,Direct
+C03012,USA,,1000+,Organic Search
+C03013,USA,Retail,11-50,Referral
+C03014,USA,Healthcare,201-500,Event
+C03015,Canada,Technology,1-10,Paid Ads
+C03016,USA,Healthcare,201-500,Event
+C03017,Germany,Finance,51-200,Referral
+C03018,UK,Healthcare,1000+,Event
+C03019,USA,Technology,1-10,Paid Ads
+C03020,France,Technology,201-500,Organic Search
+C03021,USA,Finance,1-10,Referral
+C03022,UK,Technology,51-200,Referral
+C03023,Germany,Finance,501-1000,Event
+C03024,USA,Finance,1000+,Direct
+C03025,USA,Technology,1000+,Direct
+C03026,USA,Manufacturing,11-50,Paid Ads
+C03027,India,Finance,1000+,Organic Search
+C03028,Canada,Technology,1000+,Organic Search
+C03029,Germany,Manufacturing,201-500,Event
+C03030,Canada,Finance,1000+,Event
+C03031,USA,Manufacturing,1000+,Direct
+C03032,UK,Retail,51-200,Organic Search
+C03033,France,Education,51-200,Organic Search
+C03034,USA,Retail,1-10,Organic Search
+C03035,USA,Manufacturing,1-10,Paid Ads
+C03036,USA,Finance,1000+,Paid Ads
+C03037,UK,Technology,1000+,Event
+C03038,India,Healthcare,11-50,Direct
+C03039,USA,Technology,1-10,Referral
+C03040,UK,Healthcare,201-500,Direct
+C03041,USA,Healthcare,1000+,Paid Ads
+C03042,India,Finance,201-500,Paid Ads
+C03043,USA,Manufacturing,1000+,Event
+C03044,UK,Technology,201-500,Referral
+C03045,Germany,Manufacturing,501-1000,Organic Search
+C03046,Germany,Retail,201-500,Referral
+C03047,UK,Finance,1-10,Referral
+C03048,USA,Finance,1000+,Referral
+C03049,USA,Retail,1-10,Event
+C03050,USA,Technology,201-500,Paid Ads
+C03051,USA,Education,51-200,Organic Search
+C03052,UK,Retail,51-200,Referral
+C03053,USA,Technology,51-200,Organic Search
+C03054,USA,Healthcare,1000+,Referral
+C03055,Germany,Finance,11-50,Paid Ads
+C03056,India,Technology,501-1000,Organic Search
+C03057,Canada,Manufacturing,201-500,Direct
+C03058,USA,Manufacturing,11-50,Paid Ads
+C03059,USA,Finance,51-200,Organic Search
+C03060,India,Retail,201-500,Referral
+C03061,USA,Education,11-50,Referral
+C03062,USA,Retail,1-10,Paid Ads
+C03063,Canada,Technology,51-200,Paid Ads
+C03064,Canada,Retail,11-50,Referral
+C03065,Canada,Finance,1000+,Organic Search
+C03066,USA,Technology,1-10,Direct
+C03067,USA,Healthcare,51-200,Event
+C03068,India,Retail,501-1000,Paid Ads
+C03069,USA,Retail,51-200,Referral
+C03070,Germany,Education,1000+,Organic Search
+C03071,Germany,Technology,501-1000,Paid Ads
+C03072,Canada,Manufacturing,501-1000,Organic Search
+C03073,USA,Retail,501-1000,Paid Ads
+C03074,USA,Finance,201-500,Referral
+C03075,Canada,Retail,201-500,Organic Search
+C03076,Australia,Education,501-1000,Referral
+C03077,India,Healthcare,1-10,Organic Search
+C03078,USA,Education,501-1000,Paid Ads
+C03079,USA,Retail,11-50,Event
+C03080,India,Manufacturing,501-1000,Event
+C03081,Germany,Retail,201-500,Direct
+C03082,Australia,Technology,201-500,Direct
+C03083,USA,Retail,11-50,Referral
+C03084,Canada,Manufacturing,11-50,Organic Search
+C03085,Germany,Technology,51-200,Direct
+C03086,Germany,Finance,1-10,Paid Ads
+C03087,UK,Technology,1-10,Event
+C03088,USA,Education,1-10,Organic Search
+C03089,Canada,Healthcare,1000+,Event
+C03090,USA,Education,201-500,Organic Search
+C03091,UK,Technology,1-10,Direct
+C03092,India,Finance,51-200,Direct
+C03093,USA,Retail,51-200,Referral
+C03094,France,Technology,1-10,Organic Search
+C03095,USA,Education,11-50,Paid Ads
+C03096,Germany,Technology,51-200,Direct
+C03097,India,Technology,11-50,Referral
+C03098,USA,Technology,201-500,Direct
+C03099,USA,Finance,1000+,Event
+C03100,UK,Manufacturing,51-200,Direct
+C03101,USA,Manufacturing,11-50,Organic Search
+C03102,Germany,Technology,1-10,Referral
+C03103,India,Finance,201-500,Organic Search
+C03104,UK,Finance,501-1000,Paid Ads
+C03105,USA,Technology,501-1000,Paid Ads
+C03106,UK,Education,1-10,Direct
+C03107,Germany,Education,201-500,Referral
+C03108,USA,Healthcare,201-500,Referral
+C03109,Canada,Technology,201-500,Referral
+C03110,Canada,Healthcare,201-500,Referral
+C03111,Canada,Education,501-1000,Direct
+C03112,USA,Education,11-50,Organic Search
+C03113,Germany,Technology,201-500,Direct
+C03114,USA,Healthcare,11-50,Organic Search
+C03115,USA,Healthcare,201-500,Event
+C03116,Australia,Technology,51-200,Event
+C03117,Germany,Healthcare,1000+,Organic Search
+C03118,USA,Retail,51-200,Direct
+C03119,USA,Education,1000+,Paid Ads
+C03120,USA,Manufacturing,51-200,Direct
+C03121,USA,Finance,201-500,Paid Ads
+C03122,USA,Healthcare,11-50,Direct
+C03123,USA,,1000+,Referral
+C03124,UK,Finance,501-1000,Referral
+C03125,Germany,Healthcare,1-10,Event
+C03126,Canada,Finance,1000+,Event
+C03127,Germany,Technology,1000+,Organic Search
+C03128,USA,Retail,501-1000,Paid Ads
+C03129,India,Retail,201-500,Referral
+C03130,France,Education,51-200,Direct
+C03131,France,Manufacturing,51-200,Organic Search
+C03132,France,Healthcare,11-50,Direct
+C03133,India,Manufacturing,201-500,Referral
+C03134,UK,Technology,501-1000,Referral
+C03135,USA,Retail,201-500,Referral
+C03136,Canada,Technology,201-500,Referral
+C03137,Germany,Technology,51-200,Direct
+C03138,Germany,Healthcare,501-1000,Organic Search
+C03139,UK,Technology,1-10,Referral
+C03140,USA,Retail,1000+,Event
+C03141,USA,Manufacturing,51-200,Organic Search
+C03142,India,Retail,501-1000,Event
+C03143,Canada,Healthcare,11-50,Direct
+C03144,UK,Retail,1000+,Referral
+C03145,USA,Finance,1000+,Organic Search
+C03146,USA,Manufacturing,51-200,Referral
+C03147,Australia,Finance,11-50,Referral
+C03148,Germany,Finance,51-200,Organic Search
+C03149,France,Education,201-500,Referral
+C03150,UK,Healthcare,501-1000,Referral
+C03151,Canada,Technology,11-50,Paid Ads
+C03152,USA,Finance,1000+,Paid Ads
+C03153,Germany,Retail,51-200,Organic Search
+C03154,UK,Technology,1000+,Organic Search
+C03155,UK,Retail,11-50,Referral
+C03156,Canada,Retail,1000+,Event
+C03157,India,Technology,51-200,Organic Search
+C03158,USA,Technology,51-200,Referral
+C03159,France,Retail,1-10,Event
+C03160,USA,Healthcare,1000+,Paid Ads
+C03161,UK,Manufacturing,1-10,Organic Search
+C03162,USA,Education,1-10,Referral
+C03163,USA,Manufacturing,1000+,Paid Ads
+C03164,UK,Healthcare,11-50,Direct
+C03165,USA,Education,201-500,Paid Ads
+C03166,UK,Technology,51-200,Referral
+C03167,India,Education,501-1000,Event
+C03168,USA,Retail,1-10,Direct
+C03169,France,Manufacturing,11-50,Direct
+C03170,UK,Education,1000+,Direct
+C03171,Germany,Retail,11-50,Organic Search
+C03172,USA,Healthcare,11-50,Referral
+C03173,USA,Education,1000+,Direct
+C03174,USA,Retail,501-1000,Paid Ads
+C03175,USA,Healthcare,1000+,Event
+C03176,USA,Technology,501-1000,Referral
+C03177,Germany,Healthcare,1000+,Paid Ads
+C03178,Australia,Healthcare,1-10,Organic Search
+C03179,France,,501-1000,Direct
+C03180,Germany,Retail,1-10,Paid Ads
+C03181,USA,Education,501-1000,Referral
+C03182,USA,Manufacturing,501-1000,Paid Ads
+C03183,USA,Finance,1000+,Organic Search
+C03184,USA,Healthcare,501-1000,Event
+C03185,UK,Finance,1-10,Direct
+C03186,UK,Manufacturing,1000+,Referral
+C03187,USA,Retail,51-200,Direct
+C03188,USA,Manufacturing,1-10,Direct
+C03189,France,Retail,51-200,Direct
+C03190,France,Retail,11-50,Paid Ads
+C03191,USA,Technology,1000+,Paid Ads
+C03192,India,Healthcare,11-50,Event
+C03193,India,Manufacturing,1000+,Organic Search
+C03194,USA,Retail,1000+,Referral
+C03195,USA,Manufacturing,1-10,Paid Ads
+C03196,UK,Manufacturing,51-200,Direct
+C03197,India,Retail,1000+,Organic Search
+C03198,Australia,Education,51-200,Referral
+C03199,USA,Finance,1000+,Referral
+C03200,USA,Healthcare,51-200,Referral
+C03201,Canada,Healthcare,11-50,Referral
+C03202,UK,Education,1-10,Event
+C03203,USA,Technology,1000+,Referral
+C03204,Australia,Education,201-500,Organic Search
+C03205,Germany,Technology,51-200,Paid Ads
+C03206,France,Technology,51-200,Organic Search
+C03207,Australia,Education,201-500,Direct
+C03208,Germany,Healthcare,1-10,Event
+C03209,UK,Finance,51-200,Event
+C03210,Canada,Healthcare,1-10,Direct
+C03211,USA,Healthcare,51-200,Organic Search
+C03212,Germany,Healthcare,501-1000,Organic Search
+C03213,USA,Education,51-200,Direct
+C03214,Germany,Education,501-1000,Referral
+C03215,USA,Education,1000+,Referral
+C03216,USA,Healthcare,1-10,Paid Ads
+C03217,USA,Finance,51-200,Organic Search
+C03218,USA,Technology,11-50,Organic Search
+C03219,Germany,Manufacturing,11-50,Direct
+C03220,Germany,Technology,201-500,Direct
+C03221,UK,Technology,11-50,Referral
+C03222,USA,Manufacturing,501-1000,Organic Search
+C03223,USA,Healthcare,11-50,Organic Search
+C03224,USA,Finance,11-50,Event
+C03225,USA,Finance,11-50,Paid Ads
+C03226,Australia,Technology,51-200,Paid Ads
+C03227,USA,Manufacturing,201-500,Referral
+C03228,USA,Retail,1-10,Organic Search
+C03229,USA,Healthcare,201-500,Event
+C03230,USA,Technology,501-1000,Organic Search
+C03231,UK,Finance,51-200,Direct
+C03232,Canada,Education,1000+,Referral
+C03233,USA,Education,51-200,Paid Ads
+C03234,USA,Manufacturing,11-50,Organic Search
+C03235,USA,Manufacturing,11-50,Referral
+C03236,USA,Technology,501-1000,Paid Ads
+C03237,USA,,1000+,Organic Search
+C03238,India,Finance,51-200,Event
+C03239,Canada,Technology,1000+,Referral
+C03240,Canada,Retail,1-10,Organic Search
+C03241,UK,Manufacturing,201-500,Paid Ads
+C03242,UK,Education,51-200,Paid Ads
+C03243,UK,Healthcare,1000+,Event
+C03244,Germany,Education,1-10,Referral
+C03245,Germany,Finance,1-10,Referral
+C03246,USA,Finance,201-500,Organic Search
+C03247,UK,Education,1-10,Paid Ads
+C03248,UK,Education,501-1000,Paid Ads
+C03249,Australia,Retail,1-10,Event
+C03250,Canada,Technology,1000+,Event
+C03251,UK,Manufacturing,501-1000,Referral
+C03252,USA,Retail,1-10,Paid Ads
+C03253,Canada,Healthcare,11-50,Organic Search
+C03254,USA,Education,1-10,Direct
+C03255,USA,Healthcare,501-1000,Organic Search
+C03256,USA,Healthcare,1-10,Event
+C03257,Germany,Retail,1-10,Organic Search
+C03258,USA,Manufacturing,1-10,Paid Ads
+C03259,USA,Finance,501-1000,Referral
+C03260,Australia,Technology,1-10,Direct
+C03261,USA,Finance,201-500,Referral
+C03262,UK,Manufacturing,1000+,Direct
+C03263,UK,Finance,201-500,Direct
+C03264,USA,Education,501-1000,Paid Ads
+C03265,France,Education,11-50,Paid Ads
+C03266,USA,Retail,201-500,Event
+C03267,UK,,1000+,Event
+C03268,Canada,Manufacturing,51-200,Direct
+C03269,Canada,Manufacturing,1000+,Event
+C03270,Germany,Finance,201-500,Paid Ads
+C03271,USA,Retail,51-200,Event
+C03272,USA,Finance,501-1000,Direct
+C03273,Germany,Finance,1000+,Referral
+C03274,UK,Manufacturing,11-50,Organic Search
+C03275,France,Finance,51-200,Event
+C03276,France,Healthcare,51-200,Paid Ads
+C03277,France,Finance,1000+,Referral
+C03278,UK,Healthcare,201-500,Paid Ads
+C03279,USA,Manufacturing,51-200,Event
+C03280,France,Retail,501-1000,Direct
+C03281,UK,Education,1000+,Organic Search
+C03282,USA,Healthcare,501-1000,Organic Search
+C03283,Australia,Retail,1000+,Referral
+C03284,Australia,Retail,501-1000,Organic Search
+C03285,UK,Healthcare,201-500,Direct
+C03286,USA,Manufacturing,1000+,Paid Ads
+C03287,USA,Technology,11-50,Direct
+C03288,France,Retail,201-500,Referral
+C03289,India,Retail,501-1000,Referral
+C03290,USA,Manufacturing,1000+,Organic Search
+C03291,USA,Manufacturing,201-500,Direct
+C03292,Australia,Finance,501-1000,Paid Ads
+C03293,USA,Manufacturing,1-10,Direct
+C03294,UK,Retail,1-10,Paid Ads
+C03295,India,Healthcare,51-200,Paid Ads
+C03296,USA,Technology,11-50,Direct
+C03297,Canada,Finance,1-10,Event
+C03298,USA,Healthcare,501-1000,Direct
+C03299,USA,Technology,201-500,Paid Ads
+C03300,France,Technology,1000+,Referral
+C03301,UK,Technology,201-500,Referral
+C03302,India,Education,51-200,Organic Search
+C03303,Canada,Healthcare,201-500,Referral
+C03304,USA,Finance,1-10,Event
+C03305,USA,Finance,201-500,Paid Ads
+C03306,USA,Technology,1-10,Direct
+C03307,USA,Healthcare,1-10,Direct
+C03308,USA,Education,11-50,Event
+C03309,USA,Technology,51-200,Referral
+C03310,UK,Manufacturing,501-1000,Paid Ads
+C03311,Germany,Finance,1-10,Referral
+C03312,Germany,Retail,1000+,Organic Search
+C03313,Germany,Technology,51-200,Referral
+C03314,USA,Manufacturing,501-1000,Organic Search
+C03315,USA,Finance,1000+,Direct
+C03316,Germany,Education,201-500,Paid Ads
+C03317,UK,Healthcare,51-200,Organic Search
+C03318,USA,Finance,1000+,Referral
+C03319,France,,51-200,Referral
+C03320,France,Healthcare,51-200,Direct
+C03321,UK,Education,201-500,Event
+C03322,USA,Education,201-500,Event
+C03323,France,Technology,51-200,Referral
+C03324,Canada,Technology,1000+,Event
+C03325,France,Finance,11-50,Paid Ads
+C03326,France,Education,1-10,Event
+C03327,France,Manufacturing,201-500,Paid Ads
+C03328,UK,Finance,11-50,Referral
+C03329,USA,Retail,201-500,Referral
+C03330,Germany,Healthcare,51-200,Referral
+C03331,Canada,Healthcare,11-50,Direct
+C03332,Germany,Technology,1000+,Event
+C03333,USA,Manufacturing,1000+,Organic Search
+C03334,USA,Education,501-1000,Organic Search
+C03335,Australia,Education,1-10,Referral
+C03336,Germany,Technology,1-10,Event
+C03337,India,Retail,201-500,Paid Ads
+C03338,France,Finance,1-10,Organic Search
+C03339,Canada,Finance,501-1000,Referral
+C03340,Germany,Manufacturing,1000+,Organic Search
+C03341,Australia,Technology,11-50,Organic Search
+C03342,Canada,Technology,11-50,Organic Search
+C03343,Canada,Retail,1000+,Referral
+C03344,USA,Finance,51-200,Referral
+C03345,UK,Technology,1000+,Direct
+C03346,Germany,Education,11-50,Direct
+C03347,USA,Manufacturing,201-500,Direct
+C03348,USA,Finance,501-1000,Organic Search
+C03349,USA,Retail,1000+,Event
+C03350,USA,Manufacturing,51-200,Referral
+C03351,USA,,201-500,Direct
+C03352,UK,Education,1000+,Event
+C03353,India,Retail,201-500,Direct
+C03354,UK,Manufacturing,1000+,Direct
+C03355,USA,Technology,201-500,Event
+C03356,USA,,1-10,Direct
+C03357,Germany,Retail,201-500,Organic Search
+C03358,USA,Technology,1-10,Organic Search
+C03359,France,Education,11-50,Organic Search
+C03360,Germany,Healthcare,1-10,Paid Ads
+C03361,France,Finance,201-500,Direct
+C03362,USA,Technology,501-1000,Paid Ads
+C03363,Germany,Manufacturing,501-1000,Referral
+C03364,USA,Retail,11-50,Event
+C03365,India,Healthcare,201-500,Referral
+C03366,Canada,Technology,1-10,Paid Ads
+C03367,USA,Finance,501-1000,Organic Search
+C03368,USA,Retail,1000+,Direct
+C03369,USA,Retail,51-200,Direct
+C03370,Germany,Technology,201-500,Organic Search
+C03371,USA,Finance,1000+,Direct
+C03372,Canada,Education,1000+,Event
+C03373,USA,Education,201-500,Event
+C03374,Germany,Healthcare,51-200,Event
+C03375,France,Technology,501-1000,Referral
+C03376,France,Healthcare,51-200,Organic Search
+C03377,France,Education,11-50,Event
+C03378,USA,Retail,1-10,Paid Ads
+C03379,USA,Healthcare,1-10,Event
+C03380,Germany,Finance,1000+,Referral
+C03381,USA,Manufacturing,501-1000,Paid Ads
+C03382,UK,Education,51-200,Organic Search
+C03383,USA,Education,1000+,Organic Search
+C03384,USA,,201-500,Event
+C03385,USA,Healthcare,1000+,Paid Ads
+C03386,Australia,Technology,201-500,Paid Ads
+C03387,USA,Retail,201-500,Event
+C03388,Canada,Manufacturing,11-50,Event
+C03389,USA,Technology,11-50,Direct
+C03390,Germany,Technology,201-500,Direct
+C03391,USA,Finance,501-1000,Event
+C03392,Australia,Healthcare,11-50,Referral
+C03393,Australia,Education,11-50,Direct
+C03394,USA,Education,1-10,Event
+C03395,India,Finance,1000+,Paid Ads
+C03396,India,Healthcare,1-10,Direct
+C03397,France,Finance,501-1000,Referral
+C03398,France,Education,11-50,Organic Search
+C03399,USA,Technology,11-50,Paid Ads
+C03400,Canada,Retail,51-200,Referral
+C03401,USA,Healthcare,501-1000,Referral
+C03402,USA,Manufacturing,1000+,Referral
+C03403,India,Manufacturing,1000+,Paid Ads
+C03404,USA,Technology,1000+,Referral
+C03405,Germany,Finance,501-1000,Organic Search
+C03406,France,Finance,51-200,Direct
+C03407,Australia,Education,51-200,Paid Ads
+C03408,India,,1-10,Referral
+C03409,USA,Education,501-1000,Event
+C03410,USA,Education,501-1000,Direct
+C03411,UK,Manufacturing,51-200,Paid Ads
+C03412,USA,Education,201-500,Event
+C03413,USA,Education,201-500,Event
+C03414,USA,Manufacturing,1-10,Referral
+C03415,France,Finance,201-500,Paid Ads
+C03416,Canada,Healthcare,201-500,Referral
+C03417,USA,Retail,201-500,Organic Search
+C03418,Germany,Education,11-50,Event
+C03419,USA,Healthcare,1-10,Organic Search
+C03420,USA,Manufacturing,51-200,Referral
+C03421,France,Healthcare,201-500,Direct
+C03422,Canada,Retail,1000+,Event
+C03423,France,Healthcare,11-50,Direct
+C03424,USA,Healthcare,201-500,Paid Ads
+C03425,France,Healthcare,11-50,Event
+C03426,Canada,Healthcare,1-10,Organic Search
+C03427,Canada,Technology,1000+,Direct
+C03428,Canada,Education,1000+,Paid Ads
+C03429,Australia,Manufacturing,1000+,Event
+C03430,Canada,Retail,201-500,Paid Ads
+C03431,Canada,Manufacturing,11-50,Organic Search
+C03432,India,,1000+,Event
+C03433,France,Technology,501-1000,Paid Ads
+C03434,UK,Technology,501-1000,Referral
+C03435,Germany,Education,11-50,Event
+C03436,USA,Technology,201-500,Event
+C03437,USA,Healthcare,201-500,Event
+C03438,Canada,Manufacturing,1-10,Event
+C03439,India,Finance,1-10,Referral
+C03440,India,Retail,1000+,Organic Search
+C03441,USA,Technology,51-200,Referral
+C03442,UK,Manufacturing,1-10,Referral
+C03443,USA,Technology,201-500,Paid Ads
+C03444,India,Education,51-200,Direct
+C03445,India,Technology,1-10,Direct
+C03446,Canada,Technology,11-50,Paid Ads
+C03447,France,Technology,501-1000,Referral
+C03448,Germany,Technology,1-10,Paid Ads
+C03449,Canada,Retail,1-10,Event
+C03450,USA,Manufacturing,11-50,Paid Ads
+C03451,UK,Education,201-500,Paid Ads
+C03452,Germany,Technology,1000+,Event
+C03453,Germany,Technology,11-50,Direct
+C03454,USA,Technology,1000+,Event
+C03455,India,Technology,1-10,Organic Search
+C03456,USA,,201-500,Paid Ads
+C03457,UK,,51-200,Paid Ads
+C03458,Germany,Finance,1-10,Direct
+C03459,Germany,,11-50,Referral
+C03460,Canada,Finance,51-200,Event
+C03461,USA,Retail,501-1000,Referral
+C03462,USA,Finance,51-200,Organic Search
+C03463,Canada,Manufacturing,11-50,Event
+C03464,Canada,Healthcare,51-200,Organic Search
+C03465,USA,Healthcare,11-50,Organic Search
+C03466,Germany,Technology,1-10,Organic Search
+C03467,UK,Technology,201-500,Event
+C03468,Germany,Retail,501-1000,Event
+C03469,France,Education,201-500,Direct
+C03470,USA,Retail,201-500,Paid Ads
+C03471,USA,Manufacturing,201-500,Referral
+C03472,France,Technology,11-50,Referral
+C03473,Canada,Technology,11-50,Organic Search
+C03474,Germany,Retail,501-1000,Event
+C03475,France,Retail,11-50,Event
+C03476,France,Retail,1000+,Organic Search
+C03477,India,Healthcare,11-50,Paid Ads
+C03478,UK,Finance,11-50,Referral
+C03479,UK,Finance,11-50,Direct
+C03480,UK,,1-10,Paid Ads
+C03481,USA,Healthcare,501-1000,Event
+C03482,Canada,Retail,1000+,Organic Search
+C03483,USA,Technology,11-50,Referral
+C03484,India,Healthcare,501-1000,Organic Search
+C03485,Canada,Manufacturing,51-200,Event
+C03486,Canada,Education,1-10,Organic Search
+C03487,USA,Healthcare,11-50,Referral
+C03488,USA,Technology,1000+,Organic Search
+C03489,USA,Finance,1-10,Referral
+C03490,UK,Retail,1000+,Organic Search
+C03491,USA,Education,1-10,Organic Search
+C03492,Canada,Manufacturing,51-200,Referral
+C03493,Australia,Education,501-1000,Organic Search
+C03494,Australia,Education,1-10,Paid Ads
+C03495,Germany,Healthcare,201-500,Direct
+C03496,USA,Technology,51-200,Paid Ads
+C03497,Australia,Technology,201-500,Direct
+C03498,Australia,Education,51-200,Paid Ads
+C03499,USA,Retail,201-500,Direct
+C03500,Germany,Technology,201-500,Organic Search
+C03501,USA,Education,1000+,Referral
+C03502,France,Technology,1-10,Referral
+C03503,India,Retail,1-10,Event
+C03504,USA,Manufacturing,51-200,Direct
+C03505,Australia,Education,501-1000,Event
+C03506,Canada,Finance,1000+,Event
+C03507,India,Finance,1-10,Direct
+C03508,UK,Education,1-10,Referral
+C03509,France,Healthcare,1000+,Direct
+C03510,USA,Manufacturing,11-50,Organic Search
+C03511,USA,Healthcare,1000+,Event
+C03512,USA,Finance,1-10,Event
+C03513,India,Retail,501-1000,Direct
+C03514,France,Education,11-50,Event
+C03515,Australia,Technology,201-500,Referral
+C03516,India,Finance,1000+,Event
+C03517,USA,Manufacturing,201-500,Direct
+C03518,USA,Finance,11-50,Referral
+C03519,USA,Manufacturing,11-50,Referral
+C03520,USA,Manufacturing,11-50,Event
+C03521,USA,Education,51-200,Direct
+C03522,UK,Manufacturing,1000+,Event
+C03523,USA,Healthcare,501-1000,Organic Search
+C03524,USA,Retail,501-1000,Organic Search
+C03525,USA,Finance,201-500,Referral
+C03526,USA,Retail,201-500,Event
+C03527,India,Technology,201-500,Organic Search
+C03528,France,Finance,1000+,Paid Ads
+C03529,India,Retail,1-10,Organic Search
+C03530,UK,Retail,201-500,Event
+C03531,USA,Education,11-50,Event
+C03532,France,,201-500,Organic Search
+C03533,USA,Technology,11-50,Event
+C03534,USA,Manufacturing,51-200,Event
+C03535,USA,Finance,1-10,Paid Ads
+C03536,USA,Education,1-10,Referral
+C03537,USA,Finance,1000+,Event
+C03538,USA,Technology,1000+,Direct
+C03539,Germany,Education,501-1000,Referral
+C03540,USA,Education,51-200,Referral
+C03541,USA,Manufacturing,1000+,Direct
+C03542,France,,11-50,Organic Search
+C03543,USA,Finance,51-200,Paid Ads
+C03544,USA,Finance,1-10,Event
+C03545,Australia,Manufacturing,11-50,Organic Search
+C03546,USA,Education,51-200,Direct
+C03547,USA,Technology,1-10,Paid Ads
+C03548,UK,Finance,1000+,Paid Ads
+C03549,USA,Retail,11-50,Paid Ads
+C03550,Canada,Manufacturing,11-50,Direct
+C03551,France,Healthcare,1-10,Organic Search
+C03552,USA,Technology,11-50,Event
+C03553,Canada,Retail,1000+,Paid Ads
+C03554,UK,Finance,1000+,Paid Ads
+C03555,USA,Healthcare,1000+,Organic Search
+C03556,Canada,,1-10,Paid Ads
+C03557,USA,Manufacturing,201-500,Paid Ads
+C03558,UK,Healthcare,201-500,Direct
+C03559,USA,Education,11-50,Referral
+C03560,UK,Healthcare,1000+,Organic Search
+C03561,USA,Retail,11-50,Organic Search
+C03562,France,Technology,1-10,Organic Search
+C03563,USA,Retail,11-50,Direct
+C03564,UK,Retail,501-1000,Direct
+C03565,UK,Finance,201-500,Event
+C03566,Germany,Manufacturing,11-50,Direct
+C03567,Canada,Healthcare,11-50,Organic Search
+C03568,Germany,Technology,51-200,Event
+C03569,France,Education,11-50,Referral
+C03570,Australia,Manufacturing,501-1000,Paid Ads
+C03571,USA,Manufacturing,201-500,Paid Ads
+C03572,UK,Technology,51-200,Event
+C03573,France,Manufacturing,1-10,Referral
+C03574,India,Finance,1-10,Paid Ads
+C03575,Australia,Manufacturing,201-500,Event
+C03576,USA,Finance,1-10,Direct
+C03577,USA,Healthcare,501-1000,Organic Search
+C03578,UK,Healthcare,11-50,Referral
+C03579,Germany,Retail,201-500,Paid Ads
+C03580,UK,,51-200,Organic Search
+C03581,UK,Education,11-50,Event
+C03582,France,Healthcare,1-10,Paid Ads
+C03583,USA,Manufacturing,1-10,Organic Search
+C03584,Australia,Technology,51-200,Direct
+C03585,UK,Technology,501-1000,Referral
+C03586,USA,Finance,51-200,Event
+C03587,UK,Education,201-500,Paid Ads
+C03588,France,Retail,51-200,Direct
+C03589,USA,,1-10,Referral
+C03590,USA,Finance,501-1000,Referral
+C03591,India,Technology,501-1000,Direct
+C03592,USA,,1000+,Paid Ads
+C03593,Canada,Manufacturing,51-200,Referral
+C03594,Canada,Education,201-500,Event
+C03595,UK,Education,1-10,Organic Search
+C03596,Canada,Healthcare,11-50,Event
+C03597,USA,Manufacturing,501-1000,Referral
+C03598,Canada,Healthcare,51-200,Organic Search
+C03599,USA,Healthcare,1000+,Direct
+C03600,Germany,Healthcare,201-500,Organic Search
+C03601,USA,Finance,201-500,Organic Search
+C03602,Canada,Technology,1-10,Organic Search
+C03603,USA,Education,501-1000,Referral
+C03604,USA,Finance,1-10,Paid Ads
+C03605,USA,Technology,1000+,Referral
+C03606,USA,Education,11-50,Paid Ads
+C03607,France,Manufacturing,11-50,Direct
+C03608,USA,Education,11-50,Direct
+C03609,India,Education,201-500,Direct
+C03610,India,,501-1000,Direct
+C03611,Canada,Retail,1-10,Direct
+C03612,USA,Manufacturing,1-10,Event
+C03613,USA,Finance,1000+,Referral
+C03614,France,Finance,11-50,Paid Ads
+C03615,USA,Technology,501-1000,Direct
+C03616,USA,,501-1000,Event
+C03617,Canada,Healthcare,1000+,Event
+C03618,France,Education,51-200,Event
+C03619,France,Finance,501-1000,Referral
+C03620,USA,Technology,501-1000,Direct
+C03621,Germany,Technology,1-10,Event
+C03622,USA,Healthcare,1000+,Event
+C03623,USA,Technology,501-1000,Direct
+C03624,Australia,Retail,501-1000,Referral
+C03625,USA,Education,1-10,Event
+C03626,USA,Education,501-1000,Paid Ads
+C03627,USA,Education,1-10,Organic Search
+C03628,Australia,Manufacturing,51-200,Organic Search
+C03629,France,Finance,201-500,Organic Search
+C03630,Canada,Retail,1-10,Referral
+C03631,France,Finance,1-10,Event
+C03632,USA,Retail,501-1000,Organic Search
+C03633,UK,Finance,1-10,Organic Search
+C03634,USA,Healthcare,1000+,Direct
+C03635,USA,Technology,11-50,Event
+C03636,UK,Technology,11-50,Event
+C03637,India,Healthcare,51-200,Direct
+C03638,USA,Retail,1-10,Event
+C03639,USA,Manufacturing,1000+,Paid Ads
+C03640,USA,,501-1000,Referral
+C03641,USA,Technology,501-1000,Direct
+C03642,India,Manufacturing,201-500,Organic Search
+C03643,UK,Finance,51-200,Event
+C03644,UK,Manufacturing,1000+,Paid Ads
+C03645,France,Retail,1000+,Paid Ads
+C03646,USA,Healthcare,501-1000,Referral
+C03647,UK,Finance,201-500,Paid Ads
+C03648,UK,Retail,501-1000,Event
+C03649,Canada,Finance,201-500,Event
+C03650,India,Manufacturing,11-50,Paid Ads
+C03651,France,Technology,1000+,Event
+C03652,USA,Retail,11-50,Event
+C03653,France,Healthcare,501-1000,Organic Search
+C03654,USA,Manufacturing,51-200,Direct
+C03655,USA,Retail,1-10,Event
+C03656,USA,Healthcare,51-200,Event
+C03657,USA,Retail,51-200,Referral
+C03658,UK,Manufacturing,1-10,Direct
+C03659,Canada,Retail,1000+,Direct
+C03660,India,Finance,11-50,Direct
+C03661,UK,Manufacturing,11-50,Paid Ads
+C03662,UK,Retail,1000+,Organic Search
+C03663,USA,Technology,1-10,Organic Search
+C03664,USA,Retail,201-500,Referral
+C03665,Canada,Finance,51-200,Direct
+C03666,UK,Healthcare,501-1000,Direct
+C03667,France,Healthcare,11-50,Event
+C03668,USA,Healthcare,1000+,Paid Ads
+C03669,USA,Technology,501-1000,Paid Ads
+C03670,UK,Finance,1-10,Referral
+C03671,USA,Manufacturing,501-1000,Organic Search
+C03672,USA,Healthcare,501-1000,Direct
+C03673,Germany,Finance,51-200,Referral
+C03674,USA,Retail,1-10,Paid Ads
+C03675,Canada,Technology,501-1000,Paid Ads
+C03676,USA,Finance,11-50,Paid Ads
+C03677,USA,Finance,1-10,Direct
+C03678,USA,Manufacturing,11-50,Direct
+C03679,France,Finance,1000+,Direct
+C03680,USA,Manufacturing,1000+,Event
+C03681,France,Technology,201-500,Organic Search
+C03682,USA,Technology,1000+,Paid Ads
+C03683,France,Retail,501-1000,Paid Ads
+C03684,USA,Manufacturing,1-10,Event
+C03685,Germany,Manufacturing,1000+,Paid Ads
+C03686,Canada,Healthcare,11-50,Paid Ads
+C03687,India,Healthcare,501-1000,Direct
+C03688,USA,Retail,1000+,Direct
+C03689,USA,Technology,51-200,Organic Search
+C03690,USA,Education,11-50,Paid Ads
+C03691,France,Healthcare,11-50,Referral
+C03692,UK,Finance,201-500,Paid Ads
+C03693,France,Technology,51-200,Paid Ads
+C03694,USA,Education,201-500,Organic Search
+C03695,USA,Finance,1000+,Referral
+C03696,USA,Manufacturing,51-200,Paid Ads
+C03697,India,Technology,11-50,Referral
+C03698,Germany,,201-500,Direct
+C03699,India,Manufacturing,501-1000,Direct
+C03700,USA,Manufacturing,51-200,Referral
+C03701,Canada,Finance,11-50,Paid Ads
+C03702,Germany,Manufacturing,1-10,Referral
+C03703,USA,Healthcare,51-200,Referral
+C03704,France,,51-200,Direct
+C03705,India,Healthcare,1000+,Referral
+C03706,Australia,Finance,501-1000,Event
+C03707,Germany,Education,1000+,Event
+C03708,USA,,51-200,Direct
+C03709,USA,Technology,51-200,Paid Ads
+C03710,India,Manufacturing,501-1000,Paid Ads
+C03711,USA,Retail,501-1000,Direct
+C03712,Germany,Finance,201-500,Paid Ads
+C03713,Germany,Technology,11-50,Organic Search
+C03714,Canada,Retail,11-50,Event
+C03715,India,,201-500,Organic Search
+C03716,USA,Education,11-50,Organic Search
+C03717,USA,Finance,51-200,Organic Search
+C03718,USA,Education,201-500,Direct
+C03719,UK,Technology,201-500,Organic Search
+C03720,USA,Education,11-50,Referral
+C03721,USA,Education,1-10,Paid Ads
+C03722,France,Technology,11-50,Direct
+C03723,India,Technology,1000+,Referral
+C03724,USA,Finance,1-10,Referral
+C03725,USA,Education,201-500,Event
+C03726,India,Retail,1-10,Event
+C03727,USA,Technology,51-200,Referral
+C03728,USA,Manufacturing,501-1000,Event
+C03729,USA,Education,1-10,Paid Ads
+C03730,Canada,Technology,1000+,Paid Ads
+C03731,USA,Retail,501-1000,Event
+C03732,India,Finance,51-200,Organic Search
+C03733,UK,Education,1000+,Referral
+C03734,UK,Technology,501-1000,Paid Ads
+C03735,USA,Technology,51-200,Event
+C03736,UK,Manufacturing,501-1000,Event
+C03737,Germany,Manufacturing,501-1000,Paid Ads
+C03738,France,Education,11-50,Paid Ads
+C03739,France,Technology,1000+,Organic Search
+C03740,Canada,Education,1000+,Event
+C03741,India,Technology,1-10,Event
+C03742,France,Manufacturing,1000+,Direct
+C03743,France,Retail,1000+,Organic Search
+C03744,USA,Healthcare,501-1000,Paid Ads
+C03745,USA,Healthcare,201-500,Paid Ads
+C03746,USA,Technology,11-50,Referral
+C03747,Germany,Manufacturing,1-10,Paid Ads
+C03748,UK,Finance,11-50,Event
+C03749,UK,Finance,1-10,Paid Ads
+C03750,Australia,Healthcare,51-200,Event
+C03751,Australia,Retail,501-1000,Event
+C03752,India,Healthcare,1000+,Organic Search
+C03753,USA,Technology,1000+,Paid Ads
+C03754,Germany,Retail,201-500,Organic Search
+C03755,USA,Finance,11-50,Event
+C03756,USA,Manufacturing,11-50,Paid Ads
+C03757,USA,Manufacturing,11-50,Paid Ads
+C03758,USA,Technology,1000+,Organic Search
+C03759,UK,Healthcare,11-50,Organic Search
+C03760,France,Technology,501-1000,Event
+C03761,USA,Manufacturing,1-10,Event
+C03762,Germany,Finance,1000+,Paid Ads
+C03763,UK,Manufacturing,501-1000,Paid Ads
+C03764,USA,Retail,51-200,Direct
+C03765,UK,Education,501-1000,Direct
+C03766,USA,Manufacturing,501-1000,Referral
+C03767,Canada,Manufacturing,51-200,Event
+C03768,UK,Education,501-1000,Referral
+C03769,USA,Retail,1-10,Referral
+C03770,USA,Healthcare,1000+,Organic Search
+C03771,UK,Manufacturing,201-500,Organic Search
+C03772,India,Technology,51-200,Direct
+C03773,USA,Manufacturing,1000+,Referral
+C03774,Germany,Technology,11-50,Direct
+C03775,Germany,Retail,1-10,Event
+C03776,India,Manufacturing,201-500,Paid Ads
+C03777,France,Retail,1-10,Organic Search
+C03778,Canada,Retail,1-10,Event
+C03779,Germany,Healthcare,11-50,Event
+C03780,Australia,Manufacturing,201-500,Organic Search
+C03781,USA,Technology,1-10,Organic Search
+C03782,USA,Technology,11-50,Referral
+C03783,USA,Manufacturing,51-200,Direct
+C03784,France,Education,11-50,Event
+C03785,France,Healthcare,501-1000,Referral
+C03786,USA,Healthcare,1000+,Referral
+C03787,Canada,Healthcare,11-50,Event
+C03788,UK,Technology,11-50,Event
+C03789,USA,Retail,11-50,Paid Ads
+C03790,India,Education,1-10,Direct
+C03791,USA,Healthcare,201-500,Event
+C03792,USA,Technology,11-50,Organic Search
+C03793,Canada,Technology,11-50,Paid Ads
+C03794,Germany,Retail,501-1000,Direct
+C03795,USA,Manufacturing,501-1000,Organic Search
+C03796,Germany,Manufacturing,51-200,Organic Search
+C03797,UK,Healthcare,51-200,Direct
+C03798,USA,Healthcare,501-1000,Paid Ads
+C03799,USA,Education,201-500,Organic Search
+C03800,Canada,Retail,51-200,Referral
+C03801,USA,Healthcare,1000+,Direct
+C03802,India,Retail,1000+,Direct
+C03803,France,Technology,201-500,Event
+C03804,India,Healthcare,501-1000,Paid Ads
+C03805,USA,Technology,51-200,Referral
+C03806,India,Finance,11-50,Referral
+C03807,UK,Retail,501-1000,Event
+C03808,USA,Finance,51-200,Organic Search
+C03809,USA,Healthcare,201-500,Organic Search
+C03810,USA,Technology,1000+,Referral
+C03811,Germany,,201-500,Paid Ads
+C03812,UK,Finance,51-200,Organic Search
+C03813,USA,Healthcare,201-500,Direct
+C03814,Canada,Education,51-200,Event
+C03815,USA,Manufacturing,51-200,Paid Ads
+C03816,Canada,Finance,201-500,Organic Search
+C03817,USA,Healthcare,1-10,Referral
+C03818,France,Technology,11-50,Event
+C03819,France,Healthcare,501-1000,Organic Search
+C03820,UK,Technology,1000+,Referral
+C03821,USA,Manufacturing,11-50,Organic Search
+C03822,USA,Healthcare,501-1000,Event
+C03823,France,Manufacturing,501-1000,Direct
+C03824,USA,Finance,1000+,Direct
+C03825,USA,Technology,11-50,Referral
+C03826,USA,Education,1000+,Direct
+C03827,UK,Finance,51-200,Event
+C03828,UK,Technology,1000+,Referral
+C03829,France,Manufacturing,201-500,Organic Search
+C03830,USA,Retail,1-10,Paid Ads
+C03831,USA,,1-10,Organic Search
+C03832,France,Manufacturing,1-10,Event
+C03833,France,Technology,11-50,Referral
+C03834,USA,Technology,11-50,Organic Search
+C03835,UK,Technology,51-200,Referral
+C03836,USA,Technology,1-10,Direct
+C03837,India,Healthcare,51-200,Paid Ads
+C03838,USA,Finance,1-10,Event
+C03839,India,Education,11-50,Organic Search
+C03840,Germany,Retail,201-500,Paid Ads
+C03841,UK,Healthcare,201-500,Event
+C03842,USA,Technology,201-500,Event
+C03843,UK,Healthcare,1000+,Direct
+C03844,UK,Manufacturing,201-500,Referral
+C03845,USA,Education,501-1000,Referral
+C03846,Germany,Technology,1-10,Paid Ads
+C03847,India,Retail,201-500,Direct
+C03848,Canada,Technology,501-1000,Event
+C03849,Germany,Education,501-1000,Direct
+C03850,USA,Retail,501-1000,Direct
+C03851,UK,Education,51-200,Paid Ads
+C03852,USA,Retail,51-200,Referral
+C03853,Canada,Finance,501-1000,Direct
+C03854,India,Finance,1000+,Direct
+C03855,Germany,Healthcare,201-500,Direct
+C03856,USA,Healthcare,1-10,Organic Search
+C03857,USA,Retail,1000+,Direct
+C03858,Canada,Technology,11-50,Direct
+C03859,UK,Manufacturing,51-200,Event
+C03860,France,Manufacturing,201-500,Organic Search
+C03861,France,Technology,201-500,Direct
+C03862,Canada,Technology,11-50,Direct
+C03863,USA,Finance,11-50,Paid Ads
+C03864,USA,Manufacturing,201-500,Paid Ads
+C03865,USA,Retail,11-50,Organic Search
+C03866,USA,Education,201-500,Event
+C03867,UK,Healthcare,1000+,Organic Search
+C03868,Germany,Education,11-50,Organic Search
+C03869,Germany,Finance,1000+,Paid Ads
+C03870,USA,Manufacturing,1000+,Paid Ads
+C03871,USA,Technology,11-50,Event
+C03872,USA,Manufacturing,201-500,Direct
+C03873,USA,Retail,501-1000,Event
+C03874,France,Finance,201-500,Direct
+C03875,USA,Technology,1-10,Referral
+C03876,UK,Education,11-50,Paid Ads
+C03877,USA,Retail,51-200,Referral
+C03878,Australia,Education,11-50,Referral
+C03879,Canada,Healthcare,1-10,Paid Ads
+C03880,USA,Finance,1000+,Referral
+C03881,UK,Retail,51-200,Organic Search
+C03882,Germany,Retail,51-200,Direct
+C03883,India,Education,201-500,Event
+C03884,USA,Technology,501-1000,Paid Ads
+C03885,Australia,Healthcare,201-500,Organic Search
+C03886,India,Education,51-200,Event
+C03887,India,Retail,51-200,Event
+C03888,Canada,Finance,501-1000,Event
+C03889,Canada,Retail,11-50,Referral
+C03890,UK,Manufacturing,501-1000,Referral
+C03891,France,Finance,1000+,Referral
+C03892,UK,Finance,201-500,Referral
+C03893,Germany,Retail,11-50,Organic Search
+C03894,UK,Technology,201-500,Referral
+C03895,Germany,Finance,501-1000,Paid Ads
+C03896,France,Manufacturing,11-50,Event
+C03897,USA,,501-1000,Organic Search
+C03898,France,Technology,1000+,Referral
+C03899,UK,Technology,1-10,Event
+C03900,France,Technology,51-200,Organic Search
+C03901,UK,Finance,11-50,Event
+C03902,USA,Technology,51-200,Organic Search
+C03903,India,Retail,1-10,Direct
+C03904,USA,Technology,11-50,Organic Search
+C03905,France,Manufacturing,51-200,Referral
+C03906,UK,Healthcare,51-200,Event
+C03907,UK,Manufacturing,11-50,Event
+C03908,USA,Finance,51-200,Event
+C03909,Canada,Technology,51-200,Paid Ads
+C03910,USA,Technology,11-50,Paid Ads
+C03911,USA,Retail,51-200,Referral
+C03912,USA,Education,51-200,Direct
+C03913,USA,Technology,201-500,Paid Ads
+C03914,India,,1000+,Organic Search
+C03915,India,Finance,201-500,Referral
+C03916,USA,Healthcare,1-10,Direct
+C03917,Germany,Technology,201-500,Organic Search
+C03918,USA,Healthcare,201-500,Event
+C03919,Germany,,1-10,Paid Ads
+C03920,France,Finance,51-200,Organic Search
+C03921,India,Education,51-200,Direct
+C03922,UK,Manufacturing,201-500,Referral
+C03923,France,Finance,1-10,Organic Search
+C03924,USA,Healthcare,51-200,Referral
+C03925,India,Technology,501-1000,Event
+C03926,USA,Healthcare,11-50,Direct
+C03927,Canada,Manufacturing,11-50,Direct
+C03928,Germany,Finance,1000+,Paid Ads
+C03929,Germany,Healthcare,11-50,Direct
+C03930,USA,Healthcare,201-500,Organic Search
+C03931,India,Manufacturing,11-50,Organic Search
+C03932,USA,Technology,11-50,Organic Search
+C03933,Canada,Healthcare,501-1000,Event
+C03934,USA,Manufacturing,51-200,Direct
+C03935,USA,Technology,501-1000,Direct
+C03936,UK,Education,201-500,Organic Search
+C03937,UK,Technology,11-50,Paid Ads
+C03938,USA,Education,51-200,Paid Ads
+C03939,USA,Finance,1000+,Direct
+C03940,UK,Manufacturing,1000+,Direct
+C03941,France,Technology,11-50,Referral
+C03942,Australia,Education,11-50,Direct
+C03943,USA,Education,1000+,Organic Search
+C03944,USA,Finance,1000+,Event
+C03945,USA,Retail,201-500,Direct
+C03946,USA,Manufacturing,11-50,Direct
+C03947,Germany,Retail,1000+,Organic Search
+C03948,Canada,Technology,1-10,Referral
+C03949,USA,Manufacturing,1000+,Direct
+C03950,USA,Finance,51-200,Paid Ads
+C03951,USA,Technology,51-200,Paid Ads
+C03952,France,Manufacturing,1-10,Paid Ads
+C03953,India,Manufacturing,201-500,Event
+C03954,USA,Retail,11-50,Event
+C03955,USA,Technology,11-50,Direct
+C03956,Australia,Finance,1000+,Direct
+C03957,India,Finance,51-200,Direct
+C03958,UK,Technology,201-500,Event
+C03959,USA,Technology,201-500,Direct
+C03960,USA,Education,201-500,Organic Search
+C03961,Canada,,1000+,Referral
+C03962,USA,Retail,11-50,Paid Ads
+C03963,USA,Technology,201-500,Paid Ads
+C03964,Canada,Technology,1000+,Organic Search
+C03965,USA,Healthcare,1000+,Direct
+C03966,France,Healthcare,1-10,Event
+C03967,USA,Manufacturing,501-1000,Direct
+C03968,USA,Finance,201-500,Direct
+C03969,Canada,Retail,501-1000,Paid Ads
+C03970,USA,Manufacturing,11-50,Paid Ads
+C03971,India,Technology,1000+,Event
+C03972,UK,Healthcare,201-500,Paid Ads
+C03973,USA,Education,51-200,Direct
+C03974,Germany,Finance,11-50,Organic Search
+C03975,USA,Manufacturing,1-10,Event
+C03976,India,Education,1-10,Organic Search
+C03977,USA,Finance,501-1000,Direct
+C03978,UK,Education,1000+,Event
+C03979,USA,Healthcare,501-1000,Organic Search
+C03980,UK,Manufacturing,51-200,Event
+C03981,France,Manufacturing,51-200,Direct
+C03982,France,Finance,1-10,Event
+C03983,USA,Education,201-500,Direct
+C03984,USA,Healthcare,1-10,Event
+C03985,France,Technology,1-10,Event
+C03986,India,Manufacturing,51-200,Paid Ads
+C03987,USA,Technology,501-1000,Direct
+C03988,UK,Healthcare,51-200,Referral
+C03989,USA,Manufacturing,1000+,Event
+C03990,Australia,Manufacturing,51-200,Organic Search
+C03991,USA,Education,51-200,Paid Ads
+C03992,USA,Technology,1-10,Paid Ads
+C03993,France,Education,201-500,Event
+C03994,USA,Retail,1-10,Referral
+C03995,UK,Technology,11-50,Paid Ads
+C03996,UK,,51-200,Direct
+C03997,USA,Retail,51-200,Event
+C03998,USA,Healthcare,11-50,Event
+C03999,UK,Healthcare,51-200,Referral
+C04000,USA,Manufacturing,51-200,Direct
+C04001,Canada,Finance,1000+,Direct
+C04002,France,Education,51-200,Referral
+C04003,France,Finance,11-50,Organic Search
+C04004,USA,,1-10,Direct
+C04005,USA,Finance,51-200,Organic Search
+C04006,USA,,201-500,Organic Search
+C04007,USA,Technology,11-50,Event
+C04008,UK,Retail,501-1000,Event
+C04009,Germany,Retail,1000+,Paid Ads
+C04010,USA,Manufacturing,11-50,Event
+C04011,USA,Manufacturing,1-10,Direct
+C04012,USA,Manufacturing,11-50,Direct
+C04013,Germany,Technology,501-1000,Organic Search
+C04014,USA,Finance,1000+,Direct
+C04015,Canada,Education,201-500,Event
+C04016,USA,Manufacturing,501-1000,Event
+C04017,Australia,Manufacturing,11-50,Event
+C04018,Australia,Technology,501-1000,Referral
+C04019,USA,Education,11-50,Direct
+C04020,USA,Technology,201-500,Paid Ads
+C04021,UK,Education,201-500,Direct
+C04022,USA,Technology,1-10,Direct
+C04023,Germany,Finance,201-500,Referral
+C04024,France,Manufacturing,51-200,Direct
+C04025,Germany,Healthcare,501-1000,Organic Search
+C04026,France,Healthcare,501-1000,Event
+C04027,USA,Manufacturing,11-50,Event
+C04028,USA,Manufacturing,201-500,Referral
+C04029,Germany,Manufacturing,1-10,Event
+C04030,USA,Manufacturing,1-10,Organic Search
+C04031,Germany,Education,1-10,Referral
+C04032,USA,Finance,1000+,Paid Ads
+C04033,USA,Healthcare,51-200,Event
+C04034,India,Retail,201-500,Direct
+C04035,USA,Healthcare,1-10,Organic Search
+C04036,India,Healthcare,51-200,Organic Search
+C04037,India,Technology,501-1000,Event
+C04038,France,Manufacturing,11-50,Paid Ads
+C04039,Germany,Manufacturing,201-500,Direct
+C04040,Canada,Manufacturing,201-500,Paid Ads
+C04041,Australia,Technology,1000+,Paid Ads
+C04042,USA,Finance,501-1000,Event
+C04043,UK,Finance,201-500,Direct
+C04044,Canada,,1000+,Event
+C04045,UK,Finance,1000+,Event
+C04046,UK,Finance,1000+,Organic Search
+C04047,USA,Manufacturing,201-500,Event
+C04048,Canada,Education,201-500,Referral
+C04049,Australia,,201-500,Direct
+C04050,USA,Finance,51-200,Organic Search
+C04051,India,Finance,1000+,Direct
+C04052,Germany,Technology,51-200,Organic Search
+C04053,France,Retail,11-50,Referral
+C04054,Canada,Education,201-500,Event
+C04055,France,Technology,501-1000,Organic Search
+C04056,USA,Manufacturing,1-10,Organic Search
+C04057,France,Healthcare,11-50,Organic Search
+C04058,USA,Retail,1-10,Referral
+C04059,Australia,Technology,1-10,Direct
+C04060,India,Finance,201-500,Referral
+C04061,USA,,501-1000,Organic Search
+C04062,USA,Retail,1-10,Organic Search
+C04063,France,Finance,1000+,Event
+C04064,USA,Technology,1-10,Referral
+C04065,Australia,Technology,11-50,Referral
+C04066,USA,Finance,501-1000,Paid Ads
+C04067,USA,Finance,501-1000,Direct
+C04068,India,Manufacturing,1-10,Paid Ads
+C04069,Germany,Healthcare,501-1000,Paid Ads
+C04070,France,Retail,11-50,Direct
+C04071,USA,,11-50,Event
+C04072,Germany,Retail,11-50,Event
+C04073,Canada,Manufacturing,1000+,Direct
+C04074,Canada,Technology,201-500,Direct
+C04075,Germany,Manufacturing,1-10,Referral
+C04076,Canada,Manufacturing,501-1000,Referral
+C04077,UK,Education,11-50,Referral
+C04078,USA,Finance,1-10,Referral
+C04079,France,Education,1-10,Organic Search
+C04080,USA,Retail,201-500,Organic Search
+C04081,Germany,,1000+,Event
+C04082,USA,Finance,501-1000,Organic Search
+C04083,Canada,Education,1000+,Organic Search
+C04084,Germany,Retail,501-1000,Referral
+C04085,USA,Education,11-50,Referral
+C04086,USA,Finance,11-50,Direct
+C04087,USA,Technology,1-10,Referral
+C04088,Canada,Manufacturing,501-1000,Direct
+C04089,France,Manufacturing,501-1000,Direct
+C04090,USA,Education,1000+,Organic Search
+C04091,Germany,Retail,11-50,Referral
+C04092,USA,Education,51-200,Organic Search
+C04093,UK,Education,1-10,Referral
+C04094,India,Healthcare,501-1000,Organic Search
+C04095,USA,Manufacturing,201-500,Organic Search
+C04096,UK,Finance,201-500,Organic Search
+C04097,USA,Education,51-200,Event
+C04098,USA,Healthcare,11-50,Organic Search
+C04099,USA,Healthcare,11-50,Paid Ads
+C04100,USA,Manufacturing,11-50,Paid Ads
+C04101,Canada,Manufacturing,1000+,Paid Ads
+C04102,UK,Manufacturing,201-500,Direct
+C04103,UK,Finance,11-50,Organic Search
+C04104,USA,Healthcare,201-500,Paid Ads
+C04105,USA,Retail,51-200,Direct
+C04106,Germany,Finance,1-10,Paid Ads
+C04107,India,Technology,1000+,Referral
+C04108,USA,Education,501-1000,Event
+C04109,Australia,Manufacturing,51-200,Organic Search
+C04110,Canada,Healthcare,201-500,Event
+C04111,Canada,Education,51-200,Event
+C04112,UK,Finance,501-1000,Referral
+C04113,USA,Technology,1000+,Referral
+C04114,USA,Finance,1-10,Referral
+C04115,Canada,Finance,501-1000,Direct
+C04116,USA,Retail,1000+,Paid Ads
+C04117,India,,201-500,Organic Search
+C04118,UK,Retail,501-1000,Referral
+C04119,USA,Finance,51-200,Organic Search
+C04120,Germany,Technology,11-50,Organic Search
+C04121,USA,Healthcare,51-200,Organic Search
+C04122,UK,Healthcare,201-500,Referral
+C04123,Germany,Education,1-10,Referral
+C04124,India,Manufacturing,501-1000,Paid Ads
+C04125,France,Manufacturing,1-10,Referral
+C04126,Germany,Healthcare,201-500,Referral
+C04127,Germany,Finance,501-1000,Organic Search
+C04128,India,Finance,1000+,Paid Ads
+C04129,USA,Retail,1000+,Event
+C04130,USA,Education,51-200,Referral
+C04131,USA,Retail,51-200,Referral
+C04132,USA,Manufacturing,201-500,Event
+C04133,Germany,Healthcare,1000+,Organic Search
+C04134,Canada,Finance,501-1000,Paid Ads
+C04135,Canada,Healthcare,1000+,Organic Search
+C04136,USA,Technology,51-200,Direct
+C04137,Germany,Healthcare,201-500,Referral
+C04138,USA,Technology,1000+,Direct
+C04139,Germany,Retail,201-500,Referral
+C04140,Canada,Retail,1000+,Direct
+C04141,USA,Manufacturing,1-10,Event
+C04142,USA,Healthcare,1000+,Referral
+C04143,USA,Healthcare,51-200,Referral
+C04144,France,Technology,501-1000,Direct
+C04145,India,Retail,51-200,Paid Ads
+C04146,Canada,Technology,51-200,Direct
+C04147,USA,Retail,51-200,Referral
+C04148,UK,Technology,201-500,Referral
+C04149,Germany,Retail,11-50,Paid Ads
+C04150,France,Technology,11-50,Organic Search
+C04151,USA,Retail,1-10,Paid Ads
+C04152,USA,Education,51-200,Organic Search
+C04153,Germany,Technology,11-50,Referral
+C04154,USA,Healthcare,1-10,Event
+C04155,USA,Manufacturing,201-500,Event
+C04156,USA,Education,51-200,Direct
+C04157,UK,Education,501-1000,Paid Ads
+C04158,Australia,,201-500,Paid Ads
+C04159,India,Manufacturing,1-10,Event
+C04160,Canada,Healthcare,201-500,Organic Search
+C04161,UK,Education,501-1000,Paid Ads
+C04162,USA,Healthcare,201-500,Organic Search
+C04163,UK,Retail,1-10,Organic Search
+C04164,USA,Manufacturing,501-1000,Organic Search
+C04165,Canada,Finance,501-1000,Organic Search
+C04166,USA,Retail,201-500,Direct
+C04167,USA,Manufacturing,501-1000,Direct
+C04168,USA,Technology,201-500,Event
+C04169,USA,,51-200,Direct
+C04170,USA,Healthcare,501-1000,Paid Ads
+C04171,USA,Education,201-500,Direct
+C04172,India,Finance,51-200,Paid Ads
+C04173,UK,Technology,501-1000,Paid Ads
+C04174,UK,Manufacturing,51-200,Organic Search
+C04175,Australia,Education,1000+,Event
+C04176,India,,501-1000,Organic Search
+C04177,Canada,,1000+,Organic Search
+C04178,France,Education,1-10,Direct
+C04179,USA,Technology,1-10,Direct
+C04180,USA,Manufacturing,201-500,Paid Ads
+C04181,UK,Manufacturing,11-50,Direct
+C04182,Germany,Healthcare,1000+,Direct
+C04183,Germany,Finance,1000+,Referral
+C04184,USA,Healthcare,1-10,Paid Ads
+C04185,USA,Finance,1000+,Paid Ads
+C04186,Canada,,11-50,Referral
+C04187,USA,Education,51-200,Paid Ads
+C04188,Canada,Finance,51-200,Event
+C04189,Germany,Manufacturing,11-50,Event
+C04190,Germany,Manufacturing,1000+,Referral
+C04191,France,Healthcare,1000+,Direct
+C04192,Australia,Healthcare,1000+,Event
+C04193,UK,Education,201-500,Referral
+C04194,Germany,Retail,501-1000,Event
+C04195,Canada,Technology,11-50,Organic Search
+C04196,USA,Retail,11-50,Referral
+C04197,USA,Retail,11-50,Paid Ads
+C04198,USA,Education,11-50,Event
+C04199,UK,Finance,11-50,Paid Ads
+C04200,Canada,Education,1000+,Referral
+C04201,France,Education,201-500,Event
+C04202,USA,Manufacturing,1-10,Paid Ads
+C04203,USA,,1000+,Direct
+C04204,India,Manufacturing,1000+,Direct
+C04205,USA,Technology,501-1000,Organic Search
+C04206,UK,Finance,1-10,Referral
+C04207,Canada,Finance,11-50,Paid Ads
+C04208,UK,Manufacturing,1-10,Organic Search
+C04209,USA,Retail,201-500,Referral
+C04210,USA,Technology,51-200,Direct
+C04211,USA,Retail,1000+,Paid Ads
+C04212,Canada,Healthcare,1-10,Event
+C04213,UK,Finance,501-1000,Direct
+C04214,USA,Finance,201-500,Event
+C04215,Canada,Retail,51-200,Event
+C04216,France,Technology,201-500,Paid Ads
+C04217,USA,Finance,11-50,Paid Ads
+C04218,UK,Retail,51-200,Event
+C04219,Germany,Education,501-1000,Organic Search
+C04220,USA,Education,51-200,Event
+C04221,USA,Technology,501-1000,Event
+C04222,Canada,Retail,11-50,Paid Ads
+C04223,Australia,Education,501-1000,Referral
+C04224,France,Technology,201-500,Direct
+C04225,Canada,Manufacturing,1-10,Paid Ads
+C04226,Germany,Technology,201-500,Organic Search
+C04227,USA,Healthcare,1000+,Direct
+C04228,Canada,Manufacturing,201-500,Paid Ads
+C04229,UK,Retail,51-200,Paid Ads
+C04230,USA,Manufacturing,11-50,Referral
+C04231,Germany,Manufacturing,1000+,Organic Search
+C04232,Canada,Retail,1000+,Organic Search
+C04233,USA,Retail,1000+,Paid Ads
+C04234,India,Education,1-10,Referral
+C04235,USA,Healthcare,501-1000,Paid Ads
+C04236,USA,Retail,51-200,Event
+C04237,USA,Finance,11-50,Event
+C04238,France,Finance,1-10,Referral
+C04239,Germany,Healthcare,201-500,Paid Ads
+C04240,USA,Technology,11-50,Referral
+C04241,Germany,Technology,1000+,Paid Ads
+C04242,USA,Finance,11-50,Paid Ads
+C04243,France,Retail,11-50,Event
+C04244,UK,Healthcare,201-500,Direct
+C04245,UK,Technology,501-1000,Organic Search
+C04246,India,Technology,51-200,Organic Search
+C04247,USA,Manufacturing,1000+,Referral
+C04248,USA,Finance,501-1000,Organic Search
+C04249,Canada,Retail,1-10,Event
+C04250,India,Healthcare,1000+,Direct
+C04251,USA,Technology,51-200,Paid Ads
+C04252,USA,Manufacturing,1-10,Paid Ads
+C04253,USA,Finance,201-500,Event
+C04254,UK,Finance,501-1000,Organic Search
+C04255,USA,Healthcare,1000+,Paid Ads
+C04256,Germany,Technology,11-50,Organic Search
+C04257,India,Healthcare,51-200,Event
+C04258,UK,Healthcare,1000+,Paid Ads
+C04259,USA,Education,11-50,Referral
+C04260,UK,Manufacturing,1000+,Direct
+C04261,USA,Finance,1-10,Organic Search
+C04262,Australia,Education,11-50,Organic Search
+C04263,UK,Retail,11-50,Organic Search
+C04264,USA,Finance,1000+,Organic Search
+C04265,Germany,Finance,201-500,Event
+C04266,UK,Manufacturing,201-500,Event
+C04267,Canada,Retail,501-1000,Event
+C04268,USA,Technology,1-10,Event
+C04269,France,Retail,201-500,Paid Ads
+C04270,India,Technology,1000+,Event
+C04271,Canada,Retail,201-500,Paid Ads
+C04272,India,Healthcare,501-1000,Referral
+C04273,USA,Retail,51-200,Event
+C04274,UK,Education,501-1000,Referral
+C04275,Canada,Education,11-50,Event
+C04276,Canada,Manufacturing,11-50,Referral
+C04277,UK,Technology,201-500,Direct
+C04278,USA,Finance,201-500,Referral
+C04279,USA,Manufacturing,501-1000,Paid Ads
+C04280,USA,Education,501-1000,Organic Search
+C04281,USA,Education,1000+,Referral
+C04282,Germany,Technology,1-10,Organic Search
+C04283,USA,Education,1000+,Direct
+C04284,USA,Education,11-50,Direct
+C04285,Canada,Technology,1000+,Paid Ads
+C04286,Canada,Education,501-1000,Paid Ads
+C04287,Australia,Finance,1000+,Referral
+C04288,Canada,Healthcare,51-200,Event
+C04289,USA,Manufacturing,1-10,Direct
+C04290,France,Finance,501-1000,Organic Search
+C04291,UK,Finance,201-500,Event
+C04292,USA,Healthcare,1000+,Direct
+C04293,Canada,Manufacturing,501-1000,Referral
+C04294,India,Finance,201-500,Direct
+C04295,USA,Education,201-500,Paid Ads
+C04296,USA,Healthcare,11-50,Organic Search
+C04297,USA,Manufacturing,11-50,Organic Search
+C04298,USA,Retail,501-1000,Paid Ads
+C04299,UK,Technology,501-1000,Event
+C04300,Canada,Education,51-200,Paid Ads
+C04301,USA,Healthcare,1-10,Organic Search
+C04302,India,Technology,1-10,Referral
+C04303,France,Retail,501-1000,Event
+C04304,Canada,Finance,11-50,Direct
+C04305,France,Finance,1000+,Referral
+C04306,USA,Manufacturing,51-200,Event
+C04307,UK,Healthcare,1-10,Organic Search
+C04308,Canada,Healthcare,501-1000,Organic Search
+C04309,France,Manufacturing,11-50,Referral
+C04310,France,Technology,11-50,Event
+C04311,USA,Finance,11-50,Direct
+C04312,India,Finance,1000+,Direct
+C04313,USA,Healthcare,201-500,Paid Ads
+C04314,Australia,Healthcare,1000+,Referral
+C04315,India,Manufacturing,11-50,Event
+C04316,USA,Retail,501-1000,Referral
+C04317,Germany,,51-200,Direct
+C04318,USA,Education,1000+,Event
+C04319,UK,Retail,501-1000,Organic Search
+C04320,UK,Retail,11-50,Organic Search
+C04321,Canada,Healthcare,51-200,Event
+C04322,India,Healthcare,1-10,Referral
+C04323,Germany,Healthcare,1-10,Referral
+C04324,UK,Retail,501-1000,Organic Search
+C04325,France,Technology,51-200,Organic Search
+C04326,India,Healthcare,501-1000,Direct
+C04327,USA,Finance,51-200,Event
+C04328,India,Technology,51-200,Referral
+C04329,USA,,501-1000,Direct
+C04330,France,Technology,51-200,Referral
+C04331,USA,Healthcare,1000+,Organic Search
+C04332,USA,Education,11-50,Event
+C04333,UK,Manufacturing,51-200,Paid Ads
+C04334,Canada,Healthcare,1000+,Event
+C04335,USA,Retail,51-200,Paid Ads
+C04336,USA,Education,1000+,Direct
+C04337,Canada,Retail,501-1000,Paid Ads
+C04338,India,Technology,1-10,Paid Ads
+C04339,USA,Retail,201-500,Direct
+C04340,USA,Education,51-200,Event
+C04341,UK,Education,201-500,Direct
+C04342,USA,Healthcare,51-200,Organic Search
+C04343,France,Finance,501-1000,Organic Search
+C04344,France,Healthcare,501-1000,Paid Ads
+C04345,Canada,Technology,1000+,Direct
+C04346,USA,Retail,51-200,Direct
+C04347,France,Finance,501-1000,Direct
+C04348,Canada,Manufacturing,501-1000,Event
+C04349,France,Education,51-200,Referral
+C04350,Canada,Finance,1000+,Referral
+C04351,France,Finance,1000+,Referral
+C04352,Canada,Healthcare,1000+,Event
+C04353,UK,Manufacturing,1000+,Direct
+C04354,India,Education,1-10,Referral
+C04355,UK,Technology,51-200,Direct
+C04356,Canada,Technology,1-10,Paid Ads
+C04357,USA,Finance,501-1000,Referral
+C04358,Canada,Finance,1-10,Paid Ads
+C04359,Canada,Retail,1000+,Event
+C04360,USA,Manufacturing,501-1000,Organic Search
+C04361,USA,Education,1-10,Event
+C04362,Canada,Finance,1-10,Event
+C04363,France,Retail,51-200,Event
+C04364,UK,Manufacturing,1-10,Referral
+C04365,USA,Education,501-1000,Paid Ads
+C04366,Germany,Technology,1000+,Referral
+C04367,USA,,51-200,Organic Search
+C04368,UK,Manufacturing,1-10,Event
+C04369,USA,Retail,51-200,Direct
+C04370,USA,Finance,201-500,Organic Search
+C04371,USA,Healthcare,51-200,Paid Ads
+C04372,USA,Technology,1000+,Organic Search
+C04373,USA,Finance,201-500,Referral
+C04374,USA,Finance,201-500,Direct
+C04375,UK,Manufacturing,51-200,Referral
+C04376,UK,Retail,501-1000,Event
+C04377,USA,Technology,1000+,Event
+C04378,France,Finance,501-1000,Organic Search
+C04379,USA,Manufacturing,1000+,Event
+C04380,UK,Technology,1000+,Event
+C04381,USA,Retail,501-1000,Paid Ads
+C04382,USA,,11-50,Paid Ads
+C04383,Canada,Education,201-500,Referral
+C04384,Canada,Finance,51-200,Referral
+C04385,Australia,Finance,501-1000,Paid Ads
+C04386,Canada,Technology,501-1000,Organic Search
+C04387,India,Technology,51-200,Paid Ads
+C04388,USA,Technology,201-500,Referral
+C04389,USA,Technology,51-200,Direct
+C04390,USA,Manufacturing,1000+,Event
+C04391,USA,Healthcare,11-50,Direct
+C04392,UK,Manufacturing,1000+,Direct
+C04393,Canada,Finance,11-50,Event
+C04394,USA,,51-200,Paid Ads
+C04395,India,,1000+,Organic Search
+C04396,France,Education,201-500,Direct
+C04397,USA,Technology,1000+,Organic Search
+C04398,USA,Retail,501-1000,Referral
+C04399,USA,Education,11-50,Direct
+C04400,USA,Retail,11-50,Referral
+C04401,USA,Finance,201-500,Paid Ads
+C04402,UK,Technology,11-50,Direct
+C04403,USA,Retail,11-50,Referral
+C04404,USA,Finance,201-500,Referral
+C04405,India,Technology,1000+,Paid Ads
+C04406,Germany,Healthcare,51-200,Organic Search
+C04407,India,Finance,1000+,Organic Search
+C04408,USA,Manufacturing,501-1000,Direct
+C04409,USA,Technology,501-1000,Paid Ads
+C04410,Canada,Retail,11-50,Direct
+C04411,USA,Education,501-1000,Organic Search
+C04412,USA,Retail,51-200,Paid Ads
+C04413,Germany,Manufacturing,11-50,Event
+C04414,Canada,Manufacturing,501-1000,Paid Ads
+C04415,UK,Retail,1-10,Paid Ads
+C04416,UK,Education,1-10,Event
+C04417,UK,Technology,1-10,Referral
+C04418,USA,Finance,1-10,Referral
+C04419,USA,Manufacturing,1000+,Referral
+C04420,USA,Manufacturing,1-10,Organic Search
+C04421,USA,Manufacturing,11-50,Paid Ads
+C04422,India,Education,201-500,Event
+C04423,Canada,Healthcare,1000+,Organic Search
+C04424,Germany,Education,201-500,Event
+C04425,USA,Technology,11-50,Organic Search
+C04426,USA,Technology,11-50,Organic Search
+C04427,USA,Technology,51-200,Organic Search
+C04428,USA,Technology,1000+,Event
+C04429,USA,Technology,201-500,Direct
+C04430,France,Retail,1-10,Organic Search
+C04431,Germany,Manufacturing,11-50,Referral
+C04432,UK,Education,1-10,Paid Ads
+C04433,UK,Retail,201-500,Direct
+C04434,India,Education,1000+,Direct
+C04435,USA,Healthcare,501-1000,Event
+C04436,USA,Finance,501-1000,Direct
+C04437,USA,Manufacturing,11-50,Event
+C04438,France,Healthcare,51-200,Event
+C04439,India,Retail,1-10,Referral
+C04440,USA,Finance,11-50,Organic Search
+C04441,Australia,,51-200,Direct
+C04442,France,Education,1-10,Organic Search
+C04443,USA,Finance,201-500,Organic Search
+C04444,USA,Education,501-1000,Organic Search
+C04445,UK,Healthcare,51-200,Event
+C04446,India,Retail,1-10,Organic Search
+C04447,USA,Education,11-50,Direct
+C04448,France,Finance,1-10,Event
+C04449,USA,Healthcare,11-50,Direct
+C04450,Germany,Education,501-1000,Event
+C04451,UK,Retail,501-1000,Paid Ads
+C04452,Canada,Manufacturing,1-10,Paid Ads
+C04453,France,Retail,1-10,Paid Ads
+C04454,France,Retail,11-50,Paid Ads
+C04455,Australia,Manufacturing,11-50,Event
+C04456,USA,,51-200,Organic Search
+C04457,Germany,Manufacturing,51-200,Referral
+C04458,USA,Manufacturing,51-200,Referral
+C04459,UK,Education,1-10,Paid Ads
+C04460,UK,Education,1000+,Organic Search
+C04461,UK,Manufacturing,1000+,Direct
+C04462,UK,,1000+,Organic Search
+C04463,India,Finance,1000+,Direct
+C04464,USA,Healthcare,51-200,Referral
+C04465,Germany,Manufacturing,1-10,Organic Search
+C04466,USA,Finance,1000+,Organic Search
+C04467,USA,Education,501-1000,Referral
+C04468,USA,Finance,201-500,Organic Search
+C04469,India,Manufacturing,501-1000,Direct
+C04470,Australia,Education,1-10,Organic Search
+C04471,India,Finance,1-10,Direct
+C04472,India,Finance,201-500,Paid Ads
+C04473,USA,Healthcare,11-50,Organic Search
+C04474,USA,Finance,11-50,Direct
+C04475,Germany,Manufacturing,11-50,Referral
+C04476,UK,Technology,51-200,Paid Ads
+C04477,UK,Technology,11-50,Organic Search
+C04478,USA,Technology,51-200,Direct
+C04479,Canada,Manufacturing,51-200,Organic Search
+C04480,Canada,Technology,11-50,Direct
+C04481,USA,Healthcare,11-50,Organic Search
+C04482,UK,Manufacturing,201-500,Paid Ads
+C04483,Canada,Education,1000+,Paid Ads
+C04484,Canada,Manufacturing,201-500,Organic Search
+C04485,USA,Manufacturing,51-200,Organic Search
+C04486,Germany,Finance,201-500,Event
+C04487,USA,,51-200,Organic Search
+C04488,USA,Finance,1-10,Organic Search
+C04489,France,Retail,51-200,Paid Ads
+C04490,Canada,Healthcare,51-200,Organic Search
+C04491,USA,Manufacturing,201-500,Referral
+C04492,Germany,Manufacturing,1000+,Organic Search
+C04493,Canada,Finance,1-10,Event
+C04494,France,Manufacturing,501-1000,Direct
+C04495,Germany,Education,501-1000,Paid Ads
+C04496,Canada,Manufacturing,1000+,Referral
+C04497,UK,Technology,501-1000,Direct
+C04498,USA,Education,1-10,Referral
+C04499,USA,Education,11-50,Paid Ads
+C04500,UK,Manufacturing,1-10,Event
+C04501,Canada,Retail,201-500,Paid Ads
+C04502,UK,Finance,51-200,Referral
+C04503,USA,Healthcare,51-200,Referral
+C04504,USA,Healthcare,201-500,Paid Ads
+C04505,UK,Technology,201-500,Organic Search
+C04506,USA,Healthcare,51-200,Paid Ads
+C04507,Germany,Healthcare,1000+,Event
+C04508,USA,,11-50,Paid Ads
+C04509,Canada,Finance,11-50,Direct
+C04510,India,Retail,11-50,Organic Search
+C04511,USA,Technology,201-500,Direct
+C04512,UK,Healthcare,51-200,Paid Ads
+C04513,USA,Retail,1000+,Organic Search
+C04514,Canada,Technology,51-200,Direct
+C04515,Canada,Education,51-200,Direct
+C04516,UK,Healthcare,1000+,Organic Search
+C04517,UK,Healthcare,1-10,Organic Search
+C04518,Australia,,1000+,Referral
+C04519,USA,Manufacturing,1-10,Organic Search
+C04520,USA,Technology,501-1000,Paid Ads
+C04521,Australia,Healthcare,1-10,Event
+C04522,Canada,Technology,11-50,Referral
+C04523,Australia,Retail,11-50,Organic Search
+C04524,Canada,Retail,1000+,Event
+C04525,France,Manufacturing,11-50,Referral
+C04526,UK,Healthcare,11-50,Paid Ads
+C04527,Germany,Finance,501-1000,Event
+C04528,India,Healthcare,11-50,Organic Search
+C04529,Canada,Technology,201-500,Organic Search
+C04530,USA,Education,201-500,Paid Ads
+C04531,USA,Retail,201-500,Referral
+C04532,USA,Technology,1-10,Event
+C04533,USA,Manufacturing,1000+,Paid Ads
+C04534,USA,Retail,1000+,Referral
+C04535,Canada,Finance,51-200,Direct
+C04536,Canada,Retail,501-1000,Direct
+C04537,UK,Education,201-500,Referral
+C04538,Canada,Healthcare,201-500,Organic Search
+C04539,USA,Education,11-50,Organic Search
+C04540,USA,Education,201-500,Direct
+C04541,USA,Healthcare,11-50,Organic Search
+C04542,UK,Retail,11-50,Organic Search
+C04543,USA,Manufacturing,51-200,Referral
+C04544,USA,,1-10,Referral
+C04545,UK,Healthcare,11-50,Organic Search
+C04546,France,Finance,11-50,Referral
+C04547,USA,Retail,1000+,Event
+C04548,Canada,Healthcare,51-200,Direct
+C04549,Germany,Manufacturing,11-50,Event
+C04550,France,Technology,501-1000,Event
+C04551,India,Retail,1-10,Organic Search
+C04552,USA,Finance,501-1000,Organic Search
+C04553,USA,Education,201-500,Event
+C04554,Australia,Healthcare,1-10,Event
+C04555,UK,Manufacturing,201-500,Paid Ads
+C04556,Canada,Retail,1000+,Paid Ads
+C04557,Germany,Manufacturing,11-50,Direct
+C04558,Germany,Manufacturing,51-200,Event
+C04559,India,Education,501-1000,Referral
+C04560,India,,201-500,Paid Ads
+C04561,Germany,Retail,11-50,Organic Search
+C04562,USA,Healthcare,501-1000,Event
+C04563,Australia,Finance,501-1000,Referral
+C04564,USA,Healthcare,1000+,Referral
+C04565,USA,Technology,1000+,Referral
+C04566,Australia,,201-500,Organic Search
+C04567,USA,Technology,11-50,Paid Ads
+C04568,USA,Manufacturing,51-200,Referral
+C04569,USA,Education,201-500,Paid Ads
+C04570,Australia,Finance,501-1000,Direct
+C04571,UK,Healthcare,501-1000,Organic Search
+C04572,Germany,Education,1-10,Paid Ads
+C04573,USA,Healthcare,11-50,Paid Ads
+C04574,France,Finance,1-10,Referral
+C04575,France,Retail,1000+,Referral
+C04576,USA,,51-200,Organic Search
+C04577,UK,Technology,201-500,Paid Ads
+C04578,USA,Healthcare,501-1000,Event
+C04579,India,Healthcare,11-50,Referral
+C04580,Canada,Healthcare,501-1000,Referral
+C04581,India,Finance,1000+,Direct
+C04582,USA,Retail,1-10,Organic Search
+C04583,France,Technology,1-10,Paid Ads
+C04584,France,Education,201-500,Paid Ads
+C04585,Germany,Manufacturing,11-50,Paid Ads
+C04586,India,Finance,1000+,Referral
+C04587,USA,Technology,11-50,Organic Search
+C04588,USA,Retail,201-500,Paid Ads
+C04589,Germany,Finance,1000+,Event
+C04590,Germany,Education,1000+,Direct
+C04591,Canada,Technology,1-10,Direct
+C04592,USA,Finance,1-10,Paid Ads
+C04593,UK,Technology,1-10,Referral
+C04594,USA,Technology,501-1000,Direct
+C04595,UK,Retail,51-200,Direct
+C04596,Canada,Manufacturing,1-10,Direct
+C04597,Germany,Retail,51-200,Direct
+C04598,USA,Technology,51-200,Paid Ads
+C04599,UK,Finance,11-50,Organic Search
+C04600,USA,Education,201-500,Organic Search
+C04601,USA,Retail,501-1000,Referral
+C04602,France,Manufacturing,51-200,Event
+C04603,India,Technology,501-1000,Organic Search
+C04604,USA,Education,11-50,Event
+C04605,France,Retail,1-10,Organic Search
+C04606,Australia,Retail,1000+,Organic Search
+C04607,France,Retail,51-200,Referral
+C04608,USA,Retail,201-500,Direct
+C04609,India,Education,1000+,Referral
+C04610,USA,Finance,11-50,Organic Search
+C04611,USA,Manufacturing,501-1000,Direct
+C04612,USA,Manufacturing,1-10,Direct
+C04613,UK,Technology,501-1000,Direct
+C04614,USA,Healthcare,201-500,Event
+C04615,USA,Finance,51-200,Organic Search
+C04616,USA,Technology,201-500,Paid Ads
+C04617,France,Technology,501-1000,Referral
+C04618,Australia,Retail,501-1000,Event
+C04619,USA,Healthcare,1000+,Referral
+C04620,Australia,Healthcare,201-500,Paid Ads
+C04621,Australia,Finance,201-500,Direct
+C04622,France,Healthcare,201-500,Paid Ads
+C04623,USA,Technology,1-10,Referral
+C04624,Germany,Healthcare,501-1000,Paid Ads
+C04625,India,Healthcare,11-50,Organic Search
+C04626,Germany,Manufacturing,1-10,Paid Ads
+C04627,USA,Technology,1-10,Organic Search
+C04628,UK,Education,1-10,Paid Ads
+C04629,Canada,Healthcare,1000+,Organic Search
+C04630,UK,Healthcare,11-50,Organic Search
+C04631,USA,Retail,201-500,Paid Ads
+C04632,USA,Healthcare,1000+,Event
+C04633,France,Healthcare,501-1000,Direct
+C04634,Australia,,51-200,Direct
+C04635,USA,Technology,1000+,Direct
+C04636,India,Finance,51-200,Organic Search
+C04637,USA,Technology,501-1000,Direct
+C04638,Germany,Retail,11-50,Organic Search
+C04639,France,Technology,51-200,Event
+C04640,France,Healthcare,1-10,Paid Ads
+C04641,India,Retail,1000+,Paid Ads
+C04642,USA,Technology,51-200,Organic Search
+C04643,Australia,Retail,501-1000,Organic Search
+C04644,USA,Finance,1-10,Event
+C04645,Germany,Technology,51-200,Direct
+C04646,Germany,Education,501-1000,Event
+C04647,Germany,Healthcare,11-50,Paid Ads
+C04648,USA,Retail,501-1000,Paid Ads
+C04649,Australia,Education,11-50,Direct
+C04650,USA,Education,1-10,Paid Ads
+C04651,USA,,501-1000,Organic Search
+C04652,Germany,Retail,201-500,Paid Ads
+C04653,UK,Education,1000+,Referral
+C04654,France,Manufacturing,201-500,Direct
+C04655,USA,Education,201-500,Direct
+C04656,USA,Healthcare,201-500,Direct
+C04657,France,Finance,1000+,Referral
+C04658,UK,Manufacturing,201-500,Event
+C04659,USA,Finance,11-50,Organic Search
+C04660,Germany,Retail,501-1000,Direct
+C04661,UK,Healthcare,1-10,Paid Ads
+C04662,Canada,Manufacturing,201-500,Organic Search
+C04663,UK,Retail,201-500,Paid Ads
+C04664,France,Education,1-10,Organic Search
+C04665,France,Technology,1-10,Organic Search
+C04666,Germany,Retail,201-500,Paid Ads
+C04667,USA,Finance,11-50,Paid Ads
+C04668,France,Healthcare,1-10,Organic Search
+C04669,Germany,Healthcare,501-1000,Direct
+C04670,Germany,Retail,501-1000,Paid Ads
+C04671,USA,Education,11-50,Referral
+C04672,Australia,Technology,1000+,Referral
+C04673,Germany,Finance,51-200,Organic Search
+C04674,USA,Retail,11-50,Event
+C04675,UK,Retail,201-500,Organic Search
+C04676,Australia,Healthcare,51-200,Organic Search
+C04677,USA,Finance,201-500,Direct
+C04678,India,Technology,501-1000,Direct
+C04679,Germany,Healthcare,1-10,Event
+C04680,Canada,Retail,201-500,Event
+C04681,USA,Healthcare,501-1000,Event
+C04682,USA,Healthcare,11-50,Event
+C04683,India,Manufacturing,201-500,Event
+C04684,USA,Healthcare,501-1000,Organic Search
+C04685,France,Education,1-10,Organic Search
+C04686,USA,Healthcare,201-500,Referral
+C04687,USA,Education,1000+,Referral
+C04688,USA,Finance,501-1000,Paid Ads
+C04689,UK,Healthcare,201-500,Organic Search
+C04690,India,Technology,1-10,Event
+C04691,USA,Education,201-500,Paid Ads
+C04692,USA,Education,201-500,Direct
+C04693,USA,Retail,1000+,Organic Search
+C04694,UK,Finance,501-1000,Referral
+C04695,UK,Healthcare,51-200,Organic Search
+C04696,Australia,Technology,201-500,Organic Search
+C04697,UK,Retail,51-200,Organic Search
+C04698,UK,Finance,11-50,Organic Search
+C04699,USA,Education,201-500,Direct
+C04700,India,Technology,51-200,Referral
+C04701,USA,Healthcare,11-50,Organic Search
+C04702,USA,Manufacturing,1000+,Direct
+C04703,Germany,Manufacturing,501-1000,Paid Ads
+C04704,Canada,Finance,201-500,Organic Search
+C04705,UK,Technology,501-1000,Direct
+C04706,UK,Retail,11-50,Event
+C04707,France,Technology,501-1000,Paid Ads
+C04708,USA,Education,501-1000,Referral
+C04709,France,Manufacturing,1-10,Organic Search
+C04710,Canada,Finance,11-50,Organic Search
+C04711,UK,Healthcare,501-1000,Direct
+C04712,UK,Technology,51-200,Referral
+C04713,USA,Manufacturing,11-50,Event
+C04714,France,Retail,1-10,Paid Ads
+C04715,UK,Finance,201-500,Referral
+C04716,USA,Healthcare,1000+,Organic Search
+C04717,Canada,Technology,501-1000,Direct
+C04718,India,Retail,51-200,Event
+C04719,UK,Healthcare,1-10,Direct
+C04720,India,,11-50,Paid Ads
+C04721,USA,Manufacturing,1000+,Referral
+C04722,USA,Education,1000+,Direct
+C04723,USA,Manufacturing,501-1000,Direct
+C04724,UK,Retail,1-10,Organic Search
+C04725,USA,Education,1-10,Direct
+C04726,USA,Manufacturing,51-200,Event
+C04727,India,,201-500,Referral
+C04728,France,,201-500,Paid Ads
+C04729,Germany,Manufacturing,201-500,Direct
+C04730,USA,Technology,1000+,Event
+C04731,USA,Manufacturing,1000+,Paid Ads
+C04732,USA,Education,11-50,Event
+C04733,Germany,Finance,1000+,Direct
+C04734,India,Healthcare,1000+,Direct
+C04735,UK,Healthcare,1-10,Referral
+C04736,USA,Manufacturing,11-50,Organic Search
+C04737,UK,Healthcare,1-10,Event
+C04738,USA,Manufacturing,51-200,Organic Search
+C04739,USA,Finance,51-200,Organic Search
+C04740,Canada,Healthcare,11-50,Paid Ads
+C04741,Germany,Education,11-50,Paid Ads
+C04742,USA,Education,1000+,Event
+C04743,USA,Technology,51-200,Organic Search
+C04744,India,Manufacturing,501-1000,Referral
+C04745,USA,Healthcare,201-500,Organic Search
+C04746,USA,Education,1000+,Paid Ads
+C04747,USA,Finance,201-500,Organic Search
+C04748,USA,Finance,51-200,Direct
+C04749,USA,Technology,201-500,Direct
+C04750,France,Finance,501-1000,Referral
+C04751,USA,Finance,501-1000,Event
+C04752,UK,Healthcare,1-10,Organic Search
+C04753,Germany,Manufacturing,11-50,Direct
+C04754,UK,Retail,201-500,Event
+C04755,Australia,Finance,501-1000,Direct
+C04756,Australia,Finance,11-50,Event
+C04757,USA,Retail,11-50,Event
+C04758,France,Finance,1-10,Direct
+C04759,UK,Healthcare,11-50,Paid Ads
+C04760,India,Healthcare,11-50,Event
+C04761,UK,Retail,1000+,Organic Search
+C04762,India,Education,51-200,Direct
+C04763,France,Finance,1-10,Paid Ads
+C04764,USA,Education,1-10,Direct
+C04765,UK,Finance,201-500,Referral
+C04766,India,Manufacturing,11-50,Organic Search
+C04767,Australia,Finance,201-500,Referral
+C04768,USA,Healthcare,1000+,Event
+C04769,Germany,Technology,501-1000,Event
+C04770,USA,,11-50,Referral
+C04771,USA,Technology,501-1000,Referral
+C04772,UK,Technology,51-200,Event
+C04773,USA,Education,1000+,Paid Ads
+C04774,France,Education,11-50,Organic Search
+C04775,USA,Finance,201-500,Direct
+C04776,France,Education,201-500,Referral
+C04777,USA,,11-50,Organic Search
+C04778,USA,Manufacturing,201-500,Direct
+C04779,USA,Finance,11-50,Direct
+C04780,USA,Technology,1-10,Referral
+C04781,USA,Retail,201-500,Paid Ads
+C04782,USA,Retail,11-50,Paid Ads
+C04783,Canada,Healthcare,11-50,Organic Search
+C04784,USA,Healthcare,201-500,Organic Search
+C04785,UK,Finance,1-10,Event
+C04786,USA,Retail,201-500,Paid Ads
+C04787,Australia,Technology,11-50,Organic Search
+C04788,India,Education,1-10,Event
+C04789,UK,Technology,501-1000,Direct
+C04790,USA,Technology,51-200,Organic Search
+C04791,USA,Finance,201-500,Event
+C04792,India,Finance,1000+,Paid Ads
+C04793,USA,Manufacturing,11-50,Direct
+C04794,USA,Technology,1-10,Organic Search
+C04795,USA,Technology,1-10,Paid Ads
+C04796,USA,Finance,501-1000,Direct
+C04797,USA,Finance,201-500,Referral
+C04798,France,Manufacturing,1000+,Paid Ads
+C04799,USA,Manufacturing,1-10,Referral
+C04800,Canada,Healthcare,501-1000,Organic Search
+C04801,USA,Retail,11-50,Event
+C04802,USA,Technology,501-1000,Organic Search
+C04803,India,,201-500,Paid Ads
+C04804,USA,Manufacturing,501-1000,Referral
+C04805,France,Manufacturing,1-10,Referral
+C04806,UK,Healthcare,1-10,Direct
+C04807,USA,Retail,51-200,Organic Search
+C04808,India,Healthcare,501-1000,Organic Search
+C04809,USA,Retail,11-50,Paid Ads
+C04810,Australia,Education,1000+,Referral
+C04811,USA,Technology,1000+,Paid Ads
+C04812,Australia,Healthcare,201-500,Paid Ads
+C04813,USA,Manufacturing,51-200,Referral
+C04814,UK,Healthcare,501-1000,Paid Ads
+C04815,France,Education,11-50,Referral
+C04816,India,Healthcare,51-200,Paid Ads
+C04817,India,,1-10,Event
+C04818,France,Education,201-500,Paid Ads
+C04819,Australia,Manufacturing,501-1000,Paid Ads
+C04820,USA,Manufacturing,1000+,Event
+C04821,USA,Finance,11-50,Organic Search
+C04822,USA,Education,1-10,Referral
+C04823,USA,Finance,51-200,Direct
+C04824,USA,Finance,201-500,Event
+C04825,UK,Technology,51-200,Organic Search
+C04826,USA,Healthcare,1000+,Paid Ads
+C04827,Germany,Manufacturing,51-200,Organic Search
+C04828,USA,Manufacturing,11-50,Event
+C04829,USA,Healthcare,1-10,Paid Ads
+C04830,UK,Manufacturing,501-1000,Organic Search
+C04831,France,Healthcare,11-50,Direct
+C04832,Germany,Education,1000+,Referral
+C04833,Canada,Technology,201-500,Referral
+C04834,USA,Technology,1000+,Event
+C04835,UK,Technology,1000+,Paid Ads
+C04836,USA,Healthcare,51-200,Paid Ads
+C04837,USA,Healthcare,201-500,Referral
+C04838,UK,Retail,11-50,Organic Search
+C04839,USA,Manufacturing,1000+,Paid Ads
+C04840,USA,Manufacturing,11-50,Direct
+C04841,India,Retail,501-1000,Direct
+C04842,India,Retail,51-200,Paid Ads
+C04843,USA,Technology,11-50,Paid Ads
+C04844,USA,Retail,201-500,Referral
+C04845,USA,,1000+,Event
+C04846,USA,Finance,501-1000,Referral
+C04847,India,Healthcare,201-500,Event
+C04848,USA,Retail,51-200,Direct
+C04849,France,Manufacturing,501-1000,Event
+C04850,USA,Healthcare,501-1000,Referral
+C04851,India,Manufacturing,501-1000,Paid Ads
+C04852,USA,Healthcare,1000+,Event
+C04853,France,Manufacturing,1-10,Referral
+C04854,USA,Education,501-1000,Direct
+C04855,Canada,Healthcare,201-500,Event
+C04856,USA,Manufacturing,201-500,Direct
+C04857,USA,Finance,51-200,Direct
+C04858,India,Technology,11-50,Organic Search
+C04859,India,Healthcare,11-50,Event
+C04860,Australia,Finance,1-10,Referral
+C04861,Canada,Technology,1000+,Event
+C04862,France,Healthcare,1000+,Event
+C04863,USA,Finance,501-1000,Direct
+C04864,USA,Finance,1-10,Direct
+C04865,USA,Education,51-200,Direct
+C04866,Canada,Finance,51-200,Direct
+C04867,USA,Education,11-50,Referral
+C04868,USA,Retail,51-200,Paid Ads
+C04869,Canada,Manufacturing,501-1000,Organic Search
+C04870,France,Technology,201-500,Direct
+C04871,USA,Manufacturing,51-200,Direct
+C04872,USA,Manufacturing,1-10,Organic Search
+C04873,USA,Education,501-1000,Direct
+C04874,USA,Manufacturing,51-200,Paid Ads
+C04875,USA,Finance,1000+,Event
+C04876,Canada,Education,51-200,Organic Search
+C04877,Canada,Manufacturing,1000+,Referral
+C04878,Germany,Education,501-1000,Organic Search
+C04879,USA,Retail,51-200,Paid Ads
+C04880,France,Education,1000+,Referral
+C04881,USA,Healthcare,201-500,Event
+C04882,UK,Finance,11-50,Direct
+C04883,France,Technology,501-1000,Organic Search
+C04884,USA,Healthcare,1000+,Referral
+C04885,USA,Healthcare,1-10,Organic Search
+C04886,Australia,Healthcare,51-200,Event
+C04887,USA,Manufacturing,1000+,Organic Search
+C04888,Germany,Education,1000+,Referral
+C04889,USA,Education,1000+,Paid Ads
+C04890,Germany,Manufacturing,11-50,Referral
+C04891,USA,Finance,1-10,Organic Search
+C04892,USA,Manufacturing,1-10,Event
+C04893,Canada,Manufacturing,201-500,Direct
+C04894,USA,Manufacturing,11-50,Direct
+C04895,USA,Finance,1000+,Event
+C04896,USA,Finance,501-1000,Organic Search
+C04897,USA,Retail,11-50,Event
+C04898,USA,,11-50,Organic Search
+C04899,USA,Retail,1-10,Referral
+C04900,India,Retail,201-500,Paid Ads
+C04901,USA,Education,201-500,Organic Search
+C04902,UK,Healthcare,11-50,Direct
+C04903,USA,Healthcare,11-50,Direct
+C04904,USA,Retail,51-200,Paid Ads
+C04905,India,Retail,1000+,Organic Search
+C04906,USA,Technology,1-10,Paid Ads
+C04907,India,Healthcare,1000+,Referral
+C04908,USA,,501-1000,Paid Ads
+C04909,Germany,Technology,501-1000,Referral
+C04910,UK,Manufacturing,201-500,Direct
+C04911,Australia,Education,1-10,Referral
+C04912,Canada,Finance,1000+,Organic Search
+C04913,UK,,201-500,Organic Search
+C04914,USA,Retail,501-1000,Organic Search
+C04915,USA,Retail,11-50,Organic Search
+C04916,India,Finance,1-10,Event
+C04917,USA,Healthcare,1-10,Referral
+C04918,USA,Retail,1000+,Organic Search
+C04919,France,Retail,51-200,Paid Ads
+C04920,USA,Manufacturing,1000+,Paid Ads
+C04921,India,Technology,11-50,Event
+C04922,Germany,Retail,11-50,Referral
+C04923,Canada,Education,201-500,Referral
+C04924,Australia,Healthcare,1-10,Referral
+C04925,USA,Education,201-500,Event
+C04926,USA,Finance,11-50,Referral
+C04927,UK,Manufacturing,51-200,Referral
+C04928,USA,Healthcare,1-10,Organic Search
+C04929,Germany,Manufacturing,11-50,Referral
+C04930,India,Technology,51-200,Organic Search
+C04931,UK,Retail,1000+,Organic Search
+C04932,USA,Healthcare,501-1000,Referral
+C04933,India,Finance,11-50,Paid Ads
+C04934,UK,Technology,501-1000,Direct
+C04935,UK,Technology,201-500,Paid Ads
+C04936,USA,Manufacturing,501-1000,Referral
+C04937,India,Technology,11-50,Referral
+C04938,Canada,Healthcare,501-1000,Paid Ads
+C04939,France,Manufacturing,1-10,Referral
+C04940,France,Technology,11-50,Organic Search
+C04941,USA,Finance,51-200,Event
+C04942,UK,Education,501-1000,Referral
+C04943,France,,1-10,Referral
+C04944,USA,Finance,201-500,Paid Ads
+C04945,France,Finance,201-500,Organic Search
+C04946,India,Manufacturing,501-1000,Paid Ads
+C04947,Canada,Retail,201-500,Paid Ads
+C04948,Germany,Manufacturing,51-200,Referral
+C04949,France,,11-50,Organic Search
+C04950,France,Healthcare,1-10,Referral
+C04951,USA,Manufacturing,1000+,Referral
+C04952,USA,Retail,501-1000,Referral
+C04953,UK,Manufacturing,201-500,Referral
+C04954,Germany,Healthcare,11-50,Event
+C04955,UK,Retail,1000+,Direct
+C04956,Germany,Healthcare,51-200,Organic Search
+C04957,USA,Retail,201-500,Event
+C04958,Canada,Retail,201-500,Direct
+C04959,USA,Manufacturing,1-10,Direct
+C04960,Germany,Manufacturing,51-200,Direct
+C04961,UK,Manufacturing,51-200,Event
+C04962,USA,Retail,501-1000,Organic Search
+C04963,USA,Retail,1000+,Paid Ads
+C04964,Germany,Healthcare,1-10,Direct
+C04965,UK,Finance,501-1000,Paid Ads
+C04966,USA,Manufacturing,1-10,Paid Ads
+C04967,India,Education,51-200,Referral
+C04968,Germany,Healthcare,1-10,Paid Ads
+C04969,India,Healthcare,1-10,Referral
+C04970,UK,Technology,1-10,Organic Search
+C04971,UK,Manufacturing,11-50,Organic Search
+C04972,Australia,Healthcare,11-50,Referral
+C04973,UK,Technology,1000+,Organic Search
+C04974,Germany,Education,1000+,Direct
+C04975,USA,Education,51-200,Organic Search
+C04976,UK,Manufacturing,1-10,Referral
+C04977,USA,Retail,51-200,Direct
+C04978,USA,Technology,11-50,Paid Ads
+C04979,USA,Retail,1-10,Paid Ads
+C04980,USA,Education,501-1000,Paid Ads
+C04981,India,Education,11-50,Referral
+C04982,USA,Finance,11-50,Paid Ads
+C04983,Germany,Finance,11-50,Organic Search
+C04984,France,Finance,1-10,Paid Ads
+C04985,Canada,Finance,1000+,Event
+C04986,USA,Healthcare,201-500,Event
+C04987,Germany,Finance,501-1000,Paid Ads
+C04988,Canada,Healthcare,501-1000,Paid Ads
+C04989,Germany,Healthcare,51-200,Event
+C04990,France,Manufacturing,1-10,Paid Ads
+C04991,India,Healthcare,1000+,Direct
+C04992,Canada,Healthcare,11-50,Event
+C04993,USA,,201-500,Referral
+C04994,Canada,Healthcare,1-10,Event
+C04995,USA,Retail,1-10,Organic Search
+C04996,Australia,Finance,1000+,Direct
+C04997,USA,Technology,201-500,Referral
+C04998,USA,Finance,11-50,Paid Ads
+C04999,France,Healthcare,1-10,Organic Search
+C05000,Canada,Retail,501-1000,Organic Search
